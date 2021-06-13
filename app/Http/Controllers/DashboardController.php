@@ -1,20 +1,24 @@
 <?php
 
-namespace App\Http\Controllers;
+    namespace App\Http\Controllers;
 
-use App\Models\DashboardBlock;
-use Illuminate\Contracts\Support\Renderable;
+    use App\Models\DashboardBlock;
+    use App\Models\DeviceState;
+    use Illuminate\Contracts\Support\Renderable;
 
-class DashboardController extends Controller
-{
-    /**
-     * @return \Illuminate\Contracts\Support\Renderable
-     */
-    public function index(): Renderable
+    class DashboardController extends Controller
     {
-        $blocks = DashboardBlock::query()->orderBy('order')->get();
-
-        return view('dashboard')
-            ->with('blocks', $blocks);
+        /**
+         * @return \Illuminate\Contracts\Support\Renderable
+         */
+        public function index(): Renderable
+        {
+            $blocks = DashboardBlock::query()->orderBy('order')->get();
+            $device = DeviceState::where('device_id', 1)->first();
+            return view('dashboard')->with([
+                'blocks',
+                $blocks,
+                'value' => $device->value
+            ]);
+        }
     }
-}
