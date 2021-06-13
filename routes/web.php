@@ -46,7 +46,7 @@
         if ($result)
         {
             $value = $device->value;
-            event(new \App\Events\TemperatureUpdater($value));
+            event(new \App\Events\TemperatureUpdater('hola mundo'));
             return ['result' => 'Se actualizo la temperatura'];
         }
         else
