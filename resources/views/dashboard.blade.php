@@ -112,6 +112,8 @@
                                     chart.update();
                                 }
 
+                                Pusher.logToConsole = true;
+
                                 let pusher = new Pusher('612f7932fcad1179ede3', {
                                     cluster: 'mt1'
                                 });
