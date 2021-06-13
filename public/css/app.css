@@ -10795,7 +10795,7 @@ body {
 }
 
 .navbar .navbar-brand {
-  font-family: "Megrim", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .card {
@@ -10830,7 +10830,7 @@ body {
   border-top-left-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
   border: 1px solid #343536;
-  background: url(/images/register-bg.jpg?cc29159491d93624fbde7f12baa78570) center center no-repeat;
+  background: url("https://alekla.com/iot-dashboard/public/images/register-bg.jpg") center center no-repeat;
   background-size: cover;
   filter: grayscale(75%);
 }
