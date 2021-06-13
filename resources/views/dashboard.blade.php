@@ -118,7 +118,7 @@
 
                 <div class="grid-item item1">
                     <div class="card">
-                        <div class="card-header">{{ __('Dashboard') }}</div>
+                        <div class="card-header">{{ __('Gráfica del sensor') }}</div>
 
                         <div class="card-body">
                             @if (session('status'))
@@ -127,7 +127,7 @@
                                 </div>
                             @endif
 
-                            Welcome back!
+                            Bienvenido de vuelta
                         </div>
                     </div>
                 </div>
