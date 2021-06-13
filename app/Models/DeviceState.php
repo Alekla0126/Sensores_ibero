@@ -11,6 +11,11 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  */
 class DeviceState extends Model
 {
+    protected $guarded = [
+        'device_id',
+        'value',
+    ];
+
     /**
      * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
