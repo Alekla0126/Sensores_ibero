@@ -123,8 +123,8 @@
                                     });
                                     channel.bind('App\\Events\\DataUpdater', function (data)
                                     {
-                                        alert(data);
-                                        updateChart(data);
+                                        alert(data.value);
+                                        updateChart(data.value);
                                     });
                                 </script>
                             </div>
