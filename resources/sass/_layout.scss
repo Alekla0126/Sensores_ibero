@@ -8,7 +8,7 @@ html, body {
     border-bottom: 1px solid #343536;
 
     .navbar-brand {
-        font-family: 'Megrim', sans-serif;
+        font-family: 'Roboto Mono', monospace;
     }
 }
 
@@ -44,7 +44,7 @@ html, body {
         border-top-left-radius: 0.25rem;
         border-bottom-left-radius: 0.25rem;
         border: 1px solid #343536;
-        background: url("../images/register-bg.jpg") center center no-repeat;
+        background: url("https://alekla.com/iot-dashboard/public/images/register-bg.jpg") center center no-repeat;
         background-size: cover;
         filter: grayscale(75%);
     }

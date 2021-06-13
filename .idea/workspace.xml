@@ -14,6 +14,9 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="NamedScopeManager">
     <scope name="App" pattern="file[cms]:app//*" />
   </component>
@@ -189,6 +192,7 @@
       <workItem from="1604417957276" duration="3417000" />
       <workItem from="1604480747205" duration="4000" />
       <workItem from="1606814922078" duration="5085000" />
+      <workItem from="1623556094888" duration="684000" />
     </task>
     <servers />
   </component>
