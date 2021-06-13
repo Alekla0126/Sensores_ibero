@@ -38,14 +38,14 @@
         }
     });
 
-    Route::put('/update', function (Request $request)
+    Route::put('update', function (Request $request)
     {
         $device = DeviceState::find($request->device_id);
         $device->value = $request->value;
         $result = $device->save();
         if ($result)
         {
-            event(new DataUpdater($device));
+            //event(new DataUpdater($device));
             return ['result' => 'Se actualizo la temperatura'];
         }
         else
