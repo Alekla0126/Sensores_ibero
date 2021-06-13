@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V3.42" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V3.43" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +211,7 @@
       <workItem from="1604480747205" duration="4000" />
       <workItem from="1606814922078" duration="5085000" />
       <workItem from="1623556094888" duration="4061000" />
-      <workItem from="1623565521596" duration="9805000" />
+      <workItem from="1623565521596" duration="9977000" />
     </task>
     <task id="LOCAL-00001" summary="V3.4">
       <created>1623556950039</created>
@@ -486,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623618820140</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="V3.43">
+      <created>1623619815158</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1623619815158</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -508,7 +515,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="V3.17" />
     <MESSAGE value="V3.18" />
     <MESSAGE value="V3.19" />
     <MESSAGE value="V3.20" />
@@ -533,6 +539,7 @@
     <MESSAGE value="V3.40" />
     <MESSAGE value="V3.41" />
     <MESSAGE value="V3.42" />
-    <option name="LAST_COMMIT_MESSAGE" value="V3.42" />
+    <MESSAGE value="V3.43" />
+    <option name="LAST_COMMIT_MESSAGE" value="V3.43" />
   </component>
 </project>
