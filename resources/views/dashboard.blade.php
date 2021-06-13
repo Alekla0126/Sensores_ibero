@@ -133,7 +133,7 @@
                         </div>
                     </div>
 
-                    <div class="grid-item item2">
+                    <div class="grid-item item3">
                         <div class="card">
                             <div class="card-header">Temperatura<span
                                     class="badge badge-info float-right">Salon: A205</span></div>
