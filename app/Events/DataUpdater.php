@@ -36,6 +36,6 @@ class DataUpdater implements ShouldBroadcastNow
 
     public function broadcastAs()
     {
-        return 'my-event';
+        return 'server.created';
     }
 }
