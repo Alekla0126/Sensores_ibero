@@ -119,7 +119,11 @@
                                 });
 
                                 let channel = pusher.subscribe('my-channel');
-                                channel.bind('my-event', function (data)
+                                channel.bind('pusher:subscription_succeeded', function (members)
+                                {
+                                    alert('Successfully subscribed!');
+                                });
+                                channel.bind('App\\Events\\DataUpdater', function (data)
                                 {
                                     updateChart(data.value);
                                 });
