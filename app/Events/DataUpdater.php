@@ -12,14 +12,14 @@ class DataUpdater implements ShouldBroadcastNow
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-    public string $device;
+    public $device;
 
     /**
      * Create a new event instance.
      *
      * @return void
      */
-    public function __construct(string $device)
+    public function __construct($device)
     {
         $this->device = $device;
     }
@@ -36,6 +36,6 @@ class DataUpdater implements ShouldBroadcastNow
 
     public function broadcastAs()
     {
-        return 'server.created';
+        return 'my-event';
     }
 }
