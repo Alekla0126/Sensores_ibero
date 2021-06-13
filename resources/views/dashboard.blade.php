@@ -121,7 +121,7 @@
                                     {
                                         //alert('Successfully subscribed!');
                                     });
-                                    channel.bind('App\\Events\\DataUpdater', function (data)
+                                    channel.bind('App\\Events\\TemperatureUpdater', function (data)
                                     {
                                         alert(data.value);
                                         updateChart(data.value);
