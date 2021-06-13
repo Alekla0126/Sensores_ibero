@@ -1,0 +1,2 @@
+[12-Jun-2021 23:52:01 America/New_York] PHP Warning:  require(/home/bufesdpz/alekla.com/iot-dashboard/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home/bufesdpz/alekla.com/iot-dashboard/public/index.php on line 24
+[12-Jun-2021 23:52:01 America/New_York] PHP Fatal error:  require(): Failed opening required '/home/bufesdpz/alekla.com/iot-dashboard/public/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/bufesdpz/alekla.com/iot-dashboard/public/index.php on line 24
