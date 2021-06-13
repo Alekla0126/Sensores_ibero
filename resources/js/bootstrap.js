@@ -46,5 +46,5 @@ window.Echo = new Echo({
     broadcaster: 'pusher',
     key: '612f7932fcad1179ede3',
     cluster: 'mt1',
-    forceTLS: true
+    forceTLS: false
 });

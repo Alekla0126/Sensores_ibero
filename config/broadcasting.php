@@ -37,7 +37,7 @@ return [
             'app_id' => env('1215057'),
             'options' => [
                 'cluster' => env('mt1'),
-                'useTLS' => TRUE,
+                'useTLS' => FALSE,
             ],
         ],
 
