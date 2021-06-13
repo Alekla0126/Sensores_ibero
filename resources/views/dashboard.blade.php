@@ -64,57 +64,57 @@
     <div class="container-fluid">
         <div class="dashboard">
             <div class="grid-container">
-                <div class="grid-item item0">
-                    <div class="card">
-                        <div class="card-header">Kitchen lights<span class="badge badge-info float-right">192.168.2.10</span></div>
+{{--                <div class="grid-item item0">--}}
+{{--                    <div class="card">--}}
+{{--                        <div class="card-header">Kitchen lights<span class="badge badge-info float-right">192.168.2.10</span></div>--}}
 
-                        <div class="card-body d-flex justify-content-center align-items-center">
-                            <div class="color-picker-0"></div>
-                            <script>
-                                var colorPicker = new iro.ColorPicker('.color-picker-0', {
-                                    // Set the size of the color picker
-                                    width: 200,
-                                    // Set the initial color to pure red
-                                    color: "#0f0",
+{{--                        <div class="card-body d-flex justify-content-center align-items-center">--}}
+{{--                            <div class="color-picker-0"></div>--}}
+{{--                            <script>--}}
+{{--                                var colorPicker = new iro.ColorPicker('.color-picker-0', {--}}
+{{--                                    // Set the size of the color picker--}}
+{{--                                    width: 200,--}}
+{{--                                    // Set the initial color to pure red--}}
+{{--                                    color: "#0f0",--}}
 
-                                    layoutDirection: 'vertical',
+{{--                                    layoutDirection: 'vertical',--}}
 
-                                    layout: [
-                                        {
-                                            component: iro.ui.Box,
-                                            options: {}
-                                        },
-                                        {
-                                            component: iro.ui.Slider,
-                                            options: {
-                                                // can also be 'saturation', 'value', 'red', 'green', 'blue', 'alpha' or 'kelvin'
-                                                sliderType: 'saturation'
-                                            }
-                                        },
-                                        {
-                                            component: iro.ui.Slider,
-                                            options: {
-                                                sliderType: 'blue'
-                                            }
-                                        },
-                                        {
-                                            component: iro.ui.Slider,
-                                            options: {
-                                                sliderType: 'green'
-                                            }
-                                        },
-                                        {
-                                            component: iro.ui.Slider,
-                                            options: {
-                                                sliderType: 'red'
-                                            }
-                                        },
-                                    ]
-                                });
-                            </script>
-                        </div>
-                    </div>
-                </div>
+{{--                                    layout: [--}}
+{{--                                        {--}}
+{{--                                            component: iro.ui.Box,--}}
+{{--                                            options: {}--}}
+{{--                                        },--}}
+{{--                                        {--}}
+{{--                                            component: iro.ui.Slider,--}}
+{{--                                            options: {--}}
+{{--                                                // can also be 'saturation', 'value', 'red', 'green', 'blue', 'alpha' or 'kelvin'--}}
+{{--                                                sliderType: 'saturation'--}}
+{{--                                            }--}}
+{{--                                        },--}}
+{{--                                        {--}}
+{{--                                            component: iro.ui.Slider,--}}
+{{--                                            options: {--}}
+{{--                                                sliderType: 'blue'--}}
+{{--                                            }--}}
+{{--                                        },--}}
+{{--                                        {--}}
+{{--                                            component: iro.ui.Slider,--}}
+{{--                                            options: {--}}
+{{--                                                sliderType: 'green'--}}
+{{--                                            }--}}
+{{--                                        },--}}
+{{--                                        {--}}
+{{--                                            component: iro.ui.Slider,--}}
+{{--                                            options: {--}}
+{{--                                                sliderType: 'red'--}}
+{{--                                            }--}}
+{{--                                        },--}}
+{{--                                    ]--}}
+{{--                                });--}}
+{{--                            </script>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
 
                 <div class="grid-item item1">
                     <div class="card">
@@ -134,7 +134,7 @@
 
                 <div class="grid-item item2">
                     <div class="card">
-                        <div class="card-header">Bedroom temperature<span class="badge badge-info float-right">192.168.2.1</span></div>
+                        <div class="card-header">Temperatura<span class="badge badge-info float-right">Salon: A205</span></div>
 
                         <div class="card-body">
                             <canvas id="bar-chart" class="chartjs"></canvas>
@@ -159,57 +159,57 @@
                     </div>
                 </div>
 
-                <div class="grid-item item3">
-                    <div class="card">
-                        <div class="card-header">Living room lights<span class="badge badge-info float-right">192.168.2.2</span></div>
+{{--                <div class="grid-item item3">--}}
+{{--                    <div class="card">--}}
+{{--                        <div class="card-header">Living room lights<span class="badge badge-info float-right">192.168.2.2</span></div>--}}
 
-                        <div class="card-body d-flex justify-content-center align-items-center">
-                            <div class="color-picker"></div>
-                            <script>
-                                var colorPicker = new iro.ColorPicker('.color-picker', {
-                                    // Set the size of the color picker
-                                    width: 200,
-                                    // Set the initial color to pure red
-                                    color: "#f00",
+{{--                        <div class="card-body d-flex justify-content-center align-items-center">--}}
+{{--                            <div class="color-picker"></div>--}}
+{{--                            <script>--}}
+{{--                                var colorPicker = new iro.ColorPicker('.color-picker', {--}}
+{{--                                    // Set the size of the color picker--}}
+{{--                                    width: 200,--}}
+{{--                                    // Set the initial color to pure red--}}
+{{--                                    color: "#f00",--}}
 
-                                    layoutDirection: 'horizontal',
+{{--                                    layoutDirection: 'horizontal',--}}
 
-                                    layout: [
-                                        {
-                                            component: iro.ui.Box,
-                                            options: {}
-                                        },
-                                        {
-                                            component: iro.ui.Slider,
-                                            options: {
-                                                // can also be 'saturation', 'value', 'red', 'green', 'blue', 'alpha' or 'kelvin'
-                                                sliderType: 'saturation'
-                                            }
-                                        },
-                                        {
-                                            component: iro.ui.Slider,
-                                            options: {
-                                                sliderType: 'blue'
-                                            }
-                                        },
-                                        {
-                                            component: iro.ui.Slider,
-                                            options: {
-                                                sliderType: 'green'
-                                            }
-                                        },
-                                        {
-                                            component: iro.ui.Slider,
-                                            options: {
-                                                sliderType: 'red'
-                                            }
-                                        },
-                                    ]
-                                });
-                            </script>
-                        </div>
-                    </div>
-                </div>
+{{--                                    layout: [--}}
+{{--                                        {--}}
+{{--                                            component: iro.ui.Box,--}}
+{{--                                            options: {}--}}
+{{--                                        },--}}
+{{--                                        {--}}
+{{--                                            component: iro.ui.Slider,--}}
+{{--                                            options: {--}}
+{{--                                                // can also be 'saturation', 'value', 'red', 'green', 'blue', 'alpha' or 'kelvin'--}}
+{{--                                                sliderType: 'saturation'--}}
+{{--                                            }--}}
+{{--                                        },--}}
+{{--                                        {--}}
+{{--                                            component: iro.ui.Slider,--}}
+{{--                                            options: {--}}
+{{--                                                sliderType: 'blue'--}}
+{{--                                            }--}}
+{{--                                        },--}}
+{{--                                        {--}}
+{{--                                            component: iro.ui.Slider,--}}
+{{--                                            options: {--}}
+{{--                                                sliderType: 'green'--}}
+{{--                                            }--}}
+{{--                                        },--}}
+{{--                                        {--}}
+{{--                                            component: iro.ui.Slider,--}}
+{{--                                            options: {--}}
+{{--                                                sliderType: 'red'--}}
+{{--                                            }--}}
+{{--                                        },--}}
+{{--                                    ]--}}
+{{--                                });--}}
+{{--                            </script>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
             </div>
         </div>
     </div>
