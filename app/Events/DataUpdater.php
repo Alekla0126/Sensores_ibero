@@ -19,7 +19,7 @@ class DataUpdater implements ShouldBroadcastNow
      *
      * @return void
      */
-    public function __construct($device)
+    public function __construct(string $device)
     {
         $this->device = $device;
     }
