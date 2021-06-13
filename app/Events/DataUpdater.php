@@ -12,14 +12,14 @@ class DataUpdater implements ShouldBroadcastNow
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-    public DeviceState $device;
+    public string $device;
 
     /**
      * Create a new event instance.
      *
      * @return void
      */
-    public function __construct(DeviceState $device)
+    public function __construct($device)
     {
         $this->device = $device;
     }
