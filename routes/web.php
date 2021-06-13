@@ -2,6 +2,7 @@
 
     use App\Events\DataUpdater;
     use App\Models\DeviceState;
+    use Illuminate\Http\Request;
     use Illuminate\Support\Facades\Route;
 
     /*
