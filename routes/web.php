@@ -1,6 +1,5 @@
 <?php
 
-    use App\Events\DataUpdater;
     use App\Models\DeviceState;
     use Illuminate\Http\Request;
     use Illuminate\Support\Facades\Route;
@@ -46,7 +45,7 @@
         $result = $device->save();
         if ($result)
         {
-            event(new DataUpdater($device));
+            event(new \App\Events\TemperatureUpdater($device));
             return ['result' => 'Se actualizo la temperatura'];
         }
         else

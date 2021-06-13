@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V3.44">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V3.45">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
     </list>
@@ -214,7 +214,7 @@
       <workItem from="1604480747205" duration="4000" />
       <workItem from="1606814922078" duration="5085000" />
       <workItem from="1623556094888" duration="4061000" />
-      <workItem from="1623565521596" duration="10739000" />
+      <workItem from="1623565521596" duration="12100000" />
     </task>
     <task id="LOCAL-00001" summary="V3.4">
       <created>1623556950039</created>
@@ -503,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623621428187</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="V3.45">
+      <created>1623622457214</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1623622457214</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -525,7 +532,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="V3.19" />
     <MESSAGE value="V3.20" />
     <MESSAGE value="V3.21" />
     <MESSAGE value="V3.22" />
@@ -550,6 +556,7 @@
     <MESSAGE value="V3.42" />
     <MESSAGE value="V3.43" />
     <MESSAGE value="V3.44" />
-    <option name="LAST_COMMIT_MESSAGE" value="V3.44" />
+    <MESSAGE value="V3.45" />
+    <option name="LAST_COMMIT_MESSAGE" value="V3.45" />
   </component>
 </project>

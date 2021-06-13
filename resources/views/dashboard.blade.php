@@ -91,7 +91,7 @@
                                     let chart = new Chart(document.getElementById('bar-chart'), {
                                         'type': 'line',
                                         'data': {
-                                            'labels': ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+                                            'labels': ['06:00', '10:00', '14:00', '18:00', '22:00', '02:00', '04:00'],
                                             'datasets': [
                                                 {
                                                     'label': 'Temperature',
