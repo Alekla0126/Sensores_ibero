@@ -114,7 +114,7 @@
 
                                 Pusher.logToConsole = true;
 
-                                let pusher = new Pusher('612f7932fcad1179ede3', {
+                                const pusher = new Pusher('612f7932fcad1179ede3', {
                                     cluster: 'mt1'
                                 });
 
@@ -126,7 +126,7 @@
                                 channel.bind('App\\Events\\DataUpdater', function (data)
                                 {
                                     console.log(data);
-                                    updateChart(data.value);
+                                    updateChart(data);
                                 });
                             </script>
                         </div>
