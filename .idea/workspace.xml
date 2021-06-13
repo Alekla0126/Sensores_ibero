@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V3.39">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V3.42" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -213,7 +211,7 @@
       <workItem from="1604480747205" duration="4000" />
       <workItem from="1606814922078" duration="5085000" />
       <workItem from="1623556094888" duration="4061000" />
-      <workItem from="1623565521596" duration="9492000" />
+      <workItem from="1623565521596" duration="9805000" />
     </task>
     <task id="LOCAL-00001" summary="V3.4">
       <created>1623556950039</created>
@@ -467,7 +465,28 @@
       <option name="project" value="LOCAL" />
       <updated>1623616645023</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="V3.40">
+      <created>1623618560552</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1623618560552</updated>
+    </task>
+    <task id="LOCAL-00038" summary="V3.41">
+      <created>1623618697257</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1623618697257</updated>
+    </task>
+    <task id="LOCAL-00039" summary="V3.42">
+      <created>1623618820140</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1623618820140</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -489,9 +508,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="V3.14" />
-    <MESSAGE value="V3.15" />
-    <MESSAGE value="V3.16" />
     <MESSAGE value="V3.17" />
     <MESSAGE value="V3.18" />
     <MESSAGE value="V3.19" />
@@ -514,6 +530,9 @@
     <MESSAGE value="V3.37" />
     <MESSAGE value="V3.38" />
     <MESSAGE value="V3.39" />
-    <option name="LAST_COMMIT_MESSAGE" value="V3.39" />
+    <MESSAGE value="V3.40" />
+    <MESSAGE value="V3.41" />
+    <MESSAGE value="V3.42" />
+    <option name="LAST_COMMIT_MESSAGE" value="V3.42" />
   </component>
 </project>
