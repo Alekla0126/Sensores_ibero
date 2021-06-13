@@ -121,7 +121,7 @@
                                 let channel = pusher.subscribe('my-channel');
                                 channel.bind('pusher:subscription_succeeded', function (members)
                                 {
-                                    alert('Successfully subscribed!');
+                                    //alert('Successfully subscribed!');
                                 });
                                 channel.bind('App\\Events\\DataUpdater', function (data)
                                 {
