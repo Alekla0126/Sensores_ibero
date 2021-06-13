@@ -2,26 +2,24 @@
 
 namespace App\Events;
 
-use Illuminate\Broadcasting\Channel;
-use Illuminate\Broadcasting\InteractsWithSockets;
-use Illuminate\Broadcasting\PresenceChannel;
-use Illuminate\Broadcasting\PrivateChannel;
-use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
-use Illuminate\Foundation\Events\Dispatchable;
+use App\Models\DeviceState;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Foundation\Events\Dispatchable;
+use Illuminate\Broadcasting\InteractsWithSockets;
+use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 
 class DataUpdater implements ShouldBroadcast
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-    private $device;
+    public DeviceState $device;
 
     /**
      * Create a new event instance.
      *
      * @return void
      */
-    public function __construct($device)
+    public function __construct(DeviceState $device)
     {
         $this->device = $device;
     }
@@ -33,6 +31,11 @@ class DataUpdater implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return new Channel('my-event');
+        return ['my-channel'];
+    }
+
+    public function broadcastAs()
+    {
+        return 'my-event';
     }
 }
