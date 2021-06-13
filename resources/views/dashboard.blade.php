@@ -125,6 +125,7 @@
                                 });
                                 channel.bind('App\\Events\\DataUpdater', function (data)
                                 {
+                                    console.log(data);
                                     updateChart(data.value);
                                 });
                             </script>
