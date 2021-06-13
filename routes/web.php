@@ -46,7 +46,7 @@
         $result = $device->save();
         if ($result)
         {
-            event(new DataUpdater($device->value));
+            event(new DataUpdater($request->value));
             return ['result' => 'Se actualizo la temperatura'];
         }
         else
