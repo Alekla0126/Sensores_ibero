@@ -17,3 +17,4 @@
     {
         return (int)$user->id === (int)$id;
     });
+
