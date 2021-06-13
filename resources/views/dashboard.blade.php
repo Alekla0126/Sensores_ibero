@@ -62,158 +62,71 @@
         }
     </style>
     <body>
-        <div class="container-fluid">
-            <div class="dashboard">
-                <div class="grid-container">
-                    {{--                <div class="grid-item item0">--}}
-                    {{--                    <div class="card">--}}
-                    {{--                        <div class="card-header">Kitchen lights<span class="badge badge-info float-right">192.168.2.10</span></div>--}}
+    <div class="container-fluid">
+        <div class="dashboard">
+            <div class="grid-container">
+                <div class="grid-item item1">
+                    <div class="card">
+                        <div class="card-header">{{ __('Gráfica del sensor') }}</div>
 
-                    {{--                        <div class="card-body d-flex justify-content-center align-items-center">--}}
-                    {{--                            <div class="color-picker-0"></div>--}}
-                    {{--                            <script>--}}
-                    {{--                                var colorPicker = new iro.ColorPicker('.color-picker-0', {--}}
-                    {{--                                    // Set the size of the color picker--}}
-                    {{--                                    width: 200,--}}
-                    {{--                                    // Set the initial color to pure red--}}
-                    {{--                                    color: "#0f0",--}}
+                        <div class="card-body">
+                            @if (session('status'))
+                                <div class="alert alert-success" role="alert">
+                                    {{ session('status') }}
+                                </div>
+                            @endif
 
-                    {{--                                    layoutDirection: 'vertical',--}}
-
-                    {{--                                    layout: [--}}
-                    {{--                                        {--}}
-                    {{--                                            component: iro.ui.Box,--}}
-                    {{--                                            options: {}--}}
-                    {{--                                        },--}}
-                    {{--                                        {--}}
-                    {{--                                            component: iro.ui.Slider,--}}
-                    {{--                                            options: {--}}
-                    {{--                                                // can also be 'saturation', 'value', 'red', 'green', 'blue', 'alpha' or 'kelvin'--}}
-                    {{--                                                sliderType: 'saturation'--}}
-                    {{--                                            }--}}
-                    {{--                                        },--}}
-                    {{--                                        {--}}
-                    {{--                                            component: iro.ui.Slider,--}}
-                    {{--                                            options: {--}}
-                    {{--                                                sliderType: 'blue'--}}
-                    {{--                                            }--}}
-                    {{--                                        },--}}
-                    {{--                                        {--}}
-                    {{--                                            component: iro.ui.Slider,--}}
-                    {{--                                            options: {--}}
-                    {{--                                                sliderType: 'green'--}}
-                    {{--                                            }--}}
-                    {{--                                        },--}}
-                    {{--                                        {--}}
-                    {{--                                            component: iro.ui.Slider,--}}
-                    {{--                                            options: {--}}
-                    {{--                                                sliderType: 'red'--}}
-                    {{--                                            }--}}
-                    {{--                                        },--}}
-                    {{--                                    ]--}}
-                    {{--                                });--}}
-                    {{--                            </script>--}}
-                    {{--                        </div>--}}
-                    {{--                    </div>--}}
-                    {{--                </div>--}}
-
-                    <div class="grid-item item1">
-                        <div class="card">
-                            <div class="card-header">{{ __('Gráfica del sensor') }}</div>
-
-                            <div class="card-body">
-                                @if (session('status'))
-                                    <div class="alert alert-success" role="alert">
-                                        {{ session('status') }}
-                                    </div>
-                                @endif
-
-                                Bienvenido de vuelta
-                            </div>
+                            Bienvenido de vuelta
                         </div>
                     </div>
+                </div>
 
-                    <div class="grid-item item3">
-                        <div class="card">
-                            <div class="card-header">Temperatura<span
-                                    class="badge badge-info float-right">Salon: A205</span></div>
+                <div class="grid-item item3">
+                    <div class="card">
+                        <div class="card-header">Temperatura<span
+                                class="badge badge-info float-right">Salon: A205</span></div>
 
-                            <div class="card-body">
-                                <canvas id="bar-chart" class="chartjs"></canvas>
-                                <script>
-                                    new Chart(document.getElementById('bar-chart'), {
-                                        'type': 'line',
-                                        'data': {
-                                            'labels': ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
-                                            'datasets': [
-                                                {
-                                                    'label': 'Temperature',
-                                                    'data': [65, 59, 80, 81, 56, 55, 40],
-                                                    'fill': false,
-                                                    'borderColor': 'rgb(75, 192, 192)',
-                                                    'lineTension': 0.1,
-                                                }],
-                                        },
-                                        'options': {},
-                                    });
-                                </script>
-                            </div>
+                        <div class="card-body">
+                            <canvas id="bar-chart" class="chartjs"></canvas>
+                            <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
+                            <script>
+                                let chart = new Chart(document.getElementById('bar-chart'), {
+                                    'type': 'line',
+                                    'data': {
+                                        'labels': ['10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00'],
+                                        'datasets': [
+                                            {
+                                                'label': 'Temperature',
+                                                'data': [65, 59, 80, 81, 56, 55, 40],
+                                                'fill': false,
+                                                'borderColor': 'rgb(75, 192, 192)',
+                                                'lineTension': 0.1,
+                                            }],
+                                    },
+                                    'options': {},
+                                });
+
+                                function updateChart(val)
+                                {
+                                    chart.data.datasets[0].data = val;
+                                    chart.update();
+                                }
+
+                                let pusher = new Pusher('612f7932fcad1179ede3', {
+                                    cluster: 'mt1'
+                                });
+
+                                let channel = pusher.subscribe('my-channel');
+                                channel.bind('my-event', function (data)
+                                {
+                                    updateChart(data.value);
+                                });
+                            </script>
                         </div>
                     </div>
-
-                    {{--                <div class="grid-item item3">--}}
-                    {{--                    <div class="card">--}}
-                    {{--                        <div class="card-header">Living room lights<span class="badge badge-info float-right">192.168.2.2</span></div>--}}
-
-                    {{--                        <div class="card-body d-flex justify-content-center align-items-center">--}}
-                    {{--                            <div class="color-picker"></div>--}}
-                    {{--                            <script>--}}
-                    {{--                                var colorPicker = new iro.ColorPicker('.color-picker', {--}}
-                    {{--                                    // Set the size of the color picker--}}
-                    {{--                                    width: 200,--}}
-                    {{--                                    // Set the initial color to pure red--}}
-                    {{--                                    color: "#f00",--}}
-
-                    {{--                                    layoutDirection: 'horizontal',--}}
-
-                    {{--                                    layout: [--}}
-                    {{--                                        {--}}
-                    {{--                                            component: iro.ui.Box,--}}
-                    {{--                                            options: {}--}}
-                    {{--                                        },--}}
-                    {{--                                        {--}}
-                    {{--                                            component: iro.ui.Slider,--}}
-                    {{--                                            options: {--}}
-                    {{--                                                // can also be 'saturation', 'value', 'red', 'green', 'blue', 'alpha' or 'kelvin'--}}
-                    {{--                                                sliderType: 'saturation'--}}
-                    {{--                                            }--}}
-                    {{--                                        },--}}
-                    {{--                                        {--}}
-                    {{--                                            component: iro.ui.Slider,--}}
-                    {{--                                            options: {--}}
-                    {{--                                                sliderType: 'blue'--}}
-                    {{--                                            }--}}
-                    {{--                                        },--}}
-                    {{--                                        {--}}
-                    {{--                                            component: iro.ui.Slider,--}}
-                    {{--                                            options: {--}}
-                    {{--                                                sliderType: 'green'--}}
-                    {{--                                            }--}}
-                    {{--                                        },--}}
-                    {{--                                        {--}}
-                    {{--                                            component: iro.ui.Slider,--}}
-                    {{--                                            options: {--}}
-                    {{--                                                sliderType: 'red'--}}
-                    {{--                                            }--}}
-                    {{--                                        },--}}
-                    {{--                                    ]--}}
-                    {{--                                });--}}
-                    {{--                            </script>--}}
-                    {{--                        </div>--}}
-                    {{--                    </div>--}}
-                    {{--                </div>--}}
                 </div>
             </div>
         </div>
+    </div>
     </body>
 @endsection
