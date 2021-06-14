@@ -22,7 +22,7 @@ class TemperatureUpdater implements ShouldBroadcast
      */
     public function __construct($device)
     {
-        $this->device = $device;
+        $this->device = $device->value;
     }
 
     /**
