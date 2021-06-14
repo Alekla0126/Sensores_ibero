@@ -41,6 +41,6 @@ class TemperatureUpdater implements ShouldBroadcast
     }
     public function broadcastWith()
     {
-        return ['message' => str_random(15)];
+        return ['message' => $this->device];
     }
 }
