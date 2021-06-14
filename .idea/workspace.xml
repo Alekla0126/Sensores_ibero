@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V3.54">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-=======
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V3.45">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
->>>>>>> parent of 172a787f (V3.47)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,55 +215,9 @@
       <workItem from="1604480747205" duration="4000" />
       <workItem from="1606814922078" duration="5085000" />
       <workItem from="1623556094888" duration="4061000" />
-<<<<<<< HEAD
       <workItem from="1623565521596" duration="14545000" />
       <workItem from="1623629577895" duration="657000" />
       <workItem from="1623630578953" duration="393000" />
-=======
-      <workItem from="1623565521596" duration="12100000" />
-    </task>
-    <task id="LOCAL-00001" summary="V3.4">
-      <created>1623556950039</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1623556950039</updated>
-    </task>
-    <task id="LOCAL-00002" summary="V3.5">
-      <created>1623557190231</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1623557190231</updated>
-    </task>
-    <task id="LOCAL-00003" summary="V3.6">
-      <created>1623558042644</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1623558042644</updated>
-    </task>
-    <task id="LOCAL-00004" summary="V3.7">
-      <created>1623558134470</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1623558134470</updated>
-    </task>
-    <task id="LOCAL-00005" summary="V3.8">
-      <created>1623558295336</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1623558295336</updated>
-    </task>
-    <task id="LOCAL-00006" summary="V3.9">
-      <created>1623558673943</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1623558673943</updated>
->>>>>>> parent of 172a787f (V3.47)
     </task>
     <task id="LOCAL-00007" summary="V3.10">
       <created>1623558887406</created>
@@ -523,7 +471,6 @@
       <option name="project" value="LOCAL" />
       <updated>1623622457214</updated>
     </task>
-<<<<<<< HEAD
     <task id="LOCAL-00043" summary="V3.46">
       <created>1623625132805</created>
       <option name="number" value="00043" />
@@ -616,9 +563,6 @@
       <updated>1623630643522</updated>
     </task>
     <option name="localTasksCounter" value="56" />
-=======
-    <option name="localTasksCounter" value="43" />
->>>>>>> parent of 172a787f (V3.47)
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -640,19 +584,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-<<<<<<< HEAD
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-=======
-    <MESSAGE value="V3.20" />
-    <MESSAGE value="V3.21" />
-    <MESSAGE value="V3.22" />
-    <MESSAGE value="V3.23" />
-    <MESSAGE value="V3.24" />
-    <MESSAGE value="V3.25" />
-    <MESSAGE value="V3.26" />
-    <MESSAGE value="V3.27" />
-    <MESSAGE value="V3.28" />
->>>>>>> parent of 172a787f (V3.47)
     <MESSAGE value="V3.29" />
     <MESSAGE value="V3.31" />
     <MESSAGE value="V3.32" />
@@ -669,7 +601,6 @@
     <MESSAGE value="V3.43" />
     <MESSAGE value="V3.44" />
     <MESSAGE value="V3.45" />
-<<<<<<< HEAD
     <MESSAGE value="V3.46" />
     <MESSAGE value="V3.47" />
     <MESSAGE value="V3.48" />
@@ -680,8 +611,5 @@
     <MESSAGE value="V3.53" />
     <MESSAGE value="V3.54" />
     <option name="LAST_COMMIT_MESSAGE" value="V3.54" />
-=======
-    <option name="LAST_COMMIT_MESSAGE" value="V3.45" />
->>>>>>> parent of 172a787f (V3.47)
   </component>
 </project>
