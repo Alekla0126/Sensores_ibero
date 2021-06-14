@@ -62,76 +62,77 @@
         }
     </style>
     <body>
-        <div class="container-fluid">
-            <div class="dashboard">
-                <div class="grid-container">
-                    <div class="grid-item item1">
-                        <div class="card">
-                            <div class="card-header">{{ __('Gráfica del sensor') }}</div>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <div class="container-fluid">
+        <div class="dashboard">
+            <div class="grid-container">
+                <div class="grid-item item1">
+                    <div class="card">
+                        <div class="card-header">{{ __('Gráfica del sensor') }}</div>
 
-                            <div class="card-body">
-                                @if (session('status'))
-                                    <div class="alert alert-success" role="alert">
-                                        {{ session('status') }}
-                                    </div>
-                                @endif
-                                Bienvenido de vuelta
-                            </div>
+                        <div class="card-body">
+                            @if (session('status'))
+                                <div class="alert alert-success" role="alert">
+                                    {{ session('status') }}
+                                </div>
+                            @endif
+                            Bienvenido de vuelta
                         </div>
                     </div>
+                </div>
 
-                    <div class="grid-item item3">
-                        <div class="card">
-                            <div class="card-header">Temperatura<span
-                                    class="badge badge-info float-right">Salon: A205</span></div>
-                            <div class="card-body">
-                                <canvas id="bar-chart" class="chartjs"></canvas>
-                                <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
-                                <script>
-                                    let chart = new Chart(document.getElementById('bar-chart'), {
-                                        'type': 'line',
-                                        'data': {
-                                            'labels': ['06:00', '10:00', '14:00', '18:00', '22:00', '02:00', '04:00'],
-                                            'datasets': [
-                                                {
-                                                    'label': 'Temperature',
-                                                    'data': [65, 59, 80, 81, 56, 55, 40],
-                                                    'fill': false,
-                                                    'borderColor': 'rgb(75, 192, 192)',
-                                                    'lineTension': 0.1,
-                                                }],
-                                        },
-                                        'options': {},
-                                    });
+                <div class="grid-item item3">
+                    <div class="card">
+                        <div class="card-header">Temperatura<span
+                                class="badge badge-info float-right">Salon: A205</span></div>
+                        <div class="card-body">
+                            <canvas id="bar-chart" class="chartjs"></canvas>
+                            <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
+                            <script>
+                                let chart = new Chart(document.getElementById('bar-chart'), {
+                                    'type': 'line',
+                                    'data': {
+                                        'labels': ['06:00', '10:00', '14:00', '18:00', '22:00', '02:00', '04:00'],
+                                        'datasets': [
+                                            {
+                                                'label': 'Temperature',
+                                                'data': [65, 59, 80, 81, 56, 55, 40],
+                                                'fill': false,
+                                                'borderColor': 'rgb(75, 192, 192)',
+                                                'lineTension': 0.1,
+                                            }],
+                                    },
+                                    'options': {},
+                                });
 
-                                    function updateChart(val)
-                                    {
-                                        chart.data.datasets[0].data = val;
-                                        chart.update();
-                                    }
+                                function updateChart(val)
+                                {
+                                    chart.data.datasets[0].data = val;
+                                    chart.update();
+                                }
 
-                                    Pusher.logToConsole = true;
+                                Pusher.logToConsole = true;
 
-                                    const pusher = new Pusher('612f7932fcad1179ede3', {
-                                        cluster: 'mt1'
-                                    });
+                                const pusher = new Pusher('612f7932fcad1179ede3', {
+                                    cluster: 'mt1'
+                                });
 
-                                    let channel = pusher.subscribe('my-channel');
-                                    channel.bind('pusher:subscription_succeeded', function (members)
-                                    {
-                                        //alert('Successfully subscribed!');
-                                    });
-                                    channel.bind('App\\Events\\TemperatureUpdater', function (data)
-                                    {
-                                        alert(data.value);
-                                        updateChart(data.value);
-                                    });
-                                </script>
-                            </div>
+                                let channel = pusher.subscribe('my-channel');
+                                channel.bind('pusher:subscription_succeeded', function (members)
+                                {
+                                    //alert('Successfully subscribed!');
+                                });
+                                channel.bind('App\\Events\\TemperatureUpdater', function (data)
+                                {
+                                    alert(data.value);
+                                    updateChart(data.value);
+                                });
+                            </script>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </body>
 @endsection

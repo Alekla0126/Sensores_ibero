@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.3" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.4">
+      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,13 +219,7 @@
       <workItem from="1623629577895" duration="657000" />
       <workItem from="1623630578953" duration="2015000" />
       <workItem from="1623638613327" duration="28000" />
-    </task>
-    <task id="LOCAL-00010" summary="V3.13">
-      <created>1623566656856</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1623566656856</updated>
+      <workItem from="1623638760796" duration="217000" />
     </task>
     <task id="LOCAL-00011" summary="V3.14">
       <created>1623566695789</created>
@@ -560,7 +557,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623638633116</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="V4.4">
+      <created>1623638867156</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1623638867156</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -583,7 +587,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V3.33" />
     <MESSAGE value="V3.34" />
     <MESSAGE value="V3.35" />
     <MESSAGE value="V3.36" />
@@ -608,6 +611,7 @@
     <MESSAGE value="V3.55" />
     <MESSAGE value="V4.2" />
     <MESSAGE value="V4.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="V4.3" />
+    <MESSAGE value="V4.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="V4.4" />
   </component>
 </project>

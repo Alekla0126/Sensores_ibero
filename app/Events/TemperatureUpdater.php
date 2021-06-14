@@ -39,4 +39,8 @@ class TemperatureUpdater implements ShouldBroadcast
     {
         return 'my-event';
     }
+    public function broadcastWith()
+    {
+        return ['message' => str_random(15)];
+    }
 }
