@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;
 
-600&display=swap);@charset "UTF-8";
+600&display=swap);
+@charset "UTF-8";
 
 /*!
  * Bootstrap v4.5.2 (https://getbootstrap.com/)
@@ -502,7 +503,7 @@ mark,
 }
 
 .blockquote-footer::before {
-  content: "\2014\A0";
+  content: "— ";
 }
 
 .img-fluid {
@@ -2160,11 +2161,6 @@ pre code {
 }
 
 .form-control:-ms-input-placeholder {
-  color: #919aa1;
-  opacity: 1;
-}
-
-.form-control::-ms-input-placeholder {
   color: #919aa1;
   opacity: 1;
 }
@@ -7933,7 +7929,6 @@ button.bg-dark:focus {
 .user-select-all {
   -webkit-user-select: all !important;
      -moz-user-select: all !important;
-      -ms-user-select: all !important;
           user-select: all !important;
 }
 
@@ -7976,7 +7971,6 @@ button.bg-dark:focus {
 }
 
 .position-sticky {
-  position: -webkit-sticky !important;
   position: sticky !important;
 }
 
@@ -7996,9 +7990,8 @@ button.bg-dark:focus {
   z-index: 1030;
 }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
+@supports (position: sticky) {
   .sticky-top {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -10844,4 +10837,5 @@ body {
 .dashboard .card {
   height: 100%;
 }
+
 
