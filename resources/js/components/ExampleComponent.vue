@@ -52,6 +52,7 @@
             {
                 Echo.channel(`chat`).listen('TemperatureUpdater', (e) => {
                     console.log('event', e.value);
+                    alert(e.message);
                     this.values = event.value;
                     this.drawChart();
                 });
