@@ -118,10 +118,10 @@
                                 });
 
                                 let channel = pusher.subscribe('my-channel');
-                                channel.bind('pusher:subscription_succeeded', function (members)
-                                {
-                                    //alert('Successfully subscribed!');
-                                });
+                                // channel.bind('pusher:subscription_succeeded', function (members)
+                                // {
+                                //     //alert('Successfully subscribed!');
+                                // });
                                 channel.bind('App\\Events\\TemperatureUpdater', function (data)
                                 {
                                     alert(data.value);
