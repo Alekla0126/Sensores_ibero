@@ -50,7 +50,7 @@
             },
             update()
             {
-                window.Echo.private(`chat`).listen(`Valor`, (e) => {
+                window.Echo.private(`chat`).listen(`valor`, (e) => {
                     console.log('event', e.value);
                     alert(e.message);
                     this.values = event.value;

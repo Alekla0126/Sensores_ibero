@@ -30,7 +30,7 @@
         $result = $device->save();
         if ($result)
         {
-            return ['result' => 'Se creo con exito el su dispositivo'];
+            return response ([$request->all()], 200);
         }
         else
         {
