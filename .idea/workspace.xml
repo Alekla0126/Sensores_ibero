@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.8" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.9" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -220,14 +220,7 @@
       <workItem from="1623630578953" duration="2015000" />
       <workItem from="1623638613327" duration="28000" />
       <workItem from="1623638760796" duration="976000" />
-      <workItem from="1623719849772" duration="886000" />
-    </task>
-    <task id="LOCAL-00016" summary="V3.18">
-      <created>1623568531605</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1623568531605</updated>
+      <workItem from="1623719849772" duration="1036000" />
     </task>
     <task id="LOCAL-00017" summary="V3.19">
       <created>1623568703576</created>
@@ -565,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623725150774</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="V4.9">
+      <created>1623725173439</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1623725173439</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -588,7 +588,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V3.38" />
     <MESSAGE value="V3.39" />
     <MESSAGE value="V3.40" />
     <MESSAGE value="V3.41" />
@@ -613,6 +612,7 @@
     <MESSAGE value="V4.6" />
     <MESSAGE value="V4.7" />
     <MESSAGE value="V4.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="V4.8" />
+    <MESSAGE value="V4.9" />
+    <option name="LAST_COMMIT_MESSAGE" value="V4.9" />
   </component>
 </project>
