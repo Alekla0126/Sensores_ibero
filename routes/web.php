@@ -46,7 +46,7 @@
         if ($result)
         {
             broadcast(new \App\Events\TemperatureUpdater($device->value));
-            return ['result' => 'Se actualizo la temperatura'];
+            return response ([$request->all()], 200);
         }
         else
         {

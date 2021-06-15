@@ -14,16 +14,16 @@ class TemperatureUpdater implements ShouldBroadcast
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-    public $device;
+    public $message;
 
     /**
      * Create a new event instance.
      *
      * @return void
      */
-    public function __construct($device)
+    public function __construct($message)
     {
-        $this->device = $device;
+        $this->message = $message;
     }
 
     /**
@@ -33,11 +33,7 @@ class TemperatureUpdater implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return new PresenceChannel('chat');
+        return new Channel('chat');
     }
 
-    public function broadcastAs()
-    {
-        return 'valor';
-    }
 }

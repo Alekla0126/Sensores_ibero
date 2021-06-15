@@ -4,7 +4,7 @@
             <div class="card-header">Temperatura<span
                 class="badge badge-info float-right">Salon: A205</span></div>
             <div class="card-body">
-                <canvas id="bar-chart" class="chartjs"></canvas>
+                <canvas id="bar-chart"></canvas>
             </div>
         </div>
     </div>
@@ -50,10 +50,10 @@
             },
             update()
             {
-                window.Echo.private(`chat`).listen(`valor`, (e) => {
-                    console.log('event', e.value);
-                    alert(e.message);
-                    this.values = event.value;
+                Echo.channel('chat').listen('TemperatureUpdater', (e) => {
+                    console.log('event', e.message);
+                    alert(e);
+                    this.values = e;
                     this.drawChart();
                 });
             }
