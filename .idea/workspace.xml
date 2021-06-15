@@ -4,78 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.23">
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/2aa72c15bad1b5a7ffa80b46ceb261b7.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/51690d4b38ec9ece9de88b5bf641fc3c.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5a5088c287c6388dc7801c1dcca9c3c8.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/87865e6f65ba14d8e95a40fc28469ac4.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/8e3aaa63444a5338f74a2b3e8e55765b.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a10a0454a4bad6030b91f59575471154.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f8c64f3aac240d4a4a1956e9d516f5cb.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/browser-sync/node_modules/fsevents/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/browser-sync/node_modules/fsevents/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/browser-sync/node_modules/fsevents/build/Release/fse.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/browser-sync/node_modules/fsevents/build/Release/fse.node" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/adjust-sourcemap-loader/codec/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/adjust-sourcemap-loader/codec/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/adjust-sourcemap-loader/codec/output-relative.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/adjust-sourcemap-loader/codec/output-relative.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/adjust-sourcemap-loader/codec/project-relative.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/adjust-sourcemap-loader/codec/project-relative.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/adjust-sourcemap-loader/codec/source-relative.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/adjust-sourcemap-loader/codec/source-relative.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/adjust-sourcemap-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/adjust-sourcemap-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/resolve-url-loader/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/docs/advanced-features.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/docs/basic-problem.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/docs/contributing.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/docs/detailed-problem.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/docs/how-it-works.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/docs/troubleshooting.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/resolve-url-loader/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/engine/fail-initialisation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/engine/fail-processing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/engine/postcss.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/engine/postcss.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/engine/rework.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/engine/rework.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/join-function/debug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/join-function/fs-utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/join-function/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/log-to-test-harness.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/log-to-test-harness.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/position-algerbra.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/value-processor.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/resolve-url-loader/lib/value-processor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/resolve-url-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/resolve-url-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-loader/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/dist/SassError.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-loader/dist/SassError.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/dist/cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-loader/dist/cjs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/dist/getDefaultSassImplementation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/dist/getRenderFunctionFromSassImplementation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/dist/getSassImplementation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/dist/getSassOptions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/dist/importsToResolve.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-loader/dist/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/dist/options.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-loader/dist/options.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/dist/proxyCustomImporters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/dist/webpackImporter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/node_modules/.bin/semver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/node_modules/semver/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/node_modules/semver/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/node_modules/semver/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/node_modules/semver/bin/semver.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/node_modules/semver/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/node_modules/semver/range.bnf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/node_modules/semver/semver.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sass-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sass-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.26">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,21 +246,7 @@
       <workItem from="1623638613327" duration="28000" />
       <workItem from="1623638760796" duration="976000" />
       <workItem from="1623719849772" duration="4874000" />
-      <workItem from="1623733114505" duration="1479000" />
-    </task>
-    <task id="LOCAL-00032" summary="V3.35">
-      <created>1623611595548</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1623611595548</updated>
-    </task>
-    <task id="LOCAL-00033" summary="V3.36">
-      <created>1623615314097</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1623615314097</updated>
+      <workItem from="1623733114505" duration="2127000" />
     </task>
     <task id="LOCAL-00034" summary="V3.37">
       <created>1623615427217</created>
@@ -657,7 +577,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623735049602</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="V4.25">
+      <created>1623735580213</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1623735580213</updated>
+    </task>
+    <task id="LOCAL-00082" summary="V4.26">
+      <created>1623735645003</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1623735645003</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -680,8 +614,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V3.53" />
-    <MESSAGE value="V3.54" />
     <MESSAGE value="V3.55" />
     <MESSAGE value="V4.2" />
     <MESSAGE value="V4.3" />
@@ -705,6 +637,8 @@
     <MESSAGE value="V4.21" />
     <MESSAGE value="V4.22" />
     <MESSAGE value="V4.23" />
-    <option name="LAST_COMMIT_MESSAGE" value="V4.23" />
+    <MESSAGE value="V4.25" />
+    <MESSAGE value="V4.26" />
+    <option name="LAST_COMMIT_MESSAGE" value="V4.26" />
   </component>
 </project>

@@ -2,65 +2,65 @@
 
 @section('content')
 
-    <style>
-        .grid-container {
-            display: grid;
-            grid-gap: 20px;
-            grid-template-columns: repeat(3, minmax(0, 1fr));
-        }
+{{--    <style>--}}
+{{--        .grid-container {--}}
+{{--            display: grid;--}}
+{{--            grid-gap: 20px;--}}
+{{--            grid-template-columns: repeat(3, minmax(0, 1fr));--}}
+{{--        }--}}
 
-        @media only screen and (max-width: 765px) {
-            .grid-container {
-                grid-template-columns: 1fr;
-            }
-        }
+{{--        @media only screen and (max-width: 765px) {--}}
+{{--            .grid-container {--}}
+{{--                grid-template-columns: 1fr;--}}
+{{--            }--}}
+{{--        }--}}
 
-        @media only screen and (max-width: 614px) {
-            .grid-container {
-                grid-template-columns: 100%;
-            }
+{{--        @media only screen and (max-width: 614px) {--}}
+{{--            .grid-container {--}}
+{{--                grid-template-columns: 100%;--}}
+{{--            }--}}
 
-            .grid-item {
-                grid-row-start: initial !important;
-                grid-row-end: initial !important;
-                grid-column-start: initial !important;
-                grid-column-end: initial !important;
-            }
-        }
+{{--            .grid-item {--}}
+{{--                grid-row-start: initial !important;--}}
+{{--                grid-row-end: initial !important;--}}
+{{--                grid-column-start: initial !important;--}}
+{{--                grid-column-end: initial !important;--}}
+{{--            }--}}
+{{--        }--}}
 
-        .grid-item {
-            width: 100%;
-            height: 100%;
-        }
+{{--        .grid-item {--}}
+{{--            width: 100%;--}}
+{{--            height: 100%;--}}
+{{--        }--}}
 
-        .item0 {
-            grid-row-start: 1;
-            grid-row-end: 3;
-            grid-column-start: 3;
-            grid-column-end: 4;
-        }
+{{--        .item0 {--}}
+{{--            grid-row-start: 1;--}}
+{{--            grid-row-end: 3;--}}
+{{--            grid-column-start: 3;--}}
+{{--            grid-column-end: 4;--}}
+{{--        }--}}
 
-        .item1 {
-            grid-row-start: 1;
-            grid-row-end: 1;
-            grid-column-start: 1;
-            grid-column-end: 3;
-        }
+{{--        .item1 {--}}
+{{--            grid-row-start: 1;--}}
+{{--            grid-row-end: 1;--}}
+{{--            grid-column-start: 1;--}}
+{{--            grid-column-end: 3;--}}
+{{--        }--}}
 
-        .item2 {
-            grid-row-start: 2;
-            grid-row-end: 2;
-            grid-column-start: 1;
-            grid-column-end: 3;
-        }
+{{--        .item2 {--}}
+{{--            grid-row-start: 2;--}}
+{{--            grid-row-end: 2;--}}
+{{--            grid-column-start: 1;--}}
+{{--            grid-column-end: 3;--}}
+{{--        }--}}
 
-        .item3 {
-            grid-row-start: 3;
-            grid-row-end: 3;
-            grid-column-start: 1;
-            grid-column-end: 4;
-        }
-    </style>
+{{--        .item3 {--}}
+{{--            grid-row-start: 3;--}}
+{{--            grid-row-end: 3;--}}
+{{--            grid-column-start: 1;--}}
+{{--            grid-column-end: 4;--}}
+{{--        }--}}
+{{--    </style>--}}
     <body>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <div class="container-fluid">
