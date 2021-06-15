@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.5">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,6 +153,9 @@
       <path value="$PROJECT_DIR$/vendor/react/promise" />
       <path value="$PROJECT_DIR$/vendor/chartisan/php" />
       <path value="$PROJECT_DIR$/vendor/consoletvs/charts" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/vendor/pusher/pusher-php-server" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gv1uGlCXrLODFargP41FxNDfs0" />
@@ -220,21 +221,8 @@
       <workItem from="1623629577895" duration="657000" />
       <workItem from="1623630578953" duration="2015000" />
       <workItem from="1623638613327" duration="28000" />
-      <workItem from="1623638760796" duration="752000" />
-    </task>
-    <task id="LOCAL-00012" summary="V3.15">
-      <created>1623566917562</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1623566917562</updated>
-    </task>
-    <task id="LOCAL-00013" summary="V3.15">
-      <created>1623567340121</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1623567340121</updated>
+      <workItem from="1623638760796" duration="976000" />
+      <workItem from="1623719849772" duration="782000" />
     </task>
     <task id="LOCAL-00014" summary="V3.16">
       <created>1623567760320</created>
@@ -565,7 +553,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623639335758</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="V4.6">
+      <created>1623639706591</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1623639706591</updated>
+    </task>
+    <task id="LOCAL-00062" summary="V4.7">
+      <created>1623639798924</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1623639798924</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -588,8 +590,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V3.35" />
-    <MESSAGE value="V3.36" />
     <MESSAGE value="V3.37" />
     <MESSAGE value="V3.38" />
     <MESSAGE value="V3.39" />
@@ -613,6 +613,8 @@
     <MESSAGE value="V4.3" />
     <MESSAGE value="V4.4" />
     <MESSAGE value="V4.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="V4.5" />
+    <MESSAGE value="V4.6" />
+    <MESSAGE value="V4.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="V4.7" />
   </component>
 </project>
