@@ -4,8 +4,6 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <div class="col-md-5 login-bg"></div>
-                <div class="col-md-7 p-0">
                     <div class="card">
                         <div class="card-header">{{ __('Inicio de sesión') }}</div>
 
@@ -77,7 +75,6 @@
                             </form>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </div>
