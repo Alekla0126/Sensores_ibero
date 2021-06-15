@@ -46,14 +46,11 @@
                     },
                     'options': {},
                 });
-
             },
             update()
             {
                 Echo.channel('chat').listen('TemperatureUpdater', (e) => {
-                    console.log('event', e.message);
-                    alert(e);
-                    this.values = e;
+                    this.values = this.values.push(e.message());
                     this.drawChart();
                 });
             }
