@@ -1,4 +1,5 @@
 <template>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <div class="grid-item item3">
         <div class="card">
             <div class="card-header">Temperatura<span
