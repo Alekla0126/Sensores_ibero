@@ -50,8 +50,8 @@
             },
             update()
             {
-                Echo.private('chat').listen('.TemperatureUpdater', (event) => {
-                    console.log('event', event.value);
+                Echo.channel(`chat`).listen('TemperatureUpdater', (e) => {
+                    console.log('event', e.value);
                     this.values = event.value;
                     this.drawChart();
                 });

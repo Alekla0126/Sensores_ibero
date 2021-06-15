@@ -4,121 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.31">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.32">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Events/TemperatureUpdater.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Events/TemperatureUpdater.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/.github/stale.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/LICENCE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/LICENCE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/dist/node/pusher.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/dist/node/pusher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/dist/react-native/pusher.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/dist/react-native/pusher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/dist/web/pusher-with-encryption.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/dist/web/pusher-with-encryption.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/dist/web/pusher.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/dist/web/pusher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/dist/web/pusher.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/dist/web/pusher.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/dist/worker/pusher-with-encryption.worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/dist/worker/pusher-with-encryption.worker.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/dist/worker/pusher.worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/dist/worker/pusher.worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/dist/worker/pusher.worker.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/dist/worker/pusher.worker.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/pusher-with-encryption/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/react-native/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/react-native/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/config/jasmine-node/webpack.integration.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/config/jasmine-node/webpack.integration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/config/karma/config.ci.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/config/karma/config.ci.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/config/karma/integration.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/config/karma/integration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/integration/core/cluster_config_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/integration/core/cluster_config_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/integration/core/pusher_spec/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/integration/core/pusher_spec/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/integration/core/timeout_configuration_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/integration/core/timeout_configuration_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/channels/channel_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/channels/channel_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/channels/channels_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/channels/channels_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/channels/encrypted_channel_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/channels/encrypted_channel_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/config_spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/connection/connection_manager_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/connection/connection_manager_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/connection/connection_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/connection/connection_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/defaults_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/defaults_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/pusher_authorizer_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/pusher_authorizer_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/pusher_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/pusher_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/pusher_with_encryption_spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/transports/hosts_and_ports_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/core/transports/hosts_and_ports_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/isomorphic/transports/hosts_and_ports_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/isomorphic/transports/hosts_and_ports_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/web/transports/hosts_and_ports_spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/spec/javascripts/unit/web/transports/hosts_and_ports_spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/auth/options.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/auth/options.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/auth/pusher_authorizer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/auth/pusher_authorizer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/channels/channel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/channels/channel.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/channels/channels.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/channels/channels.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/channels/encrypted_channel.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/channels/encrypted_channel.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/connection/connection.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/connection/connection.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/connection/connection_manager.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/connection/connection_manager.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/connection/connection_manager_options.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/connection/connection_manager_options.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/defaults.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/defaults.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/errors.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/errors.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/options.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/options.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/pusher-licence.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/pusher-licence.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/pusher-with-encryption.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/pusher-with-encryption.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/pusher.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/pusher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/pusher.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/strategies/strategy_builder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/strategies/strategy_builder.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/strategies/strategy_options.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/strategies/strategy_options.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/strategies/transport_strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/strategies/transport_strategy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/transports/transport.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/transports/transport.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/utils/factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/utils/factory.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/core/utils/url_store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/core/utils/url_store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/runtimes/interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/runtimes/interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/runtimes/isomorphic/auth/xhr_auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/runtimes/isomorphic/auth/xhr_auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/runtimes/isomorphic/default_strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/runtimes/isomorphic/default_strategy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/runtimes/web/auth/jsonp_auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/runtimes/web/auth/jsonp_auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/runtimes/web/default_strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/runtimes/web/default_strategy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/src/runtimes/worker/auth/fetch_auth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/src/runtimes/worker/auth/fetch_auth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/auth/options.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/auth/options.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/channels/encrypted_channel.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/channels/encrypted_channel.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/config.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/config.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/connection/connection_manager.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/connection/connection_manager.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/connection/connection_manager_options.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/connection/connection_manager_options.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/defaults.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/defaults.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/errors.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/errors.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/options.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/options.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/pusher-with-encryption.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/pusher.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/pusher.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/strategies/strategy_builder.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/strategies/strategy_builder.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/strategies/strategy_options.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/strategies/strategy_options.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/utils/factory.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/core/utils/factory.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/runtimes/interface.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/runtimes/interface.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/runtimes/isomorphic/default_strategy.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/runtimes/isomorphic/default_strategy.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/types/src/runtimes/web/default_strategy.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/types/src/runtimes/web/default_strategy.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/webpack/config.node.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/webpack/config.node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/webpack/config.react-native.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/webpack/config.react-native.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/webpack/config.shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/webpack/config.shared.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/webpack/config.web.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/webpack/config.web.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/webpack/config.worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pusher-js/webpack/config.worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/with-encryption/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/with-encryption/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/worker/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/worker/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/worker/with-encryption/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pusher-js/worker/with-encryption/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tweetnacl/AUTHORS.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tweetnacl/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tweetnacl/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tweetnacl/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tweetnacl/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tweetnacl/nacl-fast.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tweetnacl/nacl-fast.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tweetnacl/nacl.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tweetnacl/nacl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tweetnacl/nacl.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/tweetnacl/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -356,14 +245,7 @@
       <workItem from="1623638613327" duration="28000" />
       <workItem from="1623638760796" duration="976000" />
       <workItem from="1623719849772" duration="4874000" />
-      <workItem from="1623733114505" duration="7657000" />
-    </task>
-    <task id="LOCAL-00042" summary="V3.45">
-      <created>1623622457214</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1623622457214</updated>
+      <workItem from="1623733114505" duration="8139000" />
     </task>
     <task id="LOCAL-00043" summary="V3.46">
       <created>1623625132805</created>
@@ -701,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623742040221</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="V4.32">
+      <created>1623743338254</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1623743338254</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -724,7 +613,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V4.6" />
     <MESSAGE value="V4.7" />
     <MESSAGE value="V4.8" />
     <MESSAGE value="V4.9" />
@@ -749,6 +637,7 @@
     <MESSAGE value="V4.29" />
     <MESSAGE value="V4.30" />
     <MESSAGE value="V4.31" />
-    <option name="LAST_COMMIT_MESSAGE" value="V4.31" />
+    <MESSAGE value="V4.32" />
+    <option name="LAST_COMMIT_MESSAGE" value="V4.32" />
   </component>
 </project>
