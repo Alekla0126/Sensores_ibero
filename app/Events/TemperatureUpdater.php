@@ -38,6 +38,6 @@ class TemperatureUpdater implements ShouldBroadcast
 
     public function broadcastAs()
     {
-        return $this->device;
+        return 'Valor';
     }
 }

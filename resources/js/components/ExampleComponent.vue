@@ -50,7 +50,7 @@
             },
             update()
             {
-                Echo.channel(`chat`).listen('TemperatureUpdater', (e) => {
+                Echo.channel(`chat`).listen('Valor', (e) => {
                     console.log('event', e.value);
                     alert(e.message);
                     this.values = event.value;
