@@ -87,7 +87,6 @@
                                 class="badge badge-info float-right">Salon: A205</span></div>
                         <div class="card-body">
                             <canvas id="bar-chart" class="chartjs"></canvas>
-                            <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
                             <script>
                                 let chart = new Chart(document.getElementById('bar-chart'), {
                                     'type': 'line',
