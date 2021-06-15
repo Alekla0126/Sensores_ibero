@@ -1,5 +1,4 @@
 <template>
-    <meta name="csrf-token" content="{{ csrf_token() }}">
     <div class="grid-item item3">
         <div class="card">
             <div class="card-header">Temperatura<span
@@ -19,7 +18,6 @@
         data()
         {
             return {
-                schedule: ['06:00', '10:00', '14:00', '18:00', '22:00', '02:00', '04:00'],
                 values: [65, 59, 80, 81, 56, 55, 40],
                 labeled: 'Temperature'
             }
@@ -36,7 +34,7 @@
                 let myChart = new Chart(ctx, {
                     'type': 'line',
                     'data': {
-                        'labels': [this.schedule],
+                        'labels': ['06:00', '10:00', '14:00', '18:00', '22:00', '02:00', '04:00'],
                         'datasets': [
                             {
                                 'label': [this.labeled],
