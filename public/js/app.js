@@ -1893,8 +1893,9 @@ __webpack_require__.r(__webpack_exports__);
     update: function update() {
       var _this = this;
 
-      Echo.channel("chat").listen('TemperatureUpdater', function (e) {
+      Echo.channel("chat").listen('Valor', function (e) {
         console.log('event', e.value);
+        alert(e.message);
         _this.values = event.value;
 
         _this.drawChart();
