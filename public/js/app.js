@@ -1893,10 +1893,10 @@ __webpack_require__.r(__webpack_exports__);
     update: function update() {
       var _this = this;
 
-      window.Echo["private"]("chat").listen("valor", function (e) {
-        console.log('event', e.value);
-        alert(e.message);
-        _this.values = event.value;
+      Echo.channel('chat').listen('TemperatureUpdater', function (e) {
+        console.log('event', e.message);
+        alert(e);
+        _this.values = e;
 
         _this.drawChart();
       });
@@ -1986,10 +1986,15 @@ window.Echo = new laravel_echo__WEBPACK_IMPORTED_MODULE_0__.default({
   broadcaster: 'pusher',
   key: 'myKey',
   forceTLS: false,
-  enabledTransports: ['ws', 'wss'],
+  // enabledTransports: ['ws', 'wss'],
   wsHost: window.location.hostname,
   wsPort: 6001,
-  disableStats: true
+  disableStats: true,
+  auth: {
+    headers: {
+      'X-CSRF-TOKEN': window.App.csrfToken
+    }
+  }
 });
 
 /***/ }),
@@ -85392,7 +85397,7 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "card-body" }, [
-          _c("canvas", { staticClass: "chartjs", attrs: { id: "bar-chart" } })
+          _c("canvas", { attrs: { id: "bar-chart" } })
         ])
       ])
     ])

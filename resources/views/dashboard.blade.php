@@ -20,6 +20,9 @@
                         </div>
                     </div>
                 </div>
+                <script>
+                    window.Laravel.csrfToken = {{ csrf_token() }};
+                </script>
                 <example-component></example-component>
             </div>
         </div>
