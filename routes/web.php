@@ -75,3 +75,7 @@
     {
         $devices->delete(\App\Models\Device::find(15));
     });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
