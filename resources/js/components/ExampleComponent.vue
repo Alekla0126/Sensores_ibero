@@ -50,9 +50,9 @@
             },
             update()
             {
-                window.Echo.private('chat').listen('.TemperatureUpdater', (event) => {
-                    console.log('event', event);
-                    this.values = event;
+                Echo.private('chat').listen('.TemperatureUpdater', (event) => {
+                    console.log('event', event.value);
+                    this.values = event.value;
                     this.drawChart();
                 });
             }
