@@ -5,6 +5,7 @@ namespace App\Events;
 use App\Models\DeviceState;
 use Illuminate\Broadcasting\Channel;
 use Illuminate\Broadcasting\InteractsWithSockets;
+use Illuminate\Broadcasting\PresenceChannel;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
 use Illuminate\Foundation\Events\Dispatchable;
 use Illuminate\Queue\SerializesModels;
@@ -32,15 +33,11 @@ class TemperatureUpdater implements ShouldBroadcast
      */
     public function broadcastOn()
     {
-        return ['my-channel'];
+        return new PresenceChannel('chat');
     }
 
     public function broadcastAs()
     {
-        return 'my-event';
-    }
-    public function broadcastWith()
-    {
-        return ['message' => $this->device];
+        return $this->device->value;
     }
 }
