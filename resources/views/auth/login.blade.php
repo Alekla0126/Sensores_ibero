@@ -2,8 +2,8 @@
 
 @section('content')
     <div class="container">
-        <section class="login">
-            <div class="row">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
                 <div class="col-md-5 login-bg"></div>
                 <div class="col-md-7 p-0">
                     <div class="card">
@@ -79,6 +79,6 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
 @endsection
