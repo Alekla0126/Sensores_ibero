@@ -20,7 +20,7 @@
                         </div>
                     </div>
                 </div>
-                <example-component></example-component>
+                <example-component :value="{{ $value }}"></example-component>
             </div>
         </div>
     </div>

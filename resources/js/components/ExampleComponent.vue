@@ -4,7 +4,7 @@
             <div class="card-header">Temperatura<span
                 class="badge badge-info float-right">Salon: A205</span></div>
             <div class="card-body">
-                <canvas id="bar-chart"></canvas>
+                <canvas id="line-chart"></canvas>
             </div>
         </div>
     </div>
@@ -12,84 +12,66 @@
 
 
 <script>
-    import Chart from 'chart.js'
-    export default
+import Chart from 'chart.js'
+export default
+{
+    props: ['value'],
+    data()
     {
-        data()
+        let myChart;
+        return {
+            values: [this.value, 0, 0, 0, 0, 0, 0],
+            temp: [0],
+            myChart,
+            labeled: 'Temperature'
+        }
+    },
+    mounted()
+    {
+        this.update();
+        this.drawChart();
+    },
+    methods: {
+        drawChart()
         {
-            return {
-                values: [0, 0, 0, 0, 0, 0, 0],
-                temp: [],
-                labeled: 'Temperature'
-            }
+            let ctx = document.getElementById("line-chart");
+            this.myChart = new Chart(ctx, {
+                'type': 'line',
+                'data': {
+                    'labels': ['06:00', '10:00', '14:00', '18:00', '22:00', '02:00', '04:00'],
+                    'datasets': [
+                        {
+                            'label': [this.labeled],
+                            'data': [this.value, 0, 0, 0, 0, 0, 0],
+                            'fill': false,
+                            'borderColor': 'rgb(75, 192, 192)',
+                            'lineTension': 0.1,
+                        }],
+                },
+                'options': {},
+            });
+
         },
-        mounted()
+        update()
         {
-            this.update();
-            this.drawChart();
-        },
-        methods: {
-            drawChart()
+            Echo.channel('chat').listen('TemperatureUpdater', (e) =>
             {
-                let ctx = document.getElementById("bar-chart");
-                let myChart = new Chart(ctx, {
-                    'type': 'line',
-                    'data': {
-                        'labels': ['06:00', '10:00', '14:00', '18:00', '22:00', '02:00', '04:00'],
-                        'datasets': [
-                            {
-                                'label': [this.labeled],
-                                'data': [this.values],
-                                'fill': false,
-                                'borderColor': 'rgb(75, 192, 192)',
-                                'lineTension': 0.1,
-                            }],
-                    },
-                });
-            },
-            update()
-            {
-                Echo.channel('chat').listen('TemperatureUpdater', (e) => {
-                    console.log(e.message);
-                    if (this.temp.length < 8)
-                    {
-                        this.temp.push(e.message);
-                    }
-                    else
-                    {
-                        this.temp = [];
-                    }
-                    switch (this.temp.length)
-                    {
-                        case 0:
-                            this.values[0] = e.message;
-                            break;
-                        case 1:
-                            this.values[1] = e.message;
-                            break;
-                        case 2:
-                            this.values[2] = e.message;
-                            break;
-                        case 3:
-                            this.values[3] = e.message;
-                            break;
-                        case 4:
-                            this.values[4] = e.message;
-                            break;
-                        case  5:
-                            this.values[5] = e.message;
-                            break;
-                        case 6:
-                            this.values[6] = e.message;
-                            break;
-                        default:
-                            this.values = [0, 0, 0, 0, 0, 0, 0];
-                    }
-                    this.drawChart();
-                });
-            }
+                if (this.temp.length <= 6)
+                {
+                    this.temp.push(0);
+                }
+                else
+                {
+                    this.temp = [0];
+                    this.values = [0, 0, 0, 0, 0, 0, 0];
+                }
+                this.values[this.temp.length - 1] = e.message;
+                this.myChart.data.datasets[0].data = this.values;
+                this.myChart.update();
+            });
         }
     }
+}
 </script>
 
 <style>

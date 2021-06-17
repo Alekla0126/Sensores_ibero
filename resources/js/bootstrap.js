@@ -37,7 +37,6 @@ window.Echo = new Echo({
     broadcaster: 'pusher',
     key: 'myKey',
     forceTLS: false,
-    // enabledTransports: ['ws', 'wss'],
     wsHost: window.location.hostname,
     wsPort: 6001,
     disableStats: true,
