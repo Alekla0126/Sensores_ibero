@@ -18,7 +18,8 @@
         data()
         {
             return {
-                values: [65, 59, 80, 81, 56, 55, 40],
+                values: [0, 0, 0, 0, 0, 0, 0],
+                temp: [],
                 labeled: 'Temperature'
             }
         },
@@ -44,13 +45,46 @@
                                 'lineTension': 0.1,
                             }],
                     },
-                    'options': {},
                 });
             },
             update()
             {
                 Echo.channel('chat').listen('TemperatureUpdater', (e) => {
-                    this.values = this.values.push(e.message());
+                    console.log(e.message);
+                    if (this.temp.length < 8)
+                    {
+                        this.temp.push(e.message);
+                    }
+                    else
+                    {
+                        this.temp = [];
+                    }
+                    switch (this.temp.length)
+                    {
+                        case 0:
+                            this.values[0] = e.message;
+                            break;
+                        case 1:
+                            this.values[1] = e.message;
+                            break;
+                        case 2:
+                            this.values[2] = e.message;
+                            break;
+                        case 3:
+                            this.values[3] = e.message;
+                            break;
+                        case 4:
+                            this.values[4] = e.message;
+                            break;
+                        case  5:
+                            this.values[5] = e.message;
+                            break;
+                        case 6:
+                            this.values[6] = e.message;
+                            break;
+                        default:
+                            this.values = [0, 0, 0, 0, 0, 0, 0];
+                    }
                     this.drawChart();
                 });
             }

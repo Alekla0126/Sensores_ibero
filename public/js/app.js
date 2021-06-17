@@ -1864,7 +1864,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
-      values: [65, 59, 80, 81, 56, 55, 40],
+      values: [0],
       labeled: 'Temperature'
     };
   },
@@ -1886,17 +1886,17 @@ __webpack_require__.r(__webpack_exports__);
             'borderColor': 'rgb(75, 192, 192)',
             'lineTension': 0.1
           }]
-        },
-        'options': {}
+        }
       });
     },
     update: function update() {
       var _this = this;
 
       Echo.channel('chat').listen('TemperatureUpdater', function (e) {
-        console.log('event', e.message);
-        alert(e);
-        _this.values = e;
+        console.log(e.message);
+
+        _this.values.push(e.message); // console.log(this.values.toString());
+
 
         _this.drawChart();
       });

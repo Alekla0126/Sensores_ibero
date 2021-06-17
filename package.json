@@ -26,6 +26,7 @@
     "dependencies": {
         "-": "^0.0.1",
         "chart.js": "^2.9.4",
+        "chartjs-gauge": "^0.3.0",
         "laravel-echo": "^1.10.0",
         "pusher-js": "^5.1.1",
         "save": "^2.4.0",

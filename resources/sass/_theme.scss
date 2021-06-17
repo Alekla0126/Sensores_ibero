@@ -61,7 +61,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;6
     &:hover,
     &:not([disabled]):not(.disabled):active,
     &:focus {
-      color: $white;
+      color: $blue;
     }
   }
 }
@@ -75,7 +75,7 @@ $web-font-path: "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;6
   &:not([disabled]):not(.disabled):active {
     background-color: $gray-400;
     border-color: $gray-400;
-    color: $white;
+    color: $blue;
   }
 
   &:not([disabled]):not(.disabled):focus {
