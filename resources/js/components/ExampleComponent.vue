@@ -50,7 +50,6 @@ export default
                 },
                 'options': {},
             });
-
         },
         update()
         {

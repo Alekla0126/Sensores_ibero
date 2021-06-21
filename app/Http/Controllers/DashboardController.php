@@ -9,7 +9,7 @@
     class DashboardController extends Controller
     {
         /**
-         * @return \Illuminate\Contracts\Support\Renderable
+         * @return Renderable
          */
         public function index(): Renderable
         {

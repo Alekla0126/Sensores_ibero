@@ -19,7 +19,8 @@
 
     Route::group(['middleware' => 'auth'], function ()
     {
-        Route::get('/', 'DashboardController@index')->name('dashboard');
+        // Route::get('/', 'DashboardController@index')->name('dashboard');
+        Route::get('/', 'TableController@index')->name('table');
     });
 
     Route::get('add', function (Request $request)
@@ -45,6 +46,8 @@
         $result = $device->save();
         if ($result)
         {
+            $query = DeviceState::all();
+            broadcast(new \App\Events\TableUpdater($query));
             broadcast(new \App\Events\TemperatureUpdater($device->value));
             return response ([$request->all()], 200);
         }

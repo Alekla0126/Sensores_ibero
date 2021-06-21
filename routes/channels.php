@@ -23,3 +23,8 @@
         return true;
     });
 
+    Broadcast::channel('table', function ()
+    {
+        return true;
+    });
+

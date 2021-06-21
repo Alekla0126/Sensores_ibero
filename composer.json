@@ -18,7 +18,8 @@
         "laravel/legacy-factories": "^1.1",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.3",
-        "royvoetman/laravel-repository-pattern": "^2.0"
+        "royvoetman/laravel-repository-pattern": "^2.0",
+        "ext-json": "*"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.4",
