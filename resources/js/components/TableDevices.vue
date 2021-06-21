@@ -2,7 +2,16 @@
     <div class="grid-item item3">
         <div class="card">
             <div class="card-body">
-                <b-table responsive ref="table" hover :items="items" :fields="fields" @row-click="onRowClick"></b-table>
+                <b-table
+                    responsive
+                    ref="table"
+                    hover
+                    sticky-header
+                    :items="items"
+                    :fields="fields"
+                    @row-clicked="onRowClick"
+                >
+                </b-table>
             </div>
         </div>
     </div>
@@ -47,11 +56,6 @@
                        label: 'Creado en ',
                        key: 'created_at',
                        sortable: true,
-                   },
-                   {
-                       label: 'Visualizar',
-                       key: 'link',
-                       sortable: true,
                    }
                ],
                items: this.devices
@@ -59,7 +63,6 @@
        },
        mounted()
        {
-           this.addLinks(this.devices);
            this.update();
        },
        methods: {
@@ -67,27 +70,25 @@
            {
                this.$refs.table.refresh();
            },
-           addLinks(obj)
+           // addLinks(obj)
+           // {
+           //     for (let index = 0; index < obj.length; index++)
+           //     {
+           //         obj[index]['link'] = window.location.hostname + '/' + (index+1).toString();
+           //     }
+           // },
+           onRowClick(record, index)
            {
-               for (let index = 0; index < obj.length; index++)
-               {
-                   obj[index]['link'] = window.location.hostname + '/' + (index+1).toString();
-               }
-           },
-           onRowClick(event)
-           {
-               window.location.href = window.location.hostname + '/' + '${event.row.id}';
+               window.location.href = '/' + 'graph' + '/' + record['id'];
            },
            update()
            {
                Echo.channel('table').listen('TableUpdater', (e) =>
                {
-                   this.addLinks(e.message);
                    this.items = e.message;
                    this.updateTable();
                });
            }
-
        }
    }
 </script>

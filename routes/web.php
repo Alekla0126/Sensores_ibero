@@ -19,8 +19,11 @@
 
     Route::group(['middleware' => 'auth'], function ()
     {
-        // Route::get('/', 'DashboardController@index')->name('dashboard');
         Route::get('/', 'TableController@index')->name('table');
+        Route::get('/graph/(:any)', [
+            'uses' => 'DashboardController@index',
+            'as' => 'graph'
+        ]);
     });
 
     Route::get('add', function (Request $request)
@@ -31,7 +34,7 @@
         $result = $device->save();
         if ($result)
         {
-            return response ([$request->all()], 200);
+            return response([$request->all()], 200);
         }
         else
         {
@@ -49,7 +52,7 @@
             $query = DeviceState::all();
             broadcast(new \App\Events\TableUpdater($query));
             broadcast(new \App\Events\TemperatureUpdater($device->value));
-            return response ([$request->all()], 200);
+            return response([$request->all()], 200);
         }
         else
         {
@@ -79,6 +82,9 @@
         $devices->delete(\App\Models\Device::find(15));
     });
 
-Auth::routes();
+    Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::get('/home', [
+        App\Http\Controllers\HomeController::class,
+        'index'
+    ])->name('home');
