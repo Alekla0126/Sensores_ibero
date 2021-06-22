@@ -13,17 +13,18 @@
 
 <script>
 import Chart from 'chart.js'
-export default
-{
-    props: ['value'],
+
+export default {
+    props: ['device'],
     data()
     {
         let myChart;
         return {
-            values: [this.value, 0, 0, 0, 0, 0, 0],
+            values: [this.device['value'], 0, 0, 0, 0, 0, 0],
+            labels: [this.device['updated_at'], '00:00', '00:00', '00:00', '00:00', '00:00', '00:00'],
             temp: [0],
             myChart,
-            labeled: 'Temperature'
+            labeled: 'Temperatura'
         }
     },
     mounted()
@@ -38,11 +39,11 @@ export default
             this.myChart = new Chart(ctx, {
                 'type': 'line',
                 'data': {
-                    'labels': ['06:00', '10:00', '14:00', '18:00', '22:00', '02:00', '04:00'],
+                    'labels': [this.device['updated_at'], '00:00', '00:00', '00:00', '00:00', '00:00', '00:00'],
                     'datasets': [
                         {
                             'label': [this.labeled],
-                            'data': [this.value, 0, 0, 0, 0, 0, 0],
+                            'data': [this.device['value'], 0, 0, 0, 0, 0, 0],
                             'fill': false,
                             'borderColor': 'rgb(75, 192, 192)',
                             'lineTension': 0.1,
@@ -55,18 +56,23 @@ export default
         {
             Echo.channel('chat').listen('TemperatureUpdater', (e) =>
             {
-                if (this.temp.length <= 6)
+                if(this.device['device_id'] === e.message['device_id'])
                 {
-                    this.temp.push(0);
+                    if (this.temp.length <= 6)
+                    {
+                        this.temp.push(0);
+                    }
+                    else
+                    {
+                        this.temp = [0];
+                        this.values = [0, 0, 0, 0, 0, 0, 0];
+                    }
+                    this.values[this.temp.length - 1] = e.message['value'];
+                    this.labels[this.temp.length - 1] = e.message['created_at'];
+                    this.myChart.data.labels = this.labels;
+                    this.myChart.data.datasets[0].data = this.values;
+                    this.myChart.update();
                 }
-                else
-                {
-                    this.temp = [0];
-                    this.values = [0, 0, 0, 0, 0, 0, 0];
-                }
-                this.values[this.temp.length - 1] = e.message;
-                this.myChart.data.datasets[0].data = this.values;
-                this.myChart.update();
             });
         }
     }

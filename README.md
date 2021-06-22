@@ -1,13 +1,13 @@
-# WIP: IOT dashboard v2
+# ALEK: IOT dashboard v4
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 ## Introduction
-A Realtime IOT dashboard build with Laravel which communicates with the [iot-base](https://github.com/RoyVoetman/iot-base) via [Pusher](https://pusher.com/).
+A Realtime IOT dashboard build with Laravel which communicates with the University fire detectors via Websockets.
 
 ![dashboard](https://github.com/RoyVoetman/iot-dashboard/blob/master/.docs/dashboard.jpg?raw=true)
 
 ## About this project
-This application is part of my **IOT dashboard suite**. For more information about what this suite of projects entails a reference is made to [IOT dashboard suite](https://github.com/RoyVoetman/iot-base/blob/master/docs/IOT%20dashboard%20suite.md).
+This application is part of my **IOT dashboard suite**.
 
 ## Prerequisites
 - PHP >= 7.1
@@ -40,4 +40,4 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 
 ## Authors
-* [Roy Voetman](https://www.royvoetman.nl)
+* [Alekla](https://www.alekla.com)

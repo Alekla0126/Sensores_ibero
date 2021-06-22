@@ -70,13 +70,6 @@
            {
                this.$refs.table.refresh();
            },
-           // addLinks(obj)
-           // {
-           //     for (let index = 0; index < obj.length; index++)
-           //     {
-           //         obj[index]['link'] = window.location.hostname + '/' + (index+1).toString();
-           //     }
-           // },
            onRowClick(record, index)
            {
                window.location.href = '/' + 'graph' + '/' + record['id'];
@@ -86,6 +79,13 @@
                Echo.channel('table').listen('TableUpdater', (e) =>
                {
                    this.items = e.message;
+                   for (let index = 0; index < e.message.length; index++)
+                   {
+                       if(e.message[index]['value'] > 40)
+                       {
+                           e.message[index]['_rowVariant'] = 'danger';
+                       }
+                   }
                    this.updateTable();
                });
            }

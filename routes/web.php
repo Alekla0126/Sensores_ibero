@@ -20,10 +20,7 @@
     Route::group(['middleware' => 'auth'], function ()
     {
         Route::get('/', 'TableController@index')->name('table');
-        Route::get('/graph/(:any)', [
-            'uses' => 'DashboardController@index',
-            'as' => 'graph'
-        ]);
+        Route::get('graph/{id}', 'DashboardController@index');
     });
 
     Route::get('add', function (Request $request)
@@ -34,6 +31,9 @@
         $result = $device->save();
         if ($result)
         {
+            $query = DeviceState::all();
+            broadcast(new \App\Events\TableUpdater($query));
+            broadcast(new \App\Events\TemperatureUpdater($device->value));
             return response([$request->all()], 200);
         }
         else
@@ -51,7 +51,7 @@
         {
             $query = DeviceState::all();
             broadcast(new \App\Events\TableUpdater($query));
-            broadcast(new \App\Events\TemperatureUpdater($device->value));
+            broadcast(new \App\Events\TemperatureUpdater($device));
             return response([$request->all()], 200);
         }
         else

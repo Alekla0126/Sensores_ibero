@@ -19,7 +19,7 @@
                         </div>
                     </div>
                 </div>
-                <example-component :value="{{ $value }}"></example-component>
+                <example-component v-bind:device='@json($device)'></example-component>
             </div>
         </div>
     </div>
