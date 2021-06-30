@@ -99,7 +99,6 @@
                        label: 'Temperatura',
                        key: 'value',
                        sortable: true,
-                       // variant: 'danger'
                    },
                    {
                        label: 'Creado en ',
