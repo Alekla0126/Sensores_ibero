@@ -56,7 +56,7 @@ export default {
         {
             Echo.channel('chat').listen('TemperatureUpdater', (e) =>
             {
-                if(this.device['device_id'] === e.message['device_id'])
+                if(this.device['id'] === e.message['id'])
                 {
                     if (this.temp.length <= 6)
                     {

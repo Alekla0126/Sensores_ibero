@@ -15,10 +15,8 @@ class CreateDeviceStatesTable extends Migration
     {
         Schema::create('device_states', function (Blueprint $table) {
             $table->id();
-
-            $table->unsignedBigInteger('device_id');
+            $table->string('device_id');
             $table->string('value');
-
             $table->timestamps();
         });
     }

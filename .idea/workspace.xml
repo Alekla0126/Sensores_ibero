@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.42">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.43">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_06_155816_create_device_states_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_06_155816_create_device_states_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -194,6 +195,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -264,13 +266,14 @@
       <workItem from="1624353546432" duration="123000" />
       <workItem from="1624384864122" duration="329000" />
       <workItem from="1624394801294" duration="1300000" />
-    </task>
-    <task id="LOCAL-00057" summary="V4.2">
-      <created>1623635347103</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1623635347103</updated>
+      <workItem from="1624405551796" duration="263000" />
+      <workItem from="1624407287680" duration="203000" />
+      <workItem from="1624422356071" duration="75000" />
+      <workItem from="1624422435544" duration="1235000" />
+      <workItem from="1624492781719" duration="1911000" />
+      <workItem from="1624649802608" duration="237000" />
+      <workItem from="1624908181526" duration="5126000" />
+      <workItem from="1625077463904" duration="767000" />
     </task>
     <task id="LOCAL-00058" summary="V4.3">
       <created>1623638633116</created>
@@ -608,7 +611,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624287371064</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="V4.43">
+      <created>1624405708030</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1624405708030</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -631,7 +641,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V4.17" />
     <MESSAGE value="V4.18" />
     <MESSAGE value="V4.19" />
     <MESSAGE value="V4.20" />
@@ -656,6 +665,7 @@
     <MESSAGE value="V4.40" />
     <MESSAGE value="V4.41" />
     <MESSAGE value="V4.42" />
-    <option name="LAST_COMMIT_MESSAGE" value="V4.42" />
+    <MESSAGE value="V4.43" />
+    <option name="LAST_COMMIT_MESSAGE" value="V4.43" />
   </component>
 </project>

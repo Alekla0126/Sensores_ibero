@@ -44,7 +44,7 @@
 
     Route::put('update', function (Request $request)
     {
-        $device = DeviceState::find($request->device_id);
+        $device = DeviceState::find($request->id);
         $device->value = $request->value;
         $result = $device->save();
         if ($result)
