@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.43">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.44">
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/02e86a892a44015ef4fc64bda2520395.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/071bc4b15e2cb798e18588426b7714b9.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0ae8d0e12e766f18598d352dc7d73484.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/0f654067d1c2a67120a852ff2f1402ed.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/1fcfd42c810a7be75bf63ae805993137.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/316d41f597d33485e34280569194a484.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3356038e208fe9d4486c386a8f68e8db.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/3dddbcb7598cfe81dc29e659698f6e6a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/57112f741836df74c0d0cae373bfbc7a.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/5f26c302e0df441979dfc4ee1e30c312.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/601a80ec38f69179381ed15d9851b204.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/6e63b40fd2a3cdb9d38d4a6036f877e2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7123e0b99404c5b386aade46fc12bba3.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a12579c70e77f704cc9d1a475984ff13.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/a3b229efe86068f02db6fa13c60f6f63.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/be03fa78ec20102c98435a7f4b3503a2.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bf88b4492a3d4bcfb4707d085e9df685.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c06de8f8db2051597ce8ae4b613b220e.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c561c27fcd6bafd8e28f1c203ae85bfb.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d0ab9cafb1f7f7c6f6ad0b97645107f5.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/d2b6f2047911951d6dbf0aea02d9f183.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e5d152e39bcbd8fccb90712d214c2012.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/e6f67fe57e2122c258c5f64288cb2387.json.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/f2f9f1d9c685c8616e4c90de454209f0.json.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
@@ -273,7 +297,7 @@
       <workItem from="1624492781719" duration="1911000" />
       <workItem from="1624649802608" duration="237000" />
       <workItem from="1624908181526" duration="5126000" />
-      <workItem from="1625077463904" duration="767000" />
+      <workItem from="1625077463904" duration="1313000" />
     </task>
     <task id="LOCAL-00058" summary="V4.3">
       <created>1623638633116</created>
@@ -641,7 +665,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V4.18" />
     <MESSAGE value="V4.19" />
     <MESSAGE value="V4.20" />
     <MESSAGE value="V4.21" />
@@ -666,6 +689,7 @@
     <MESSAGE value="V4.41" />
     <MESSAGE value="V4.42" />
     <MESSAGE value="V4.43" />
-    <option name="LAST_COMMIT_MESSAGE" value="V4.43" />
+    <MESSAGE value="V4.44" />
+    <option name="LAST_COMMIT_MESSAGE" value="V4.44" />
   </component>
 </project>
