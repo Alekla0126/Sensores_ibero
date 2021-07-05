@@ -2,7 +2,7 @@
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
 ## Introduction
-A Realtime IOT dashboard build with Laravel which communicates with the University fire detectors via Websockets.
+A Realtime IOT dashboard build with Laravel, which measure the danger of contagion at the Universidad Iberoamericana de Puebla
 
 ![dashboard](https://github.com/RoyVoetman/iot-dashboard/blob/master/.docs/dashboard.jpg?raw=true)
 
