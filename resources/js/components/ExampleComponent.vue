@@ -2,7 +2,7 @@
     <div class="grid-item item3">
         <div class="card">
             <div class="card-header">Temperatura<span
-                class="badge badge-info float-right">Salon: A205</span></div>
+                class="badge badge-info float-right">{{ device['device_id'] }}</span></div>
             <div class="card-body">
                 <canvas id="line-chart"></canvas>
             </div>
@@ -56,7 +56,7 @@ export default {
         {
             Echo.channel('chat').listen('TemperatureUpdater', (e) =>
             {
-                if(this.device['id'] === e.message['id'])
+                if(this.device['device_id'] === e.message['device_id'])
                 {
                     if (this.temp.length <= 6)
                     {

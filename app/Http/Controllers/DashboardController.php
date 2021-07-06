@@ -9,10 +9,10 @@
 
     class DashboardController extends Controller
     {
-        public function index($id)
+        public function index($device_id)
         {
             $blocks = DashboardBlock::query()->orderBy('order')->get();
-            $device = DeviceState::where('id', $id)->first();
+            $device = DeviceState::where('device_id', $device_id)->first();
             return view('dashboard')->with([
                 'blocks',
                 $blocks,

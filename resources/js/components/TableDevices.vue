@@ -27,7 +27,6 @@
                     </b-col>
                     <b-col lg="6" class="my-1">
                         <b-form-group
-                            v-model="sortDirection"
                             label="Filtrado: "
                             description="Selecciona para filtrar"
                             label-cols-sm="3"
@@ -86,7 +85,7 @@
                n_devices: [],
                fields: [
                    {
-                       label: 'Número del dispositivo',
+                       label: 'Id de actualización',
                        key: 'id',
                        sortable: true
                    },
@@ -96,7 +95,7 @@
                        sortable: true
                    },
                    {
-                       label: 'Temperatura',
+                       label: 'CO2',
                        key: 'value',
                        sortable: true,
                    },
@@ -110,11 +109,6 @@
                        key: 'updated_at',
                        sortable: true,
                    },
-                   {
-                       label: 'Creado en ',
-                       key: 'created_at',
-                       sortable: true,
-                   }
                ],
                items: this.devices,
                filter: null,
@@ -146,7 +140,7 @@
            },
            onRowClick(record, index)
            {
-               window.location.href = '/' + 'graph' + '/' + record['id'];
+               window.location.href = '/' + 'graph' + '/' + record['device_id'];
            },
            update()
            {

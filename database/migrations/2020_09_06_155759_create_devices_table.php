@@ -20,7 +20,6 @@ class CreateDevicesTable extends Migration
             $table->string('name');
             $table->string('type');
             $table->boolean('active');
-
             $table->timestamps();
         });
     }

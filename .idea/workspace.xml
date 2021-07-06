@@ -4,8 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.45">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V4.47">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TableController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TableController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_06_155759_create_devices_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_06_155759_create_devices_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_06_155816_create_device_states_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_06_155816_create_device_states_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,21 +277,10 @@
       <workItem from="1624492781719" duration="1911000" />
       <workItem from="1624649802608" duration="237000" />
       <workItem from="1624908181526" duration="5126000" />
-      <workItem from="1625077463904" duration="1505000" />
-    </task>
-    <task id="LOCAL-00060" summary="V4.5">
-      <created>1623639335758</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1623639335758</updated>
-    </task>
-    <task id="LOCAL-00061" summary="V4.6">
-      <created>1623639706591</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1623639706591</updated>
+      <workItem from="1625077463904" duration="4002000" />
+      <workItem from="1625173375023" duration="15937000" />
+      <workItem from="1625363815192" duration="398000" />
+      <workItem from="1625453276067" duration="18379000" />
     </task>
     <task id="LOCAL-00062" summary="V4.7">
       <created>1623639798924</created>
@@ -610,7 +611,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625079229802</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="V4.46">
+      <created>1625079405884</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1625079405884</updated>
+    </task>
+    <task id="LOCAL-00110" summary="V4.47">
+      <created>1625079490515</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1625079490515</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -633,8 +648,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V4.20" />
-    <MESSAGE value="V4.21" />
     <MESSAGE value="V4.22" />
     <MESSAGE value="V4.23" />
     <MESSAGE value="V4.25" />
@@ -658,6 +671,8 @@
     <MESSAGE value="V4.43" />
     <MESSAGE value="V4.44" />
     <MESSAGE value="V4.45" />
-    <option name="LAST_COMMIT_MESSAGE" value="V4.45" />
+    <MESSAGE value="V4.46" />
+    <MESSAGE value="V4.47" />
+    <option name="LAST_COMMIT_MESSAGE" value="V4.47" />
   </component>
 </project>

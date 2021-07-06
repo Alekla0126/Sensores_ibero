@@ -2,6 +2,8 @@
 
     use App\Models\DeviceState;
     use Illuminate\Http\Request;
+    use Illuminate\Support\Carbon;
+    use Illuminate\Support\Facades\DB;
     use Illuminate\Support\Facades\Route;
 
     /*
@@ -15,17 +17,17 @@
     |
     */
 
-    Auth::routes(['register' => FALSE]);
+    Auth::ROUTES(['register' => FALSE]);
 
-    Route::group(['middleware' => 'auth'], function ()
+    Route::GROUP(['middleware' => 'auth'], function ()
     {
         Route::get('/', 'TableController@index')->name('table');
-        Route::get('graph/{id}', 'DashboardController@index');
+        Route::get('graph/{device_id}', 'DashboardController@index');
     });
 
-    Route::get('add', function (Request $request)
+    Route::GET('/devices/add', function (Request $request)
     {
-        $device = new DeviceState();
+        $device = new DeviceState;
         $device->device_id = $request->device_id;
         $device->value = $request->value;
         $result = $device->save();
@@ -42,16 +44,63 @@
         }
     });
 
-    Route::put('update', function (Request $request)
+    /*
+     * Function for updating the device states.
+     * Parameters: Request, a JSON variable with the device information
+     * for the POST method.
+     */
+    Route::POST('/devices/save', function (Request $request)
+    {
+        //$device = DeviceState::find($request->id);
+        // A new device state is instantiated.
+        $new = new DeviceState();
+        // The string with the classroom is captured.
+        $new->device_id = $request->device_id;
+        // The value of the request is captured.
+        $new->value = $request->value;
+        // The time is captured.
+        $new->timestamps = Carbon::now()->format('Y-m-d H:i:s');
+        // The new data is saved.
+        $new->save();
+        // If the object is added to the database we return the data in a
+        // JSON.
+        if ($new)
+        {
+            // The devices are ordered by creation date.
+            $devices = DB::table('device_states')
+                ->orderBy('created_at', 'desc')
+                ->get();
+            // The duplicates devices are eliminated.
+            $devices = $devices->unique('device_id')->values()->all();
+            // The websocket events are triggered.
+            broadcast(new \App\Events\TableUpdater($devices));
+            broadcast(new \App\Events\TemperatureUpdater($new));
+            // The function returns the array and the 'OK' response.
+            return response([$new], 200);
+        }
+        else
+        {
+            return ['result' => 'Fallo la actualización de la temperatura'];
+        }
+    });
+
+    Route::PUT('/devices/update', function (Request $request)
     {
         $device = DeviceState::find($request->id);
+        // Id.
+        $device->id = $request->id;
+        // Valor.
         $device->value = $request->value;
-        $result = $device->save();
-        if ($result)
+        // Se guarda.
+        $device = $device->save();
+        if ($device)
         {
+            // Se trae toda la información de los aparatos.
             $query = DeviceState::all();
+            // Se crea un evento en los canales del Websocket.
             broadcast(new \App\Events\TableUpdater($query));
             broadcast(new \App\Events\TemperatureUpdater($device));
+            // Se regresa la respuesta del servidor.
             return response([$request->all()], 200);
         }
         else
@@ -60,31 +109,15 @@
         }
     });
 
-    Route::get('/devices/create', function (\App\Repositories\Devices $devices)
+    Route::GET('/devices/delete', function (Request $request)
     {
-        $devices->save([
-            'uuid' => '1234',
-            'name' => 'test device 1',
-            'type' => 'readable',
-            'active' => 1
-        ]);
+        $devices = DeviceState::find($request->id);
+        $devices->delete($devices);
     });
 
-    Route::get('/devices/update', function (\App\Repositories\Devices $devices)
-    {
-        $devices->withPipeGroup('vip')->save([
-            'active' => 0
-        ], \App\Repositories\Devices::find(14));
-    });
+    Auth::ROUTES();
 
-    Route::get('/devices/delete', function (\App\Repositories\Devices $devices)
-    {
-        $devices->delete(\App\Models\Device::find(15));
-    });
-
-    Auth::routes();
-
-    Route::get('/home', [
+    Route::GET('/home', [
         App\Http\Controllers\HomeController::class,
         'index'
     ])->name('home');

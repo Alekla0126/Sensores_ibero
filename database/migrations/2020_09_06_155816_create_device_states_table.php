@@ -14,7 +14,7 @@ class CreateDeviceStatesTable extends Migration
     public function up()
     {
         Schema::create('device_states', function (Blueprint $table) {
-            $table->id();
+            $table->increments('id');
             $table->string('device_id');
             $table->string('value');
             $table->timestamps();

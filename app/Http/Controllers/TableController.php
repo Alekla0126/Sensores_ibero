@@ -4,6 +4,7 @@
 
     use App\Models\DeviceState;
     use Illuminate\Contracts\Support\Renderable;
+    use Illuminate\Support\Facades\DB;
 
 
     class TableController extends Controller
@@ -13,7 +14,11 @@
          */
         public function index(): Renderable
         {
-            $devices = DeviceState::all();
+            $devices = DB::table('device_states')
+                ->groupBy('id', 'device_id', 'value', 'created_at', 'updated_at')
+                ->orderBy('created_at', 'desc')
+                ->get();
+            $devices = $devices->unique('device_id')->values()->all();
             return view('table')->with([
                 'devices' => $devices
             ]);

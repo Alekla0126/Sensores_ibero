@@ -16,6 +16,7 @@
          */
         public function run()
         {
+            // Se puede cambiar para el número de salones que se requiere.
             for ($index = 100; $index <= 120; $index++)
             {
                 DB::table('device_states')->insert([
@@ -39,6 +40,12 @@
                 'email' => 'alekla0126@gmail.com',
                 'password' => Hash::make('chispaS14-/'),
                 'remember_token' => '14/',
+            ]);
+            DB::table('users')->insert([
+                'name' => 'Huber Girón Nieto',
+                'email' => 'huber.giron2@iberopuebla.mx',
+                'password' => Hash::make('123456huber'),
+                'remember_token' => '143456huber',
             ]);
         }
     }
