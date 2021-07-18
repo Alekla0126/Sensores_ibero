@@ -5,6 +5,7 @@
     use Illuminate\Support\Carbon;
     use Illuminate\Support\Facades\DB;
     use Illuminate\Support\Facades\Hash;
+    use Illuminate\Support\Str;
 
 
     class DatabaseSeeder extends Seeder
@@ -16,14 +17,16 @@
          */
         public function run()
         {
-            // Se puede cambiar para el número de salones que se requiere.
+            // The database migrations could be changed, in order to obtain the number
+            // of devices required for each classroom.
             for ($index = 100; $index <= 120; $index++)
             {
                 DB::table('device_states')->insert([
                     'device_id' => 'A-'.$index,
                     'value' => rand(10,100),
                     'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-                    'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+                    'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+                    'token' => Str::random(16),
                 ]);
             }
             for ($index = 200; $index <= 220; $index++)
@@ -32,15 +35,10 @@
                     'device_id' => 'A-'.$index,
                     'value' => rand(10,100),
                     'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
-                    'updated_at' => Carbon::now()->format('Y-m-d H:i:s')
+                    'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
+                    'token' => Str::random(16),
                 ]);
             }
-            DB::table('users')->insert([
-                'name' => 'Alejandro',
-                'email' => 'alekla0126@gmail.com',
-                'password' => Hash::make('chispaS14-/'),
-                'remember_token' => '14/',
-            ]);
             DB::table('users')->insert([
                 'name' => 'Huber Girón Nieto',
                 'email' => 'huber.giron2@iberopuebla.mx',

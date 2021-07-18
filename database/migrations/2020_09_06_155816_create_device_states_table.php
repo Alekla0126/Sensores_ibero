@@ -18,6 +18,7 @@ class CreateDeviceStatesTable extends Migration
             $table->string('device_id');
             $table->string('value');
             $table->timestamps();
+            $table->string('token');
         });
     }
 
