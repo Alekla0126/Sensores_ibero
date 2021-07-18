@@ -56,7 +56,7 @@
      */
     Route::POST('/devices/save', function (Request $request)
     {
-        if(DeviceState::where('token', '=', $request->token)->exist())
+        if(DeviceState::where('token', '=', $request->token)->first())
         {
             // $device = DeviceState::find($request->id);
             // A new device state is instantiated.
