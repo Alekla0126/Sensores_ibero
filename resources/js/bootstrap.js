@@ -39,8 +39,6 @@ window.Echo = new Echo({
     forceTLS: false,
     wsHost: window.location.hostname,
     wsPort: 6001,
+    wssPort: 6001,
     disableStats: true,
-    forceTLS: false,
-    enabledTransports: ['ws', 'wss'],
-    disabledTransports: ['sockjs', 'xhr_polling', 'xhr_streaming']
 });
