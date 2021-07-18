@@ -56,6 +56,10 @@
      */
     Route::POST('/devices/save', function (Request $request)
     {
+        // The encryption key is set.
+        //Crypt::setKey('huberboy');
+        // The token is received and decrypted.
+        //$key = Crypt::decrypt($request->token);
         if(DeviceState::where('token', '=', $request->token)->first())
         {
             // $device = DeviceState::find($request->id);
