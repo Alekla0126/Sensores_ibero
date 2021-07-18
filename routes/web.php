@@ -67,6 +67,8 @@
             $new->value = $request->value;
             // The time is captured.
             $new->timestamps = Carbon::now()->format('Y-m-d H:i:s');
+            // The token record is added.
+            $new->token = $request->token;
             // The new data is saved.
             $new->save();
             // If the object is added to the database we return the data in a
