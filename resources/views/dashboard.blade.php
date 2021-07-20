@@ -15,7 +15,7 @@
                                     {{ session('status') }}
                                 </div>
                             @endif
-                            Bienvenido de vuelta
+                            Monitor de temperatura
                         </div>
                     </div>
                 </div>
