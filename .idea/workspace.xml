@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V5.16">
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V5.17" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -278,14 +276,7 @@
       <workItem from="1626663167139" duration="2623000" />
       <workItem from="1626729826991" duration="557000" />
       <workItem from="1626741677063" duration="4943000" />
-      <workItem from="1626758447585" duration="529000" />
-    </task>
-    <task id="LOCAL-00072" summary="V4.15">
-      <created>1623728806071</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1623728806072</updated>
+      <workItem from="1626758447585" duration="601000" />
     </task>
     <task id="LOCAL-00073" summary="V4.16">
       <created>1623728852128</created>
@@ -623,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626758776467</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="V5.17">
+      <created>1626759007577</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1626759007578</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -646,7 +644,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V4.33" />
     <MESSAGE value="V4.34" />
     <MESSAGE value="V4.35" />
     <MESSAGE value="V4.36" />
@@ -671,6 +668,7 @@
     <MESSAGE value="V5.14" />
     <MESSAGE value="V5.15" />
     <MESSAGE value="V5.16" />
-    <option name="LAST_COMMIT_MESSAGE" value="V5.16" />
+    <MESSAGE value="V5.17" />
+    <option name="LAST_COMMIT_MESSAGE" value="V5.17" />
   </component>
 </project>
