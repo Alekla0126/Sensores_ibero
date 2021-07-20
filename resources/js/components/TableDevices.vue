@@ -148,7 +148,7 @@
                {
                    for (let index = 0; index < e.message.length; index++)
                    {
-                       // TODO: Change the sensors limit.
+                       // Change the sensors limit.
                        if(e.message[index]['value'] > 50)
                        {
                            e.message[index]['_rowVariant'] = 'danger';
