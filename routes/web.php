@@ -151,7 +151,7 @@
 
     Auth::ROUTES();
 
-    Route::GET('/all', ['uses' => 'TableController@renderAll', 'as' => 'rerender']);
+    Route::GET('/all', ['uses' => 'TableController@renderAll'])->name('rerender');
 
     Route::GET('/home', [
         App\Http\Controllers\HomeController::class,
