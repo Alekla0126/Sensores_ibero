@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V5.7">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/Records.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/records.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -282,7 +278,7 @@
       <workItem from="1626649158904" duration="87000" />
       <workItem from="1626663167139" duration="2623000" />
       <workItem from="1626729826991" duration="557000" />
-      <workItem from="1626741677063" duration="1552000" />
+      <workItem from="1626741677063" duration="1808000" />
     </task>
     <task id="LOCAL-00068" summary="V4.12">
       <created>1623727036958</created>

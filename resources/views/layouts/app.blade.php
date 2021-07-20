@@ -56,8 +56,6 @@
                                     {{ Auth::user()->name }}
                                 </a>
 
-                                <a class="nav-link" href="{{ route('records') }}">{{ __('Registros') }}</a>
-
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
@@ -68,6 +66,9 @@
                                         @csrf
                                     </form>
                                 </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('records') }}">{{ __('Registro') }}</a>
                             </li>
                         @endguest
                     </ul>
