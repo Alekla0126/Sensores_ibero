@@ -35,13 +35,14 @@
         $device = new DeviceState;
         $device->device_id = $request->device_id;
         $device->value = $request->value;
+        $device->token = $request->token;
         $result = $device->save();
         if ($result)
         {
             $query = DeviceState::all();
             broadcast(new \App\Events\TableUpdater($query));
             broadcast(new \App\Events\TemperatureUpdater($device->value));
-            return response([$request->all()], 200);
+            return response([$request], 200);
         }
         else
         {
@@ -110,6 +111,11 @@
         // Valor.
         $device->value = $request->value;
         // Se guarda.
+        // The time is captured.
+        $device->timestamps = Carbon::now()->format('Y-m-d H:i:s');
+        // The token record is added.
+        $device->token = $request->token;
+        // The new data is saved.
         $device = $device->save();
         if ($device)
         {
@@ -119,7 +125,7 @@
             broadcast(new \App\Events\TableUpdater($query));
             broadcast(new \App\Events\TemperatureUpdater($device));
             // Se regresa la respuesta del servidor.
-            return response([$request->all()], 200);
+            return response([$request], 200);
         }
         else
         {
@@ -131,6 +137,16 @@
     {
         $devices = DeviceState::find($request->id);
         $devices->delete($devices);
+        if($devices)
+        {
+            broadcast(new \App\Events\TableUpdater($devices));
+            broadcast(new \App\Events\TemperatureUpdater($new));
+            return response([$devices], 200);
+        }
+        else
+        {
+            return ['result' => 'Fallo la eliminación de la captura del dispositivo'];
+        }
     });
 
     Auth::ROUTES();
