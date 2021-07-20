@@ -19,7 +19,7 @@
                         </div>
                     </div>
                 </div>
-                <example-component v-bind:device='@json($device)'></example-component>
+                <graphic-component v-bind:device='@json($device)'></graphic-component>
             </div>
         </div>
     </div>

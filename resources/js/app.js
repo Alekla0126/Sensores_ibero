@@ -13,7 +13,7 @@ window.Vue = require('vue').default;
  * Vue components. It will recursively scan this directory for the Vue
  * components and automatically register them with their "basename".
  *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
+ * Eg. ./components/GraphicComponent.vue -> <example-component></example-component>
  */
 
 // const files = require.context('./', true, /\.vue$/i)
@@ -32,7 +32,7 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
 
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('graphic-component', require('./components/GraphicComponent.vue').default);
 Vue.component('table-devices', require('./components/TableDevices.vue').default);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
