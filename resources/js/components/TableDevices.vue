@@ -85,7 +85,7 @@
                n_devices: [],
                fields: [
                    {
-                       label: 'Id de actualización',
+                       label: 'Id',
                        key: 'id',
                        sortable: true
                    },
