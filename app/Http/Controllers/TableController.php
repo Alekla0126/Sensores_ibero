@@ -2,13 +2,13 @@
 
     namespace App\Http\Controllers;
 
-    use App\Models\DeviceState;
     use Illuminate\Contracts\Support\Renderable;
     use Illuminate\Support\Facades\DB;
 
 
     class TableController extends Controller
     {
+
         /**
          * @return Renderable
          */
@@ -19,6 +19,14 @@
                 ->orderBy('created_at', 'desc')
                 ->get();
             $devices = $devices->unique('device_id')->values()->all();
+            return view('table')->with([
+                'devices' => $devices
+            ]);
+        }
+
+        public function renderAll()
+        {
+            $devices = DB::table('device_states');
             return view('table')->with([
                 'devices' => $devices
             ]);

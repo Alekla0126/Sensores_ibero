@@ -67,6 +67,10 @@
                                     </form>
                                 </div>
                             </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ (new App\Http\Controllers\TableController)->renderAll() }}">{{ __('Registro') }}</a>
+                            </li>
                         @endguest
                     </ul>
                 </div>
