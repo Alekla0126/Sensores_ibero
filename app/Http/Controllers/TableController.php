@@ -26,7 +26,7 @@
 
         public function renderAll()
         {
-            $devices = DB::table('device_states');
+            $devices = DB::table('device_states')->get();
             return view('table')->with([
                 'devices' => $devices
             ]);
