@@ -24,7 +24,7 @@
             ]);
         }
 
-        public function renderAll()
+        public static function renderAll()
         {
             $devices = DB::table('device_states');
             return view('table')->with([
