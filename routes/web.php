@@ -24,7 +24,6 @@
     Route::GROUP(['middleware' => 'auth'], function ()
     {
         Route::get('/', 'TableController@index')->name('table');
-        Route::get('/', 'RenderAll@index')->name('records');
         Route::get('graph/{device_id}', 'DashboardController@index');
     });
 
