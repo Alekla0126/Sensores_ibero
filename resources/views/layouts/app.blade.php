@@ -53,7 +53,7 @@
                         @else
 
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ \App\Http\Controllers\TableController::renderAll(); }}">{{ __('Todos los registros') }}</a>
+                                <a class="nav-link" href="{{ route('rerender') }}">{{ __('Todos los registros') }}</a>
                             </li>
 
                             <li class="nav-item dropdown">
