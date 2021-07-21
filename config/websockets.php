@@ -116,13 +116,15 @@ return [
          * certificate chain of issuers. The private key also may be contained
          * in a separate file specified by local_pk.
          */
-        'local_cert' => '/etc/ssl/certs/ca-certificates.crt',
+        //'local_cert' => '/etc/ssl/certs/ca-certificates.crt',
+        'local_cert' => NULL,
 
         /*
          * Path to local private key file on filesystem in case of separate files for
          * certificate (local_cert) and private key.
          */
-        'local_pk' => '/etc/ssl/private/ssl-cert-snakeoil.key',
+        //'local_pk' => '/etc/ssl/private/ssl-cert-snakeoil.key',
+        'local_pk' => NULL,
 
         /*
          * Passphrase for your local_cert file.
