@@ -12,6 +12,7 @@
         /**
          * @return Renderable
          */
+        // This functions returns a view with the last record of each device.
         public function index(): Renderable
         {
             $devices = DB::table('device_states')
@@ -24,6 +25,7 @@
             ]);
         }
 
+        // This functions returns a view with al the registries.
         public function renderAll()
         {
             $devices = DB::table('device_states')->get();
@@ -32,6 +34,8 @@
             ]);
         }
 
+        // This functions returns a view with the last record of each device. Note: this is
+        // differ from the index, because its called independently.
         public function actualRender()
         {
             $devices = DB::table('device_states')
