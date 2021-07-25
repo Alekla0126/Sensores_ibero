@@ -9,10 +9,10 @@
     class TableController extends Controller
     {
 
+        // This functions returns a view with the last record of each device.
         /**
          * @return Renderable
          */
-        // This functions returns a view with the last record of each device.
         public function index(): Renderable
         {
             $devices = DB::table('device_states')
