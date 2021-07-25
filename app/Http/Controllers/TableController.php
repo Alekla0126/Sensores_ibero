@@ -34,7 +34,7 @@
             ]);
         }
 
-        // This functions returns a view with the last record of each device. Note: this is
+        // This functions returns a view with the last record of each device. Note: this
         // differ from the index, because its called independently.
         public function actualRender()
         {

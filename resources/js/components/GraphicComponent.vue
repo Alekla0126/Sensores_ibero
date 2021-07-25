@@ -68,7 +68,7 @@ export default {
                         this.values = [0, 0, 0, 0, 0, 0, 0];
                     }
                     this.values[this.temp.length - 1] = e.message['value'];
-                    this.labels[this.temp.length - 1] = e.message['created_at'];
+                    this.labels[this.temp.length - 1] = e.message['updated_at'];
                     this.myChart.data.labels = this.labels;
                     this.myChart.data.datasets[0].data = this.values;
                     this.myChart.update();
