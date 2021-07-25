@@ -47,4 +47,5 @@
                 'devices' => $devices
             ]);
         }
+
     }
