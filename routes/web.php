@@ -32,11 +32,18 @@
     */
     Route::GET('/devices/add', function (Request $request)
     {
+        // New instance of device
         $device = new DeviceState;
+        // The id of the device is captured.
         $device->device_id = $request->device_id;
+        // The value of the device is captured.
         $device->value = $request->value;
+        // The token value is captured.
         $device->token = $request->token;
+        // The instance was saved in the database.
         $result = $device->save();
+        // If everything worked correctly, the info will be return in
+        // the next lines.
         if ($result)
         {
             $query = DeviceState::all();
@@ -44,9 +51,10 @@
             broadcast(new \App\Events\TemperatureUpdater($device->value));
             return response([$request], 200);
         }
+        // If the saving failed, the user will be notified.
         else
         {
-            return ['result' => 'Fallo la cración del dispositivo'];
+            return ['result' => 'Fallo la creación del dispositivo'];
         }
     });
 
@@ -58,8 +66,10 @@
     Route::POST('/devices/save', function (Request $request)
     {
         // The encryption key is set.
-        //Crypt::setKey('huberboy');
+        // Uncomment the following line if you want to use encrypt the channel with a HASH algorithm.
+        // Crypt::setKey('huberboy');
         // The token is received and decrypted.
+        // Uncomment the following line if you want to use encrypt the channel with a HASH algorithm.
         //$key = Crypt::decrypt($request->token);
         if(DeviceState::where('token', '=', $request->token)->first())
         {
@@ -108,40 +118,44 @@
         $device = DeviceState::find($request->id);
         // Id.
         $device->id = $request->id;
-        // Valor.
+        // Value
         $device->value = $request->value;
-        // Se guarda.
-        // The time is captured.
+        // Time is captured.
         $device->timestamps = Carbon::now()->format('Y-m-d H:i:s');
-        // The token record is added.
+        // Token record is added.
         $device->token = $request->token;
         // The new data is saved.
         $device = $device->save();
         if ($device)
         {
-            // Se trae toda la información de los aparatos.
+            // All the info is extracted.
             $query = DeviceState::all();
-            // Se crea un evento en los canales del Websocket.
+            // An event in the websockets channel is broadcasted.
             broadcast(new \App\Events\TableUpdater($query));
             broadcast(new \App\Events\TemperatureUpdater($device));
-            // Se regresa la respuesta del servidor.
+            // The response is returned.
             return response([$request], 200);
         }
         else
         {
+            // If any inconvenient, the user is notified about it.
             return ['result' => 'Fallo la actualización de la temperatura'];
         }
     });
 
     Route::GET('/devices/delete', function (Request $request)
     {
-        $devices = DeviceState::find($request->id);
-        $devices->delete($devices);
-        if($devices)
+        // The record is searched.
+        $devices_rec = DeviceState::find($request->id);
+        // The record is deleted.
+        $devices_rec->delete($devices_rec);
+        // If any problem, we notified the user. Otherwise, the info is
+        // broadcasted, and send to the user with a success code.
+        if($devices_rec)
         {
-            broadcast(new \App\Events\TableUpdater($devices));
+            broadcast(new \App\Events\TableUpdater($devices_rec));
             broadcast(new \App\Events\TemperatureUpdater($new));
-            return response([$devices], 200);
+            return response([$devices_rec], 200);
         }
         else
         {
