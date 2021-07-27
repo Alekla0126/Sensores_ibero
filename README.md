@@ -39,4 +39,4 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 ## Authors
 
-* [Alekla](https://www.alekla.com)
+* [Alekla](https://www.alekla.com/presentation)
