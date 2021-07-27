@@ -128,6 +128,8 @@
              */
             'passphrase' => env('LARAVEL_WEBSOCKETS_SSL_PASSPHRASE', null),
 
+            'allow_self_signed' => true,
+
             'verify_peer' => FALSE,
 
         ],
