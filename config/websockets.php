@@ -114,19 +114,19 @@
              * in a separate file specified by local_pk.
              */
             //'local_cert' => '/etc/ssl/certs/ca-certificates.crt',
-            'local_cert' => NULL,
+            'local_cert' => env('LARAVEL_WEBSOCKETS_SSL_LOCAL_CERT', null),
 
             /*
              * Path to local private key file on filesystem in case of separate files for
              * certificate (local_cert) and private key.
              */
             //'local_pk' => '/etc/ssl/private/ssl-cert-snakeoil.key',
-            'local_pk' => NULL,
+            'local_pk' => env('LARAVEL_WEBSOCKETS_SSL_LOCAL_PK', null),
 
             /*
              * Passphrase for your local_cert file.
              */
-            'passphrase' => NULL,
+            'passphrase' => env('LARAVEL_WEBSOCKETS_SSL_PASSPHRASE', null),
 
             'verify_peer' => FALSE,
 
