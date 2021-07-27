@@ -6,7 +6,7 @@
 
 ## Introduction
 * IP: http://143.198.164.212/
-- A Realtime IOT dashboard build with Laravel, which measure the danger of contagion at the Universidad Iberoamericana de Puebla
+-  Realtime IOT dashboard build with Laravel, wich measures the levels of Carbon Bioxide to avoid COVID-19 contagions at the Universidad Iberoamericana de Puebla.
 
 ## Prerequisites
 - PHP >= 7.4
