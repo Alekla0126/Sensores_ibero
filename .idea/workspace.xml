@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V5.52">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V5.54 Lines where deleted in order to have a better understanding.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/websockets.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/websockets.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +201,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -300,21 +300,7 @@
       <workItem from="1626932127822" duration="651000" />
       <workItem from="1627108184330" duration="2225000" />
       <workItem from="1627235763814" duration="4606000" />
-      <workItem from="1627349790729" duration="179000" />
-    </task>
-    <task id="LOCAL-00102" summary="V4.40">
-      <created>1623893941109</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1623893941110</updated>
-    </task>
-    <task id="LOCAL-00103" summary="V4.41">
-      <created>1623909227170</created>
-      <option name="number" value="00103" />
-      <option name="presentableId" value="LOCAL-00103" />
-      <option name="project" value="LOCAL" />
-      <updated>1623909227170</updated>
+      <workItem from="1627349790729" duration="1297000" />
     </task>
     <task id="LOCAL-00104" summary="V4.42">
       <created>1624236860839</created>
@@ -645,7 +631,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627263228954</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="V5.53">
+      <created>1627349976314</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1627349976315</updated>
+    </task>
+    <task id="LOCAL-00152" summary="V5.54 Lines where deleted in order to have a better understanding.">
+      <created>1627350987895</created>
+      <option name="number" value="00152" />
+      <option name="presentableId" value="LOCAL-00152" />
+      <option name="project" value="LOCAL" />
+      <updated>1627350987895</updated>
+    </task>
+    <option name="localTasksCounter" value="153" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -668,8 +668,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V5.21" />
-    <MESSAGE value="V5.22" />
     <MESSAGE value="V5.23" />
     <MESSAGE value="V5.24" />
     <MESSAGE value="V5.25" />
@@ -693,6 +691,8 @@
     <MESSAGE value="V5.50" />
     <MESSAGE value="V5.51" />
     <MESSAGE value="V5.52" />
-    <option name="LAST_COMMIT_MESSAGE" value="V5.52" />
+    <MESSAGE value="V5.53" />
+    <MESSAGE value="V5.54 Lines where deleted in order to have a better understanding." />
+    <option name="LAST_COMMIT_MESSAGE" value="V5.54 Lines where deleted in order to have a better understanding." />
   </component>
 </project>
