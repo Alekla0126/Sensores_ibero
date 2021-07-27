@@ -5,6 +5,7 @@
 * https://www.notion.so/Empieza-con-PDBA-Plataforma-de-Detecci-n-de-Bi-xido-de-Carbono-en-las-Aulas-2b24f0a39d08457a95d43a0c073f33de
 
 ## Introduction
+* IP: http://143.198.164.212/
 A Realtime IOT dashboard build with Laravel, which measure the danger of contagion at the Universidad Iberoamericana de Puebla
 
 ## Prerequisites
