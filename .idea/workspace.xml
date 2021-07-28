@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V5.62 Configuring the websockets.php">
-      <change beforePath="$PROJECT_DIR$/config/websockets.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/websockets.php" afterDir="false" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V5.63 Configuring the websockets.php">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,13 +299,7 @@
       <workItem from="1627108184330" duration="2225000" />
       <workItem from="1627235763814" duration="4606000" />
       <workItem from="1627349790729" duration="2129000" />
-    </task>
-    <task id="LOCAL-00107" summary="V4.44">
-      <created>1625079208991</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1625079208991</updated>
+      <workItem from="1627498867268" duration="313000" />
     </task>
     <task id="LOCAL-00108" summary="V4.45">
       <created>1625079229802</created>
@@ -643,7 +637,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627355380247</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <task id="LOCAL-00156" summary="V5.63 Configuring the websockets.php">
+      <created>1627355677063</created>
+      <option name="number" value="00156" />
+      <option name="presentableId" value="LOCAL-00156" />
+      <option name="project" value="LOCAL" />
+      <updated>1627355677063</updated>
+    </task>
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -666,7 +667,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V5.26" />
     <MESSAGE value="V5.27" />
     <MESSAGE value="V5.28" />
     <MESSAGE value="V5.29" />
@@ -691,6 +691,7 @@
     <MESSAGE value="V5.55 Configuring the server." />
     <MESSAGE value="V5.56 Configuring the server." />
     <MESSAGE value="V5.62 Configuring the websockets.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="V5.62 Configuring the websockets.php" />
+    <MESSAGE value="V5.63 Configuring the websockets.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="V5.63 Configuring the websockets.php" />
   </component>
 </project>
