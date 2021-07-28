@@ -1,16 +1,15 @@
-# ALEK: IOT dashboard v4
+# IOT dashboard v5
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
 
+# Documentation
+* https://www.notion.so/Empieza-con-PDBA-Plataforma-de-Detecci-n-de-Bi-xido-de-Carbono-en-las-Aulas-2b24f0a39d08457a95d43a0c073f33de
+
 ## Introduction
-A Realtime IOT dashboard build with Laravel, which measure the danger of contagion at the Universidad Iberoamericana de Puebla
-
-![dashboard](https://github.com/RoyVoetman/iot-dashboard/blob/master/.docs/dashboard.jpg?raw=true)
-
-## About this project
-This application is part of my **IOT dashboard suite**.
+* IP: http://143.198.164.212/
+-  Realtime IOT dashboard build with Laravel, wich measures the levels of Carbon Bioxide to avoid COVID-19 contagions at the Universidad Iberoamericana de Puebla.
 
 ## Prerequisites
-- PHP >= 7.1
+- PHP >= 7.4
     - [Install macOS](http://php.net/manual/en/install.macosx.php)
     - [Install windows](http://php.net/manual/en/install.windows.php)
 - Composer
@@ -19,7 +18,6 @@ This application is part of my **IOT dashboard suite**.
     - [Install npm](https://www.npmjs.com/get-npm)
 
 ## Getting started
-
 ```bash
 composer install
 cp ./.env.example ./.env
@@ -40,4 +38,5 @@ The MIT License (MIT). Please see [License File](LICENSE) for more information.
 
 
 ## Authors
-* [Alekla](https://www.alekla.com)
+
+* [Alekla](https://www.alekla.com/presentation)
