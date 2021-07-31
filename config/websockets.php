@@ -29,6 +29,7 @@
                 'secret' => env('PUSHER_APP_SECRET'),
                 'enable_client_messages' => FALSE,
                 'enable_statistics' => TRUE,
+                'verify_peer' => FALSE,
             ],
         ],
 
