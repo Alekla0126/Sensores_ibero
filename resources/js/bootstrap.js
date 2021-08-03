@@ -38,7 +38,7 @@ window.Echo = new Echo({
     key: 'myKey',
     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
     encrypted: true,
-    wsHost: window.location.hostname,
+    wsHost: 'formate.app',
     wsPort: 6001,
     disableStats: true,
     forceTLS: false,
