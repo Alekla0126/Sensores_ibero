@@ -63,54 +63,58 @@
      * Parameters: Request, a JSON variable with the device information
      * for the POST method.
      */
-    Route::POST('/devices/save', function (Request $request)
+    Route::group(['middleware' => ['cors']], function () 
     {
-        // The encryption key is set.
-        // Uncomment the following line if you want to use encrypt the channel with a HASH algorithm.
-        // Crypt::setKey('huberboy');
-        // The token is received and decrypted.
-        // Uncomment the following line if you want to use encrypt the channel with a HASH algorithm.
-        //$key = Crypt::decrypt($request->token);
-        if(DeviceState::where('token', '=', $request->token)->first())
-        {
-            // $device = DeviceState::find($request->id);
-            // A new device state is instantiated.
-            $new = new DeviceState();
-            // The string with the classroom id is captured.
-            $new->device_id = $request->device_id;
-            // The value of the request is captured.
-            $new->value = $request->value;
-            // The time is captured.
-            $new->timestamps = Carbon::now()->format('Y-m-d H:i:s');
-            // The token record is added.
-            $new->token = $request->token;
-            // The new data is saved.
-            $new->save();
-            // If the object is added to the database we return the data in a
-            // JSON.
-            if ($new)
-            {
-                // The devices are ordered by creation date.
-                $devices = DB::table('device_states')->orderBy('created_at', 'desc')->get();
-                // The duplicates devices are eliminated.
-                $devices = $devices->unique('device_id')->values()->all();
-                // The websocket events are triggered.
-                broadcast(new \App\Events\TableUpdater($devices));
-                broadcast(new \App\Events\TemperatureUpdater($new));
-                // The function returns the array and the 'OK' response.
-                return response([$new], 200);
-            }
-            // In case that an error occurred.
-            else
-            {
-                return ['result' => 'Fallo la actualización de la temperatura'];
-            }
-        }
-        // In case that the given token is invalid.
-        else
-        {
-            return ['result' => 'Fallo la actualización de la temperatura, el token no es valido'];
-        }
+
+       Route::POST('/devices/save', function (Request $request)
+       {
+           // The encryption key is set.
+           // Uncomment the following line if you want to use encrypt the channel with a HASH algorithm.
+           // Crypt::setKey('huberboy');
+           // The token is received and decrypted.
+           // Uncomment the following line if you want to use encrypt the channel with a HASH algorithm.
+           //$key = Crypt::decrypt($request->token);
+           if(DeviceState::where('token', '=', $request->token)->first())
+           {
+               // $device = DeviceState::find($request->id);
+               // A new device state is instantiated.
+               $new = new DeviceState();
+               // The string with the classroom id is captured.
+               $new->device_id = $request->device_id;
+               // The value of the request is captured.
+               $new->value = $request->value;
+               // The time is captured.
+               $new->timestamps = Carbon::now()->format('Y-m-d H:i:s');
+               // The token record is added.
+               $new->token = $request->token;
+               // The new data is saved.
+               $new->save();
+               // If the object is added to the database we return the data in a
+               // JSON.
+               if ($new)
+               {
+                   // The devices are ordered by creation date.
+                   $devices = DB::table('device_states')->orderBy('created_at', 'desc')->get();
+                   // The duplicates devices are eliminated.
+                   $devices = $devices->unique('device_id')->values()->all();
+                   // The websocket events are triggered.
+                   broadcast(new \App\Events\TableUpdater($devices));
+                   broadcast(new \App\Events\TemperatureUpdater($new));
+                   // The function returns the array and the 'OK' response.
+                   return response([$new], 200);
+                }
+                // In case that an error occurred.
+                else
+                {
+                    return ['result' => 'Fallo la actualización de la temperatura'];
+                }
+           }
+           // In case that the given token is invalid.
+           else
+           {
+               return ['result' => 'Fallo la actualización de la temperatura, el token no es valido'];
+           }
+       });
     });
 
     Route::PUT('/devices/update', function (Request $request)
