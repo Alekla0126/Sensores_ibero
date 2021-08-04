@@ -6,9 +6,7 @@
     <div class="container-fluid">
         <div class="dashboard">
             <div class="grid-container">
-                <div class="grid-item item1">
                     <graphic-component v-bind:device='@json($device)'></graphic-component>
-                </div>
             </div>
         </div>
     </div>
