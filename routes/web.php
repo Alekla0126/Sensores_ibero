@@ -69,11 +69,11 @@
         Route::POST('/devices/save', function (Request $request)
         {
             // The encryption key is set.
-            // Uncomment the following line if you want to use encrypt the channel with a HASH algorithm.
+            // Uncomment the following line if you want to use an encrypted channel with a HASH algorithm.
             // Crypt::setKey('huberboy');
             // The token is received and decrypted.
-            // Uncomment the following line if you want to use encrypt the channel with a HASH algorithm.
-            //$key = Crypt::decrypt($request->token);
+            // Uncomment the following line if you want to encrypt the channel with a HASH algorithm.
+            // $request->token = Crypt::decrypt($request->token);
             if (DeviceState::where('token', '=', $request->token)->first())
             {
                 // $device = DeviceState::find($request->id);

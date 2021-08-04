@@ -15,7 +15,6 @@
                                     {{ session('status') }}
                                 </div>
                             @endif
-                            Monitor de temperatura
                         </div>
                     </div>
                 </div>

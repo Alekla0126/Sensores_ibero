@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V5.81">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V5.82">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -302,13 +302,8 @@
       <workItem from="1627349790729" duration="2129000" />
       <workItem from="1627498867268" duration="1231000" />
       <workItem from="1627688784306" duration="2460000" />
-    </task>
-    <task id="LOCAL-00115" summary="V5.6">
-      <created>1626592798135</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1626592798135</updated>
+      <workItem from="1628026422332" duration="778000" />
+      <workItem from="1628116049523" duration="160000" />
     </task>
     <task id="LOCAL-00116" summary="V5.7">
       <created>1626742042261</created>
@@ -646,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627977880494</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="V5.82">
+      <created>1627978999747</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1627978999747</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -669,7 +671,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V5.35" />
     <MESSAGE value="V5.36" />
     <MESSAGE value="V5.37" />
     <MESSAGE value="V5.38" />
@@ -694,6 +695,7 @@
     <MESSAGE value="V5.74" />
     <MESSAGE value="V5.80" />
     <MESSAGE value="V5.81" />
-    <option name="LAST_COMMIT_MESSAGE" value="V5.81" />
+    <MESSAGE value="V5.82" />
+    <option name="LAST_COMMIT_MESSAGE" value="V5.82" />
   </component>
 </project>
