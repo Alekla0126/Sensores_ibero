@@ -30,7 +30,7 @@
         "bootstrap-vue": "^2.21.2",
         "chart.js": "^2.9.4",
         "laravel-echo": "^1.11.0",
-        "pusher-js": "^4.3.1",
+        "pusher-js": "^5.1.1",
         "save": "^2.4.0",
         "vue-json-to-table": "^1.0.7"
     }
