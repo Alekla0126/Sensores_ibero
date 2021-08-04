@@ -1,7 +1,7 @@
 <template>
     <div class="grid-item item3">
         <div class="card">
-            <div class="card-header">Temperatura<span
+            <div class="card-header">Gráfica de los niveles de CO2<span
                 class="badge badge-info float-right">{{ device['device_id'] }}</span></div>
             <div class="card-body">
                 <canvas id="line-chart"></canvas>

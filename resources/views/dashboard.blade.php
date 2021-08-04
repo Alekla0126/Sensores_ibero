@@ -7,18 +7,8 @@
         <div class="dashboard">
             <div class="grid-container">
                 <div class="grid-item item1">
-                    <div class="card">
-                        <div class="card-header">{{ __('Gráfica del sensor') }}</div>
-                        <div class="card-body">
-                            @if (session('status'))
-                                <div class="alert alert-success" role="alert">
-                                    {{ session('status') }}
-                                </div>
-                            @endif
-                        </div>
-                    </div>
+                    <graphic-component v-bind:device='@json($device)'></graphic-component>
                 </div>
-                <graphic-component v-bind:device='@json($device)'></graphic-component>
             </div>
         </div>
     </div>
