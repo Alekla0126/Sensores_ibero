@@ -1,57 +1,59 @@
 @extends('layouts.app')
 
 @section('content')
-    <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="author" content="Kodinger">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <title>Forgot password</title>
-        <link rel="stylesheet" href="{{  asset('bootstrap/css/bootstrap.css') }}">
-        <link rel="stylesheet" type="text/css" href="{{ asset('css/my-login.css') }}">
-    </head>
-    <body class="my-login-page">
-    <section class="h-100">
-        <div class="container h-100">
-            <div class="row justify-content-md-center align-items-center h-100">
-                <div class="card-wrapper">
-
-                    <div class="cardx fat">
+    <main class="login-form">
+        <div class="cotainer">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header">Restablece la contraseña</div>
                         <div class="card-body">
-                            <h4 class="card-title">Olvide mi contraseña</h4>
-                            <form method="POST" class="my-login-validation" novalidate=""
-                                  action="{{ route('password.email') }}">
-                                @csrf
 
-                                @if (session('status'))
-                                    <div class="alert alert-ssuccess">
-                                        {{ session('status') }}
+                            <form action="{{ route('reset.password.post') }}" method="POST">
+                                @csrf
+                                <input type="hidden" name="token" value="{{ $token }}">
+
+                                <div class="form-group row">
+                                    <label for="email_address" class="col-md-4 col-form-label text-md-right">Dirección de correo</label>
+                                    <div class="col-md-6">
+                                        <input type="text" id="email_address" class="form-control" name="email" required autofocus>
+                                        @if ($errors->has('email'))
+                                            <span class="text-danger">{{ $errors->first('email') }}</span>
+                                        @endif
                                     </div>
-                                @endif
-                                <div class="form-group">
-                                    <label for="email">Correo electrónico</label>
-                                    <input id="email" type="email" class="form-control" name="email"
-                                           value="{{ old('email') }}" placeholder="Enter your email">
-                                    <span class="text-danger">@error('email'){{ $message }} @enderror</span>
                                 </div>
 
-                                <div class="form-group m-0">
-                                    <button type="submit" class="btn btn-primary btn-block">
-                                        Enviar link al correo
+                                <div class="form-group row">
+                                    <label for="password" class="col-md-4 col-form-label text-md-right">Contraseña</label>
+                                    <div class="col-md-6">
+                                        <input type="password" id="password" class="form-control" name="password" required autofocus>
+                                        @if ($errors->has('password'))
+                                            <span class="text-danger">{{ $errors->first('password') }}</span>
+                                        @endif
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="password-confirm" class="col-md-4 col-form-label text-md-right">Confirmar contraseña</label>
+                                    <div class="col-md-6">
+                                        <input type="password" id="password-confirm" class="form-control" name="password_confirmation" required autofocus>
+                                        @if ($errors->has('password_confirmation'))
+                                            <span class="text-danger">{{ $errors->first('password_confirmation') }}</span>
+                                        @endif
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 offset-md-4">
+                                    <button type="submit" class="btn btn-primary">
+                                        Restablece tu contraseña
                                     </button>
                                 </div>
                             </form>
+
                         </div>
-                    </div>
-                    <div class="footer">
-                        Universidad Iberoamericana Puebla
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
-
-    </body>
-    </html>
+    </main>
 @endsection

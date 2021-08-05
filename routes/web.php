@@ -5,6 +5,7 @@
     use Illuminate\Support\Carbon;
     use Illuminate\Support\Facades\DB;
     use Illuminate\Support\Facades\Route;
+    use App\Http\Controllers\Auth\ForgotPasswordController;
 
     /*
     |--------------------------------------------------------------------------
@@ -59,7 +60,10 @@
      */
     Route::GET('/devices/delete', 'DeviceController@delete')->name('delete');
 
-    Route::post('change-password',[AdminController::class,'changePassword'])->name('adminChangePassword');
+    Route::get('/forget-password', [ForgotPasswordController::class, 'showForgetPasswordForm'])->name('forget.password.get');
+    Route::post('/forget-password', [ForgotPasswordController::class, 'submitForgetPasswordForm'])->name('forget.password.post');
+    Route::get('/reset-password/{token}', [ForgotPasswordController::class, 'showResetPasswordForm'])->name('reset.password.get');
+    Route::post('/reset-password', [ForgotPasswordController::class, 'submitResetPasswordForm'])->name('reset.password.post');
 
     Auth::ROUTES();
 
