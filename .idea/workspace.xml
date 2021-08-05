@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.37 Forgot password conf">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.38 Forgot password conf">
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,14 +303,7 @@
       <workItem from="1627688784306" duration="2460000" />
       <workItem from="1628026422332" duration="778000" />
       <workItem from="1628116049523" duration="14900000" />
-      <workItem from="1628142483955" duration="8147000" />
-    </task>
-    <task id="LOCAL-00162" summary="V5.80">
-      <created>1627977379214</created>
-      <option name="number" value="00162" />
-      <option name="presentableId" value="LOCAL-00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1627977379214</updated>
+      <workItem from="1628142483955" duration="8280000" />
     </task>
     <task id="LOCAL-00163" summary="V5.81">
       <created>1627977880494</created>
@@ -648,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628150845896</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="V7.38 Forgot password conf">
+      <created>1628150912828</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1628150912828</updated>
+    </task>
+    <option name="localTasksCounter" value="212" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -671,7 +671,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.14" />
     <MESSAGE value="V7.15" />
     <MESSAGE value="V7.16" />
     <MESSAGE value="V7.17" />
@@ -696,6 +695,7 @@
     <MESSAGE value="V7.35 Forgot password conf" />
     <MESSAGE value="V7.36 Forgot password conf" />
     <MESSAGE value="V7.37 Forgot password conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.37 Forgot password conf" />
+    <MESSAGE value="V7.38 Forgot password conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.38 Forgot password conf" />
   </component>
 </project>
