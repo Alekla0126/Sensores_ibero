@@ -59,11 +59,7 @@
      */
     Route::GET('/devices/delete', 'DeviceController@delete')->name('delete');
 
-    Route::GET('/forget-password', 'App\Http\Controllers\Auth\ForgotPasswordController@getEmail');
-    Route::POST('/forget-password', 'App\Http\Controllers\Auth\ForgotPasswordController@postEmail');
-
-    Route::GET('/reset-password/{token}', 'ResetPasswordController@getPassword');
-    Route::POST('/reset-password', 'ResetPasswordController@updatePassword');
+    Route::post('change-password',[AdminController::class,'changePassword'])->name('adminChangePassword');
 
     Auth::ROUTES();
 
