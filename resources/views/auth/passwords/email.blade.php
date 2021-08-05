@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Reset Password') }}</div>
+                <div class="card-header">{{ __('Restablecer la contraseña') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    <form method="POST" action="{{ route('password.email') }}">
+                    <form method="POST" action="{{ route('passwords.email') }}">
                         @csrf
 
                         <div class="form-group row">
@@ -34,7 +34,7 @@
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-outline-light">
-                                    {{ __('Send Password Reset Link') }}
+                                    {{ __('Enviar enlace de restablecimiento de contraseña') }}
                                 </button>
                             </div>
                         </div>

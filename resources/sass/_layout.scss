@@ -5,10 +5,10 @@ html, body {
 }
 
 .navbar {
-    border-bottom: 1px solid #343536;
+    border-bottom: 1px solid #642432;
 
     .navbar-brand {
-        font-family: 'Source Code Pro', monospace;
+        font-family: 'Maven Pro', sans-serif;
     }
 }
 
@@ -44,7 +44,7 @@ html, body {
         border-top-left-radius: 0.25rem;
         border-bottom-left-radius: 0.25rem;
         border: 1px solid #343536;
-        background: url("https://alekla.com/iot-dashboard/public/images/register-bg.jpg") center center no-repeat;
+        background: url("http://143.198.164.212/images/register-bg.jpg") center center no-repeat;
         background-size: cover;
         filter: grayscale(75%);
     }
