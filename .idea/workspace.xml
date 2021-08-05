@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.26">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.27 Refactoring the code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,21 +302,7 @@
       <workItem from="1627498867268" duration="1231000" />
       <workItem from="1627688784306" duration="2460000" />
       <workItem from="1628026422332" duration="778000" />
-      <workItem from="1628116049523" duration="13352000" />
-    </task>
-    <task id="LOCAL-00147" summary="V5.46">
-      <created>1627262213225</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1627262213226</updated>
-    </task>
-    <task id="LOCAL-00148" summary="V5.50">
-      <created>1627262522443</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1627262522443</updated>
+      <workItem from="1628116049523" duration="13839000" />
     </task>
     <task id="LOCAL-00149" summary="V5.51">
       <created>1627262630737</created>
@@ -649,7 +633,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628139866941</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="V7.27 Refactoring the code">
+      <created>1628140661672</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1628140661672</updated>
+    </task>
+    <task id="LOCAL-00197" summary="V7.27 Refactoring the code">
+      <created>1628140979121</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1628140979122</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -672,7 +670,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.3" />
     <MESSAGE value="V7.4" />
     <MESSAGE value="V7.4 Working websockets" />
     <MESSAGE value="V7.5 Websockets working" />
@@ -697,6 +694,7 @@
     <MESSAGE value="V7.24" />
     <MESSAGE value="V7.25" />
     <MESSAGE value="V7.26" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.26" />
+    <MESSAGE value="V7.27 Refactoring the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.27 Refactoring the code" />
   </component>
 </project>

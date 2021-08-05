@@ -89,4 +89,51 @@
             }
         }
 
+        public function delete(Request $request)
+        {
+            // The record is searched.
+            $devices_rec = DeviceState::find($request->id);
+            // The record is deleted.
+            $devices_rec->delete($devices_rec);
+            // If any problem, we notified the user. Otherwise, the info is
+            // broadcasted, and send to the user with a success code.
+            if ($devices_rec)
+            {
+                broadcast(new \App\Events\TableUpdater($devices_rec));
+                broadcast(new \App\Events\TemperatureUpdater($new));
+                return response([$devices_rec], 200);
+            }
+            else
+            {
+                return ['result' => 'Fallo la eliminación de la captura del dispositivo'];
+            }
+        }
+
+        public function add(Request $request)
+        {
+            // New instance of device
+            $device = new DeviceState;
+            // The id of the device is captured.
+            $device->device_id = $request->device_id;
+            // The value of the device is captured.
+            $device->value = $request->value;
+            // The token value is captured.
+            $device->token = $request->token;
+            // The instance was saved in the database.
+            $result = $device->save();
+            // If everything worked correctly, the info will be return in
+            // the next lines.
+            if ($result)
+            {
+                $query = DeviceState::all();
+                broadcast(new \App\Events\TableUpdater($query));
+                broadcast(new \App\Events\TemperatureUpdater($device->value));
+                return response([$request], 200);
+            }
+            // If the saving failed, the user will be notified.
+            else
+            {
+                return ['result' => 'Fallo la creación del dispositivo'];
+            }
+        }
     }
