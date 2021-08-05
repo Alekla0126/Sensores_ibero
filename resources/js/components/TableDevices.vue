@@ -143,7 +143,7 @@
            },
            update()
            {
-               window.Echo.channel('table').listen('TableUpdater', (e) =>
+               Echo.channel('table').listen('TableUpdater', (e) =>
                {
                    for (let index = 0; index < e.message.length; index++)
                    {

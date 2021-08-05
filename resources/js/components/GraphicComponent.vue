@@ -53,7 +53,7 @@ export default {
         },
         update()
         {
-            window.Echo.channel('chat').listen('TemperatureUpdater', (e) =>
+            Echo.channel('chat').listen('TemperatureUpdater', (e) =>
             {
                 if(this.device['device_id'] === e.message['device_id'])
                 {
