@@ -2,6 +2,21 @@
     <div class="grid-item item3">
         <div class="card">
             <div class="card-body">
+                <b-alert
+                    :show="dismissCountDown"
+                    dismissible
+                    variant="warning"
+                    @dismissed="dismissCountDown=0"
+                    @dismiss-count-down="countDownChanged"
+                >
+                    <p>'El salón ' + {{ this.salon }} + 'excedió los niveles de CO2' {{ dismissCountDown }}</p>
+                    <b-progress
+                        variant="warning"
+                        :max="dismissSecs"
+                        :value="dismissCountDown"
+                        height="4px"
+                    ></b-progress>
+                </b-alert>
                 <b-row>
                     <b-col lg="6" class="my-1">
                         <b-form-group
@@ -114,7 +129,10 @@ export default {
             filter: null,
             filterOn: [],
             currentPage: 1,
-            perPage: 10
+            perPage: 10,
+            dismissSecs: 10,
+            dismissCountDown: 0,
+            salon: 0,
         }
     },
     created()
@@ -127,7 +145,8 @@ export default {
                 if (e.message[index]['value'] > 50)
                 {
                     e.message[index]['_rowVariant'] = 'danger';
-                    alert('El salón ' + e.message[index]['device_id'] + 'excedió los niveles de CO2');
+                    this.salon = e.message[index]['_rowVariant'];
+                    this.showAlert();
                 }
             }
             this.items = e.message;
@@ -162,6 +181,14 @@ export default {
         {
             this.totalRows = filteredItems.length;
             this.currentPage = 1;
+        },
+        countDownChanged(dismissCountDown)
+        {
+            this.dismissCountDown = dismissCountDown
+        },
+        showAlert()
+        {
+            this.dismissCountDown = this.dismissSecs
         }
     },
     computed: {
