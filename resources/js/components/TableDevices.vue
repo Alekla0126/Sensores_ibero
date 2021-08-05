@@ -143,11 +143,10 @@
            },
            update()
            {
-               Echo.channel('table').listen('TableUpdater', (e) =>
+               window.Echo.channel('table').listen('TableUpdater', (e) =>
                {
                    for (let index = 0; index < e.message.length; index++)
                    {
-                       console.log(e.message);
                        // Change the sensors limit.
                        if(e.message[index]['value'] > 50)
                        {
