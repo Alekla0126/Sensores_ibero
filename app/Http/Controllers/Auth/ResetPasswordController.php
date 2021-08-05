@@ -5,10 +5,7 @@
     use App\Http\Controllers\Controller;
     use App\Providers\RouteServiceProvider;
     use Illuminate\Foundation\Auth\ResetsPasswords;
-    use Illuminate\Http\Request;
-    use DB;
     use App\Models\User;
-    use Hash;
 
     class ResetPasswordController extends Controller
     {
@@ -30,37 +27,17 @@
          *
          * @var string
          */
-        public function getPassword($token)
+        protected $redirectTo = RouteServiceProvider::HOME;
+
+        protected function redirectTo()
         {
-
-            return view('customauth.passwords.reset', ['token' => $token]);
-        }
-
-        public function updatePassword(Request $request)
-        {
-
-            $request->validate([
-                'email' => 'required|email|exists:users',
-                'password' => 'required|string|min:6|confirmed',
-                'password_confirmation' => 'required',
-
-            ]);
-
-            $updatePassword = DB::table('password_resets')->where([
-                    'email' => $request->email,
-                    'token' => $request->token
-                ])->first();
-
-            if ( ! $updatePassword)
+            if (Auth()->user()->role == 1)
             {
-                return back()->withInput()->with('error', 'Invalid token!');
+                return route('admin.dashboard');
             }
-
-            $user = User::where('email', $request->email)->update(['password' => Hash::make($request->password)]);
-
-            DB::table('password_resets')->where(['email' => $request->email])->delete();
-
-            return redirect('/login')->with('message', 'Your password has been changed!');
-
+            elseif (Auth()->user()->role == 2)
+            {
+                return route('user.dashboard');
+            }
         }
     }

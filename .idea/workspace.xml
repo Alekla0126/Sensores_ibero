@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.32 Forget password conf">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.33 Forgot password conf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -306,14 +306,7 @@
       <workItem from="1627688784306" duration="2460000" />
       <workItem from="1628026422332" duration="778000" />
       <workItem from="1628116049523" duration="14900000" />
-      <workItem from="1628142483955" duration="5601000" />
-    </task>
-    <task id="LOCAL-00157" summary="V5.64 Configuring the websockets.php">
-      <created>1627499369809</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1627499369809</updated>
+      <workItem from="1628142483955" duration="6215000" />
     </task>
     <task id="LOCAL-00158" summary="V5.67">
       <created>1627626983785</created>
@@ -651,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628147530526</updated>
     </task>
-    <option name="localTasksCounter" value="206" />
+    <task id="LOCAL-00206" summary="V7.33 Forgot password conf">
+      <created>1628148343283</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1628148343283</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -674,7 +674,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.9" />
     <MESSAGE value="V7.10" />
     <MESSAGE value="V7.11" />
     <MESSAGE value="V7.12" />
@@ -699,6 +698,7 @@
     <MESSAGE value="V7.31 Refactoring the code" />
     <MESSAGE value="V7.31 Mail configuration" />
     <MESSAGE value="V7.32 Forget password conf" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.32 Forget password conf" />
+    <MESSAGE value="V7.33 Forgot password conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.33 Forgot password conf" />
   </component>
 </project>
