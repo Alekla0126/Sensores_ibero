@@ -92,7 +92,7 @@
             {
                 // The devices are ordered by creation date.
                 $devices = DB::table('device_states')->orderBy('created_at', 'desc')->get();
-                // The duplicates devices are eliminated.
+                // The duplicated devices are eliminated.
                 $devices = $devices->unique('device_id')->values()->all();
                 // The websocket events are triggered.
                 broadcast(new \App\Events\TableUpdater($devices));
