@@ -12,7 +12,7 @@
         public function index($device_id)
         {
             $blocks = DashboardBlock::query()->orderBy('order')->get();
-            $device = DeviceState::where('device_id', $device_id)->first();
+            $device = DeviceState::where('device_id', $device_id)->last();
             return view('dashboard')->with([
                 'blocks',
                 $blocks,

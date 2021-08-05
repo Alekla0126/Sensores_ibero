@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.10">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -305,14 +303,7 @@
       <workItem from="1627498867268" duration="1231000" />
       <workItem from="1627688784306" duration="2460000" />
       <workItem from="1628026422332" duration="778000" />
-      <workItem from="1628116049523" duration="6042000" />
-    </task>
-    <task id="LOCAL-00131" summary="V5.27">
-      <created>1626807859802</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1626807859802</updated>
+      <workItem from="1628116049523" duration="7200000" />
     </task>
     <task id="LOCAL-00132" summary="V5.28">
       <created>1626808451007</created>
@@ -650,7 +641,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628128420108</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <task id="LOCAL-00180" summary="V7.11">
+      <created>1628129426253</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1628129426253</updated>
+    </task>
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -673,7 +671,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V5.62 Configuring the websockets.php" />
     <MESSAGE value="V5.63 Configuring the websockets.php" />
     <MESSAGE value="V5.64 Configuring the websockets.php" />
     <MESSAGE value="V5.67" />
@@ -698,6 +695,7 @@
     <MESSAGE value="V7.8" />
     <MESSAGE value="V7.9" />
     <MESSAGE value="V7.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.10" />
+    <MESSAGE value="V7.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.11" />
   </component>
 </project>
