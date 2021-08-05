@@ -17,7 +17,7 @@
     |
     */
 
-    Auth::ROUTES(['register' => TRUE]);
+    Auth::ROUTES(['register' => FALSE]);
 
     /* Here are the routes that need authentication.
     */
@@ -58,6 +58,12 @@
      * for the GET method.
      */
     Route::GET('/devices/delete', 'DeviceController@delete')->name('delete');
+
+    Route::GET('/forget-password', 'App\Http\Controllers\Auth\ForgotPasswordController@getEmail');
+    Route::POST('/forget-password', 'App\Http\Controllers\Auth\ForgotPasswordController@postEmail');
+
+    Route::GET('/reset-password/{token}', 'ResetPasswordController@getPassword');
+    Route::POST('/reset-password', 'ResetPasswordController@updatePassword');
 
     Auth::ROUTES();
 
