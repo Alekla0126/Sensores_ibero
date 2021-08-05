@@ -18,7 +18,7 @@
     |
     */
 
-    Auth::ROUTES(['register' => FALSE]);
+    // Auth::ROUTES(['register' => FALSE]);
 
     /* Here are the routes that need authentication.
     */
