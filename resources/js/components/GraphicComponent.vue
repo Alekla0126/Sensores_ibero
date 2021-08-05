@@ -12,8 +12,6 @@
 
 <script>
 import Chart from 'chart.js';
-import VueFlashMessage from '../src';
-Vue.use(VueFlashMessage);
 
 export default {
     props: ['device'],
