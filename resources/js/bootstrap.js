@@ -37,12 +37,14 @@ import Echo from "laravel-echo"
 
 window.Pusher = require('pusher-js');
 
-Pusher.logToConsole = true;
-Pusher.log = function (message)
-{
-    window.console.log(message);
-};
+// Uncomment if you want to print the socket messages.
+// Pusher.logToConsole = true;
+// Pusher.log = function (message)
+// {
+//     window.console.log(message);
+// };
 
+// Websocket configuration.
 window.Echo = new Echo({
     broadcaster: 'pusher',
     key: process.env.MIX_PUSHER_APP_KEY,
