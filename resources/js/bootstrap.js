@@ -35,12 +35,12 @@ window.Pusher = require('pusher-js');
 
 window.Echo = new Echo({
     broadcaster: 'pusher',
-    key: 'myKey',
+    key: process.env.MIX_PUSHER_APP_KEY,
     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
-    encrypted: true,
-    wsHost: 'http://pdba.xyz/',
-    wsPort: 6001,
-    disableStats: true,
-    forceTLS: false,
-    authEndpoint: process.env.VUE_APP_SERVER_URL + '/broadcasting/auth',
+    forceTLS : false,
+    wsHost: window.location.hostname,
+    wsPort: process.env.MIX_WEBSOCKETS_PORT,
+    wssPort: process.env.MIX_WEBSOCKETS_PORT,
+    disableStats : true,
+    enabledTransports: ['ws']
 });
