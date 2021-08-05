@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.31 Refactoring the code">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.31 Mail configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/verify.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,14 +304,7 @@
       <workItem from="1627688784306" duration="2460000" />
       <workItem from="1628026422332" duration="778000" />
       <workItem from="1628116049523" duration="14900000" />
-      <workItem from="1628142483955" duration="4187000" />
-    </task>
-    <task id="LOCAL-00155" summary="V5.62 Configuring the websockets.php">
-      <created>1627355380247</created>
-      <option name="number" value="00155" />
-      <option name="presentableId" value="LOCAL-00155" />
-      <option name="project" value="LOCAL" />
-      <updated>1627355380247</updated>
+      <workItem from="1628142483955" duration="4830000" />
     </task>
     <task id="LOCAL-00156" summary="V5.63 Configuring the websockets.php">
       <created>1627355677063</created>
@@ -653,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628145591867</updated>
     </task>
-    <option name="localTasksCounter" value="204" />
+    <task id="LOCAL-00204" summary="V7.31 Mail configuration">
+      <created>1628146869280</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1628146869280</updated>
+    </task>
+    <option name="localTasksCounter" value="205" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -676,7 +672,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.7" />
     <MESSAGE value="V7.8" />
     <MESSAGE value="V7.9" />
     <MESSAGE value="V7.10" />
@@ -701,6 +696,7 @@
     <MESSAGE value="V7.29 Refactoring the code" />
     <MESSAGE value="V7.30 Refactoring the code" />
     <MESSAGE value="V7.31 Refactoring the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.31 Refactoring the code" />
+    <MESSAGE value="V7.31 Mail configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.31 Mail configuration" />
   </component>
 </project>
