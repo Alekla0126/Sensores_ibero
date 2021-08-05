@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.12">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.13">
+      <change beforePath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,14 +302,7 @@
       <workItem from="1627498867268" duration="1231000" />
       <workItem from="1627688784306" duration="2460000" />
       <workItem from="1628026422332" duration="778000" />
-      <workItem from="1628116049523" duration="7356000" />
-    </task>
-    <task id="LOCAL-00133" summary="V5.29">
-      <created>1626808482495</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1626808482495</updated>
+      <workItem from="1628116049523" duration="7877000" />
     </task>
     <task id="LOCAL-00134" summary="V5.30">
       <created>1626808546717</created>
@@ -648,7 +640,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628130860661</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="V7.13">
+      <created>1628131016928</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1628131016928</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -671,7 +670,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V5.64 Configuring the websockets.php" />
     <MESSAGE value="V5.67" />
     <MESSAGE value="V5.72" />
     <MESSAGE value="V5.73" />
@@ -696,6 +694,7 @@
     <MESSAGE value="V7.10" />
     <MESSAGE value="V7.11" />
     <MESSAGE value="V7.12" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.12" />
+    <MESSAGE value="V7.13" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.13" />
   </component>
 </project>
