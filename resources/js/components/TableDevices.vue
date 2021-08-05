@@ -116,10 +116,25 @@
                perPage: 10
            }
        },
+       created()
+       {
+           window.Echo.channel('table').listen('TableUpdater', (e) =>
+           {
+               for (let index = 0; index < e.message.length; index++)
+               {
+                   // Change the sensors limit.
+                   if(e.message[index]['value'] > 50)
+                   {
+                       e.message[index]['_rowVariant'] = 'danger';
+                   }
+               }
+               this.items = e.message;
+               this.updateTable();
+           });
+       },
        mounted()
        {
            this.initializeTable(this.items);
-           this.update();
        },
        methods: {
            initializeTable(entry_data)
@@ -140,22 +155,6 @@
            onRowClick(record, index)
            {
                window.location.href = '/' + 'graph' + '/' + record['device_id'];
-           },
-           update()
-           {
-               window.Echo.channel('table').listen('TableUpdater', (e) =>
-               {
-                   for (let index = 0; index < e.message.length; index++)
-                   {
-                       // Change the sensors limit.
-                       if(e.message[index]['value'] > 50)
-                       {
-                           e.message[index]['_rowVariant'] = 'danger';
-                       }
-                   }
-                   this.items = e.message;
-                   this.updateTable();
-               });
            },
            onFiltered(filteredItems)
            {

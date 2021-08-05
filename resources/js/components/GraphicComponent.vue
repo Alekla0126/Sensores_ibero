@@ -26,9 +26,31 @@ export default {
             labeled: 'Temperatura'
         }
     },
+    created()
+    {
+        window.Echo.channel('chat').listen('TemperatureUpdater', (e) =>
+        {
+            if(this.device['device_id'] === e.message['device_id'])
+            {
+                if (this.temp.length <= 6)
+                {
+                    this.temp.push(0);
+                }
+                else
+                {
+                    this.temp = [0];
+                    this.values = [0, 0, 0, 0, 0, 0, 0];
+                }
+                this.values[this.temp.length - 1] = e.message['value'];
+                this.labels[this.temp.length - 1] = e.message['updated_at'];
+                this.myChart.data.labels = this.labels;
+                this.myChart.data.datasets[0].data = this.values;
+                this.myChart.update();
+            }
+        });
+    },
     mounted()
     {
-        this.update();
         this.drawChart();
     },
     methods: {
@@ -51,29 +73,6 @@ export default {
                 'options': {},
             });
         },
-        update()
-        {
-            window.Echo.channel('chat').listen('TemperatureUpdater', (e) =>
-            {
-                if(this.device['device_id'] === e.message['device_id'])
-                {
-                    if (this.temp.length <= 6)
-                    {
-                        this.temp.push(0);
-                    }
-                    else
-                    {
-                        this.temp = [0];
-                        this.values = [0, 0, 0, 0, 0, 0, 0];
-                    }
-                    this.values[this.temp.length - 1] = e.message['value'];
-                    this.labels[this.temp.length - 1] = e.message['updated_at'];
-                    this.myChart.data.labels = this.labels;
-                    this.myChart.data.datasets[0].data = this.values;
-                    this.myChart.update();
-                }
-            });
-        }
     }
 }
 </script>
