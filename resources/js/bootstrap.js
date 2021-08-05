@@ -6,12 +6,16 @@ window._ = require('lodash');
  * code may be modified to fit the specific needs of your application.
  */
 
-try {
+try
+{
     window.Popper = require('popper.js').default;
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap');
-} catch (e) {}
+}
+catch (e)
+{
+}
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
@@ -33,16 +37,20 @@ import Echo from "laravel-echo"
 
 window.Pusher = require('pusher-js');
 
-Pusher.log = function (message) { window.console.log(message); };
+Pusher.logToConsole = true;
+Pusher.log = function (message)
+{
+    window.console.log(message);
+};
 
 window.Echo = new Echo({
     broadcaster: 'pusher',
     key: process.env.MIX_PUSHER_APP_KEY,
     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
-    forceTLS : false,
+    forceTLS: false,
     wsHost: window.location.hostname,
     wsPort: process.env.MIX_WEBSOCKETS_PORT,
     wssPort: process.env.MIX_WEBSOCKETS_PORT,
-    disableStats : true,
+    disableStats: true,
     enabledTransports: ['ws']
 });
