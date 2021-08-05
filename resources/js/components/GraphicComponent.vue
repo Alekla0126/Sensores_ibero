@@ -11,7 +11,9 @@
 </template>
 
 <script>
-import Chart from 'chart.js'
+import Chart from 'chart.js';
+import VueFlashMessage from '../src';
+Vue.use(VueFlashMessage);
 
 export default {
     props: ['device'],
@@ -46,6 +48,13 @@ export default {
                 this.myChart.data.labels = this.labels;
                 this.myChart.data.datasets[0].data = this.values;
                 this.myChart.update();
+                this.flash('Se excedieron los niveles en el salon: ' + e.message['device_id'], 'warning', {
+                    timeout: 3000,
+                    beforeDestroy()
+                    {
+                        alert('Recuerda revisar el salon: ' + e.message['device_id']);
+                    }
+                });
             }
         });
     },

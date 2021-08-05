@@ -77,8 +77,8 @@
 
 <script>
 import VueFlashMessage from '../src';
-
 Vue.use(VueFlashMessage);
+
 export default {
     props: ['devices'],
     data()
