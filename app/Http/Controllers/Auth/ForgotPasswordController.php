@@ -45,10 +45,10 @@
             Mail::send('email.forgetpassword', ['token' => $token], function ($message) use ($request)
             {
                 $message->to($request->email);
-                $message->subject('Reset Password');
+                $message->subject('Restablece tu contraseña');
             });
 
-            return back()->with('message', 'We have e-mailed your password reset link!');
+            return back()->with('message', '¡Hemos enviado su enlace de restablecimiento de contraseña por correo electrónico!');
         }
 
         /**
@@ -75,9 +75,9 @@
             ]);
 
             $updatePassword = DB::table('password_resets')->where([
-                    'email' => $request->email,
-                    'token' => $request->token
-                ])->first();
+                'email' => $request->email,
+                'token' => $request->token
+            ])->first();
 
             if ( ! $updatePassword)
             {
