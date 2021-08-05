@@ -48,13 +48,7 @@ export default {
                 this.myChart.data.labels = this.labels;
                 this.myChart.data.datasets[0].data = this.values;
                 this.myChart.update();
-                this.flash('Se excedieron los niveles en el salon: ' + e.message['device_id'], 'warning', {
-                    timeout: 3000,
-                    beforeDestroy()
-                    {
-                        alert('Recuerda revisar el salon: ' + e.message['device_id']);
-                    }
-                });
+                alert('El salón ' + e.message[index]['device_id'] + 'excedió los niveles de CO2');
             }
         });
     },

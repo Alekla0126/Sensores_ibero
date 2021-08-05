@@ -129,13 +129,7 @@ export default {
                 if (e.message[index]['value'] > 50)
                 {
                     e.message[index]['_rowVariant'] = 'danger';
-                    this.flash('Se excedieron los niveles en el salon: ' + e.message[index]['device_id'], 'warning', {
-                        timeout: 3000,
-                        beforeDestroy()
-                        {
-                            alert('Recuerda revisar el salon: ' + e.message[index]['device_id']);
-                        }
-                    });
+                    alert('El salón ' + e.message[index]['device_id'] + 'excedió los niveles de CO2');
                 }
             }
             this.items = e.message;
