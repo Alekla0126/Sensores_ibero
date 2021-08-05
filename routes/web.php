@@ -95,8 +95,8 @@
                 // The duplicated devices are eliminated.
                 $devices = $devices->unique('device_id')->values()->all();
                 // The websocket events are triggered.
-                broadcast(new \App\Events\TableUpdater($devices));
-                broadcast(new \App\Events\TemperatureUpdater($new));
+                event(new \App\Events\TableUpdater($devices));
+                event(new \App\Events\TemperatureUpdater($new));
                 // The function returns the array and the 'OK' response.
                 return response([$new], 200);
             }

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.8">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.10">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/broadcasting.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/broadcasting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +202,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -303,21 +305,7 @@
       <workItem from="1627498867268" duration="1231000" />
       <workItem from="1627688784306" duration="2460000" />
       <workItem from="1628026422332" duration="778000" />
-      <workItem from="1628116049523" duration="4964000" />
-    </task>
-    <task id="LOCAL-00129" summary="V5.25">
-      <created>1626806897400</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1626806897400</updated>
-    </task>
-    <task id="LOCAL-00130" summary="V5.26">
-      <created>1626807165594</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1626807165594</updated>
+      <workItem from="1628116049523" duration="6042000" />
     </task>
     <task id="LOCAL-00131" summary="V5.27">
       <created>1626807859802</created>
@@ -648,7 +636,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628127699100</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="V7.9">
+      <created>1628128314843</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1628128314843</updated>
+    </task>
+    <task id="LOCAL-00179" summary="V7.10">
+      <created>1628128420108</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1628128420108</updated>
+    </task>
+    <option name="localTasksCounter" value="180" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -671,8 +673,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V5.55 Configuring the server." />
-    <MESSAGE value="V5.56 Configuring the server." />
     <MESSAGE value="V5.62 Configuring the websockets.php" />
     <MESSAGE value="V5.63 Configuring the websockets.php" />
     <MESSAGE value="V5.64 Configuring the websockets.php" />
@@ -696,6 +696,8 @@
     <MESSAGE value="V7.6 Websockets working" />
     <MESSAGE value="V7.7" />
     <MESSAGE value="V7.8" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.8" />
+    <MESSAGE value="V7.9" />
+    <MESSAGE value="V7.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.10" />
   </component>
 </project>
