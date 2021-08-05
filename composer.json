@@ -19,7 +19,7 @@
         "laravel/legacy-factories": "^1.1",
         "laravel/tinker": "^2.0",
         "laravel/ui": "^3.3",
-        "pusher/pusher-php-server": "4.1.3",
+        "pusher/pusher-php-server": "~3.0",
         "royvoetman/laravel-repository-pattern": "^2.0"
     },
     "require-dev": {
