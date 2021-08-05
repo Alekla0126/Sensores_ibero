@@ -31,12 +31,16 @@
         'connections' => [
 
             'pusher' => [
-                'driver'  => 'pusher',
-                'key'     => env('PUSHER_KEY'),
-                'secret'  => env('PUSHER_SECRET'),
-                'app_id'  => env('PUSHER_APP_ID'),
+                'driver' => 'pusher',
+                'key' => env('PUSHER_APP_KEY'),
+                'secret' => env('PUSHER_APP_SECRET'),
+                'app_id' => env('PUSHER_APP_ID'),
                 'options' => [
-                    //leave these empty in your code
+                    'cluster' => env('PUSHER_APP_CLUSTER'),
+                    'encrypted' => true,
+                    'host' => '127.0.0.1',
+                    'port' => 6001,
+                    'scheme' => 'http'
                 ],
             ],
 
