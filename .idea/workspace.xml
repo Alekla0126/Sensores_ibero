@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.27 Refactoring the code">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.28 Refactoring the code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_layout.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,14 +304,7 @@
       <workItem from="1627688784306" duration="2460000" />
       <workItem from="1628026422332" duration="778000" />
       <workItem from="1628116049523" duration="14900000" />
-      <workItem from="1628142483955" duration="1842000" />
-    </task>
-    <task id="LOCAL-00151" summary="V5.53">
-      <created>1627349976314</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1627349976315</updated>
+      <workItem from="1628142483955" duration="2207000" />
     </task>
     <task id="LOCAL-00152" summary="V5.54 Lines where deleted in order to have a better understanding.">
       <created>1627350987895</created>
@@ -649,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628144002081</updated>
     </task>
-    <option name="localTasksCounter" value="200" />
+    <task id="LOCAL-00200" summary="V7.28 Refactoring the code">
+      <created>1628144377443</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1628144377443</updated>
+    </task>
+    <option name="localTasksCounter" value="201" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -672,7 +672,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.4" />
     <MESSAGE value="V7.4 Working websockets" />
     <MESSAGE value="V7.5 Websockets working" />
     <MESSAGE value="V7.6 Websockets working" />
@@ -697,6 +696,7 @@
     <MESSAGE value="V7.25" />
     <MESSAGE value="V7.26" />
     <MESSAGE value="V7.27 Refactoring the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.27 Refactoring the code" />
+    <MESSAGE value="V7.28 Refactoring the code" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.28 Refactoring the code" />
   </component>
 </project>

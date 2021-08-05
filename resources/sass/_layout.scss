@@ -6,6 +6,8 @@ html, body {
 
 .navbar {
     border-bottom: 1px solid #642432;
+    background-color: #642432;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 
     .navbar-brand {
         font-family: 'Maven Pro', sans-serif;
