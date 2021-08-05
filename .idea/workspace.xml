@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.19">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -304,21 +302,7 @@
       <workItem from="1627498867268" duration="1231000" />
       <workItem from="1627688784306" duration="2460000" />
       <workItem from="1628026422332" duration="778000" />
-      <workItem from="1628116049523" duration="11127000" />
-    </task>
-    <task id="LOCAL-00140" summary="V5.36">
-      <created>1626821227484</created>
-      <option name="number" value="00140" />
-      <option name="presentableId" value="LOCAL-00140" />
-      <option name="project" value="LOCAL" />
-      <updated>1626821227484</updated>
-    </task>
-    <task id="LOCAL-00141" summary="V5.37">
-      <created>1626828518692</created>
-      <option name="number" value="00141" />
-      <option name="presentableId" value="LOCAL-00141" />
-      <option name="project" value="LOCAL" />
-      <updated>1626828518692</updated>
+      <workItem from="1628116049523" duration="11855000" />
     </task>
     <task id="LOCAL-00142" summary="V5.38">
       <created>1626897921815</created>
@@ -649,7 +633,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628137705526</updated>
     </task>
-    <option name="localTasksCounter" value="189" />
+    <task id="LOCAL-00189" summary="V7.20">
+      <created>1628138282847</created>
+      <option name="number" value="00189" />
+      <option name="presentableId" value="LOCAL-00189" />
+      <option name="project" value="LOCAL" />
+      <updated>1628138282847</updated>
+    </task>
+    <task id="LOCAL-00190" summary="V7.21">
+      <created>1628138759860</created>
+      <option name="number" value="00190" />
+      <option name="presentableId" value="LOCAL-00190" />
+      <option name="project" value="LOCAL" />
+      <updated>1628138759860</updated>
+    </task>
+    <option name="localTasksCounter" value="191" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -672,8 +670,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V5.82" />
-    <MESSAGE value="V5.83" />
     <MESSAGE value="V5.84" />
     <MESSAGE value="V5.85" />
     <MESSAGE value="V7.0" />
@@ -697,6 +693,8 @@
     <MESSAGE value="V7.17" />
     <MESSAGE value="V7.18" />
     <MESSAGE value="V7.19" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.19" />
+    <MESSAGE value="V7.20" />
+    <MESSAGE value="V7.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.21" />
   </component>
 </project>

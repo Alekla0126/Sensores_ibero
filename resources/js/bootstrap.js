@@ -44,5 +44,4 @@ window.Echo = new Echo({
     wsPort: process.env.MIX_WEBSOCKETS_PORT,
     wssPort: process.env.MIX_WEBSOCKETS_PORT,
     disableStats : true,
-    enabledTransports: ['ws']
 });
