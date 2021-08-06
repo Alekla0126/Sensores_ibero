@@ -9,7 +9,7 @@
                     @dismissed="dismissCountDown=0"
                     @dismiss-count-down="countDownChanged"
                 >
-                    <p>El salón {{ this.salon }} excedió los niveles de CO2, el mensaje se cerrar en: {{ dismissCountDown }}</p>
+                    <p>El salón {{ this.salon }} excedió los niveles de CO2, el mensaje se cerrará en: {{ dismissCountDown }}</p>
                     <b-progress
                         variant="danger"
                         :max="dismissSecs"
