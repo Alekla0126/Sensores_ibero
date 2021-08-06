@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.74 Background color modified" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.75 Background color modified">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/table.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -306,14 +311,7 @@
       <workItem from="1628160091609" duration="4854000" />
       <workItem from="1628212674538" duration="1375000" />
       <workItem from="1628215193961" duration="55000" />
-      <workItem from="1628228751095" duration="7846000" />
-    </task>
-    <task id="LOCAL-00200" summary="V7.28 Refactoring the code">
-      <created>1628144377443</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1628144377443</updated>
+      <workItem from="1628228751095" duration="8283000" />
     </task>
     <task id="LOCAL-00201" summary="V7.29 Refactoring the code">
       <created>1628144750541</created>
@@ -651,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628292495659</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="V7.75 Background color modified">
+      <created>1628292728797</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1628292728797</updated>
+    </task>
+    <option name="localTasksCounter" value="250" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -674,7 +679,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.50 Flash notifications" />
     <MESSAGE value="V7.51 Flash notifications" />
     <MESSAGE value="V7.52 Flash notifications" />
     <MESSAGE value="V7.53 Flash notifications" />
@@ -699,6 +703,7 @@
     <MESSAGE value="V7.72 Background color modified" />
     <MESSAGE value="V7.73 Background color modified" />
     <MESSAGE value="V7.74 Background color modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.74 Background color modified" />
+    <MESSAGE value="V7.75 Background color modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.75 Background color modified" />
   </component>
 </project>
