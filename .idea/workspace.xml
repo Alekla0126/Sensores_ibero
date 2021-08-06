@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.72 Background color modified">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/table.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.74 Background color modified" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -311,21 +306,7 @@
       <workItem from="1628160091609" duration="4854000" />
       <workItem from="1628212674538" duration="1375000" />
       <workItem from="1628215193961" duration="55000" />
-      <workItem from="1628228751095" duration="7486000" />
-    </task>
-    <task id="LOCAL-00198" summary="V7.27 Refactoring the code">
-      <created>1628141569606</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1628141569606</updated>
-    </task>
-    <task id="LOCAL-00199" summary="V7.27 Refactoring the code">
-      <created>1628144002080</created>
-      <option name="number" value="00199" />
-      <option name="presentableId" value="LOCAL-00199" />
-      <option name="project" value="LOCAL" />
-      <updated>1628144002081</updated>
+      <workItem from="1628228751095" duration="7846000" />
     </task>
     <task id="LOCAL-00200" summary="V7.28 Refactoring the code">
       <created>1628144377443</created>
@@ -656,7 +637,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628291700723</updated>
     </task>
-    <option name="localTasksCounter" value="247" />
+    <task id="LOCAL-00247" summary="V7.73 Background color modified">
+      <created>1628292093985</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1628292093985</updated>
+    </task>
+    <task id="LOCAL-00248" summary="V7.74 Background color modified">
+      <created>1628292495659</created>
+      <option name="number" value="00248" />
+      <option name="presentableId" value="LOCAL-00248" />
+      <option name="project" value="LOCAL" />
+      <updated>1628292495659</updated>
+    </task>
+    <option name="localTasksCounter" value="249" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -679,8 +674,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.48 Flash notifications" />
-    <MESSAGE value="V7.49 Flash notifications" />
     <MESSAGE value="V7.50 Flash notifications" />
     <MESSAGE value="V7.51 Flash notifications" />
     <MESSAGE value="V7.52 Flash notifications" />
@@ -704,6 +697,8 @@
     <MESSAGE value="V7.70 Background color modified" />
     <MESSAGE value="V7.71 Background color modified" />
     <MESSAGE value="V7.72 Background color modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.72 Background color modified" />
+    <MESSAGE value="V7.73 Background color modified" />
+    <MESSAGE value="V7.74 Background color modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.74 Background color modified" />
   </component>
 </project>
