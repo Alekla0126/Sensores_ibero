@@ -132,7 +132,7 @@ export default {
             perPage: 10,
             dismissSecs: 10,
             dismissCountDown: 0,
-            salon: 0,
+            salon: '',
         }
     },
     created()
