@@ -11,7 +11,7 @@
                 >
                     <p>'El salón ' + {{ this.salon }} + 'excedió los niveles de CO2' {{ dismissCountDown }}</p>
                     <b-progress
-                        variant="warning"
+                        variant="danger"
                         :max="dismissSecs"
                         :value="dismissCountDown"
                         height="4px"
@@ -145,7 +145,7 @@ export default {
                 if (e.message[index]['value'] > 50)
                 {
                     e.message[index]['_rowVariant'] = 'danger';
-                    this.salon = e.message[index]['_rowVariant'];
+                    this.salon = e.message[index]['device_id'];
                     this.showAlert();
                 }
             }
