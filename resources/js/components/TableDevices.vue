@@ -9,7 +9,8 @@
                     @dismissed="dismissCountDown=0"
                     @dismiss-count-down="countDownChanged"
                 >
-                    <p>El salón {{ this.salon }} excedió los niveles de CO2, el mensaje se cerrará en: {{ dismissCountDown }}</p>
+                    <p>El salón {{ this.salon }} excedió los niveles de CO2, el mensaje se cerrará en:
+                        {{ dismissCountDown }}</p>
                     <b-progress
                         variant="danger"
                         :max="dismissSecs"
@@ -91,7 +92,6 @@
 </template>
 
 <script>
-
 export default {
     props: ['devices'],
     data()
@@ -203,3 +203,78 @@ export default {
     }
 }
 </script>
+
+<style>
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: #e0e5ec;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table.b-table {
+    width: 600px;
+    border-spacing: 0;
+    color: #212121;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.6);
+}
+
+table.b-table thead {
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6);
+}
+
+table.b-table th {
+    padding: 7px;
+}
+
+table.b-table > tbody > tr > td {
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+
+table.b-table > tbody > tr:hover {
+    padding: 20px;
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.6);
+}
+
+table.b-table tr td:first-child::before {
+    content: "";
+    position: absolute;
+    padding: 7px;
+    top: 0;
+    left: -5000px;
+    width: 10000px;
+    height: 100%;
+    z-index: -10;
+}
+
+table.b-table td:hover::after {
+    content: "";
+    position: absolute;
+    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.6);
+    left: 0;
+    top: -5000px;
+    height: 10000px;
+    width: 100%;
+    z-index: -1;
+}
+</style>
