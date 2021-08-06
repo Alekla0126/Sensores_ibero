@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.60 Table style">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.61 Table style">
       <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -309,14 +308,7 @@
       <workItem from="1628160091609" duration="4854000" />
       <workItem from="1628212674538" duration="1375000" />
       <workItem from="1628215193961" duration="55000" />
-      <workItem from="1628228751095" duration="808000" />
-    </task>
-    <task id="LOCAL-00185" summary="V7.16">
-      <created>1628136063066</created>
-      <option name="number" value="00185" />
-      <option name="presentableId" value="LOCAL-00185" />
-      <option name="project" value="LOCAL" />
-      <updated>1628136063066</updated>
+      <workItem from="1628228751095" duration="1122000" />
     </task>
     <task id="LOCAL-00186" summary="V7.17">
       <created>1628136907657</created>
@@ -654,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628229039587</updated>
     </task>
-    <option name="localTasksCounter" value="234" />
+    <task id="LOCAL-00234" summary="V7.61 Table style">
+      <created>1628230688154</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1628230688154</updated>
+    </task>
+    <option name="localTasksCounter" value="235" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -677,7 +676,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.36 Forgot password conf" />
     <MESSAGE value="V7.37 Forgot password conf" />
     <MESSAGE value="V7.38 Forgot password conf" />
     <MESSAGE value="V7.39 Forgot password conf" />
@@ -702,6 +700,7 @@
     <MESSAGE value="V7.58 Flash notifications" />
     <MESSAGE value="V7.59 Flash notifications" />
     <MESSAGE value="V7.60 Table style" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.60 Table style" />
+    <MESSAGE value="V7.61 Table style" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.61 Table style" />
   </component>
 </project>
