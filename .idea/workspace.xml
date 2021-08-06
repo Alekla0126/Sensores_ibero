@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.65 Styling table">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.68 Background gradiant">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/table.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/table.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,28 +309,7 @@
       <workItem from="1628160091609" duration="4854000" />
       <workItem from="1628212674538" duration="1375000" />
       <workItem from="1628215193961" duration="55000" />
-      <workItem from="1628228751095" duration="5333000" />
-    </task>
-    <task id="LOCAL-00190" summary="V7.21">
-      <created>1628138759860</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1628138759860</updated>
-    </task>
-    <task id="LOCAL-00191" summary="V7.22">
-      <created>1628139139102</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1628139139102</updated>
-    </task>
-    <task id="LOCAL-00192" summary="V7.23">
-      <created>1628139318661</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1628139318661</updated>
+      <workItem from="1628228751095" duration="5965000" />
     </task>
     <task id="LOCAL-00193" summary="V7.24">
       <created>1628139471698</created>
@@ -655,7 +633,28 @@
       <option name="project" value="LOCAL" />
       <updated>1628233061196</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="V7.66 Styling table">
+      <created>1628289829757</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1628289829757</updated>
+    </task>
+    <task id="LOCAL-00240" summary="V7.67 Background gradiant">
+      <created>1628290075059</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1628290075059</updated>
+    </task>
+    <task id="LOCAL-00241" summary="V7.68 Background gradiant">
+      <created>1628290146304</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1628290146304</updated>
+    </task>
+    <option name="localTasksCounter" value="242" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -678,9 +677,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.41 Forgot password conf" />
-    <MESSAGE value="V7.42 Forgot password conf" />
-    <MESSAGE value="V7.43 Forgot password conf" />
     <MESSAGE value="V7.44 Flash notifications" />
     <MESSAGE value="V7.45 Flash notifications" />
     <MESSAGE value="V7.46 Flash notifications" />
@@ -703,6 +699,9 @@
     <MESSAGE value="V7.63 Table style" />
     <MESSAGE value="V7.64 Table style" />
     <MESSAGE value="V7.65 Styling table" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.65 Styling table" />
+    <MESSAGE value="V7.66 Styling table" />
+    <MESSAGE value="V7.67 Background gradiant" />
+    <MESSAGE value="V7.68 Background gradiant" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.68 Background gradiant" />
   </component>
 </project>

@@ -207,7 +207,7 @@ export default {
 <style>
 
 .background {
-    linear-gradient(270deg, rgba(112,112,112,1) 0%, rgba(0,0,0,1) 100%);
+    background-image: linear-gradient(270deg, rgba(112,112,112,1) 0%, rgba(0,0,0,1) 100%);
 }
 
 .card {
