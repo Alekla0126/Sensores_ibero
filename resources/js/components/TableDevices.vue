@@ -147,8 +147,11 @@ export default {
                     e.message[index]['_rowVariant'] = 'danger';
                 }
             }
-            this.salon = e.message[0]['device_id'];
-            this.showAlert();
+            if (e.message[0]['device_id'] > 50)
+            {
+                this.salon = e.message[0]['device_id'];
+                this.showAlert();
+            }
             this.items = e.message;
             this.updateTable();
         });
