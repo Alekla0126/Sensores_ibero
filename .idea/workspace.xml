@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.55 Flash notifications">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.58 Flash notifications">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,28 +306,7 @@
       <workItem from="1628142483955" duration="8830000" />
       <workItem from="1628152200396" duration="318000" />
       <workItem from="1628160091609" duration="4854000" />
-      <workItem from="1628212674538" duration="546000" />
-    </task>
-    <task id="LOCAL-00180" summary="V7.11">
-      <created>1628129426253</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1628129426253</updated>
-    </task>
-    <task id="LOCAL-00181" summary="V7.12">
-      <created>1628130860661</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1628130860661</updated>
-    </task>
-    <task id="LOCAL-00182" summary="V7.13">
-      <created>1628131016928</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1628131016928</updated>
+      <workItem from="1628212674538" duration="1375000" />
     </task>
     <task id="LOCAL-00183" summary="V7.14">
       <created>1628131918779</created>
@@ -652,7 +630,28 @@
       <option name="project" value="LOCAL" />
       <updated>1628212854619</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="V7.56 Flash notifications">
+      <created>1628213281913</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1628213281914</updated>
+    </task>
+    <task id="LOCAL-00230" summary="V7.57 Flash notifications">
+      <created>1628213486521</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1628213486521</updated>
+    </task>
+    <task id="LOCAL-00231" summary="V7.58 Flash notifications">
+      <created>1628213767609</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1628213767609</updated>
+    </task>
+    <option name="localTasksCounter" value="232" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -675,9 +674,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.31 Mail configuration" />
-    <MESSAGE value="V7.32 Forget password conf" />
-    <MESSAGE value="V7.33 Forgot password conf" />
     <MESSAGE value="V7.34 Forgot password conf" />
     <MESSAGE value="V7.35 Forgot password conf" />
     <MESSAGE value="V7.36 Forgot password conf" />
@@ -700,6 +696,9 @@
     <MESSAGE value="V7.53 Flash notifications" />
     <MESSAGE value="V7.54 Flash notifications" />
     <MESSAGE value="V7.55 Flash notifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.55 Flash notifications" />
+    <MESSAGE value="V7.56 Flash notifications" />
+    <MESSAGE value="V7.57 Flash notifications" />
+    <MESSAGE value="V7.58 Flash notifications" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.58 Flash notifications" />
   </component>
 </project>

@@ -38,7 +38,7 @@ export default {
             labels: [this.device['updated_at'], '00:00', '00:00', '00:00', '00:00', '00:00', '00:00'],
             temp: [0],
             myChart,
-            labeled: 'Temperatura',
+            labeled: 'CO2',
             dismissSecs: 10,
             dismissCountDown: 0
         }
