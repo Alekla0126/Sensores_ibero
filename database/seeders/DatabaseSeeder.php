@@ -23,7 +23,7 @@
             {
                 DB::table('device_states')->insert([
                     'device_id' => 'A-'.$index,
-                    'value' => rand(10,100),
+                    'value' => rand(10,50),
                     'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
                     'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
                     'token' => Str::random(16),
@@ -33,7 +33,7 @@
             {
                 DB::table('device_states')->insert([
                     'device_id' => 'A-'.$index,
-                    'value' => rand(10,100),
+                    'value' => rand(10,50),
                     'created_at' => Carbon::now()->format('Y-m-d H:i:s'),
                     'updated_at' => Carbon::now()->format('Y-m-d H:i:s'),
                     'token' => Str::random(16),
