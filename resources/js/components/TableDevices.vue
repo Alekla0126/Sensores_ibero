@@ -206,10 +206,6 @@ export default {
 
 <style>
 
-.background {
-    background-image: linear-gradient(270deg, rgba(112,112,112,1) 0%, rgba(0,0,0,1) 100%);
-}
-
 .card {
     position: relative;
     display: flex;
@@ -226,4 +222,5 @@ export default {
     flex: 1 1 auto;
     padding: 1.5rem;
 }
+
 </style>
