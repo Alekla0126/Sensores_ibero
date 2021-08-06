@@ -8,4 +8,9 @@
             <table-devices v-bind:devices='@json($devices)'></table-devices>
         </div>
     </body>
+    <style>
+        body{
+            background-color: #282A36;
+        }
+    </style>
 @endsection
