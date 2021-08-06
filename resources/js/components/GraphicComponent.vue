@@ -1,6 +1,21 @@
 <template>
     <div class="grid-item item3">
         <div class="card">
+            <b-alert
+                :show="dismissCountDown"
+                dismissible
+                variant="danger"
+                @dismissed="dismissCountDown=0"
+                @dismiss-count-down="countDownChanged"
+            >
+                <p>El salón {{ this.device['device_id'] }} excedió los niveles de CO2, el mensaje se cerrar en: {{ dismissCountDown }}</p>
+                <b-progress
+                    variant="danger"
+                    :max="dismissSecs"
+                    :value="dismissCountDown"
+                    height="4px"
+                ></b-progress>
+            </b-alert>
             <div class="card-header">Gráfica de los niveles de CO2<span
                 class="badge badge-info float-right">{{ device['device_id'] }}</span></div>
             <div class="card-body">
@@ -23,7 +38,9 @@ export default {
             labels: [this.device['updated_at'], '00:00', '00:00', '00:00', '00:00', '00:00', '00:00'],
             temp: [0],
             myChart,
-            labeled: 'Temperatura'
+            labeled: 'Temperatura',
+            dismissSecs: 10,
+            dismissCountDown: 0
         }
     },
     created()
@@ -43,10 +60,14 @@ export default {
                 }
                 this.values[this.temp.length - 1] = e.message['value'];
                 this.labels[this.temp.length - 1] = e.message['updated_at'];
-                this.myChart.data.labels = this.labels;
                 this.myChart.data.datasets[0].data = this.values;
+                this.myChart.data.labels = this.labels;
                 this.myChart.update();
-                alert('El salón ' + e.message[index]['device_id'] + 'excedió los niveles de CO2');
+                // Change the tolerance that triggers the alarm notifications.
+                if(this.device['value'] > 50)
+                {
+                    this.showAlert();
+                }
             }
         });
     },
@@ -74,6 +95,14 @@ export default {
                 'options': {},
             });
         },
+        countDownChanged(dismissCountDown)
+        {
+            this.dismissCountDown = dismissCountDown
+        },
+        showAlert()
+        {
+            this.dismissCountDown = this.dismissSecs
+        }
     }
 }
 </script>

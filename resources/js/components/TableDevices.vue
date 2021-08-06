@@ -147,7 +147,7 @@ export default {
                     e.message[index]['_rowVariant'] = 'danger';
                 }
             }
-            // Change the alert limit
+            // Change the alert limit.
             if (e.message[0]['value'] > 50)
             {
                 this.salon = e.message[0]['device_id'];
