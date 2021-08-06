@@ -9,7 +9,8 @@
                     @dismissed="dismissCountDown=0"
                     @dismiss-count-down="countDownChanged"
                 >
-                    <p>'El salón ' + {{ this.salon }} + 'excedió los niveles de CO2' {{ dismissCountDown }}</p>
+                    <p>El salón {{ this.salon }} excedió los niveles de CO2</p>
+                    <p>{{ dismissCountDown }}</p>
                     <b-progress
                         variant="danger"
                         :max="dismissSecs"
