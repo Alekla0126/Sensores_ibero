@@ -5,7 +5,7 @@
 * https://www.notion.so/Empieza-con-PDBA-Plataforma-de-Detecci-n-de-Bi-xido-de-Carbono-en-las-Aulas-2b24f0a39d08457a95d43a0c073f33de
 
 ## Introduction
-* IP: http://pdba.xyz/
+* Domain: http://pdba.xyz/
 -  Realtime IOT dashboard build with Laravel, wich measures the levels of Carbon Bioxide to avoid COVID-19 contagions at the Universidad Iberoamericana de Puebla.
 
 ## Prerequisites
