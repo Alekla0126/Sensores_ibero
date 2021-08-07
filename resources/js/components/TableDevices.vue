@@ -228,4 +228,8 @@ html, body {
     padding: 1.5rem;
 }
 
+.card-header a {
+    color: white;
+}
+
 </style>
