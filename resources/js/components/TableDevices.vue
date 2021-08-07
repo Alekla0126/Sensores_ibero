@@ -217,10 +217,9 @@ html, body {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #e6e7ee;
-    opacity: .4;
+    background-color: #282E3F;
     background-clip: border-box;
-    border: 0.0625rem solid rgba(76, 117, 148, 0.05);
+    border: 0.0625rem solid rgba(89, 248, 56, 0.05);
     border-radius: 0.55rem;
 }
 
