@@ -23,7 +23,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-dark shadow-lg" style="background-color: #282A36;">
+        <nav class="navbar navbar-expand-md navbar-dark shadow-lg" style="background-color: #282E3F;">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     {{ config('app.name', 'IOT-Dashboard') }}

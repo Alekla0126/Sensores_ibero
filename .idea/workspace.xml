@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.78 Background color modified">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.79 Background color modified">
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,14 +308,7 @@
       <workItem from="1628160091609" duration="4854000" />
       <workItem from="1628212674538" duration="1375000" />
       <workItem from="1628215193961" duration="55000" />
-      <workItem from="1628228751095" duration="10212000" />
-    </task>
-    <task id="LOCAL-00204" summary="V7.31 Mail configuration">
-      <created>1628146869280</created>
-      <option name="number" value="00204" />
-      <option name="presentableId" value="LOCAL-00204" />
-      <option name="project" value="LOCAL" />
-      <updated>1628146869280</updated>
+      <workItem from="1628228751095" duration="10520000" />
     </task>
     <task id="LOCAL-00205" summary="V7.32 Forget password conf">
       <created>1628147530526</created>
@@ -654,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628296477196</updated>
     </task>
-    <option name="localTasksCounter" value="253" />
+    <task id="LOCAL-00253" summary="V7.79 Background color modified">
+      <created>1628296909159</created>
+      <option name="number" value="00253" />
+      <option name="presentableId" value="LOCAL-00253" />
+      <option name="project" value="LOCAL" />
+      <updated>1628296909159</updated>
+    </task>
+    <option name="localTasksCounter" value="254" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -677,7 +676,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.54 Flash notifications" />
     <MESSAGE value="V7.55 Flash notifications" />
     <MESSAGE value="V7.56 Flash notifications" />
     <MESSAGE value="V7.57 Flash notifications" />
@@ -702,6 +700,7 @@
     <MESSAGE value="V7.76 Background color modified" />
     <MESSAGE value="V7.77 Background color modified" />
     <MESSAGE value="V7.78 Background color modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.78 Background color modified" />
+    <MESSAGE value="V7.79 Background color modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.79 Background color modified" />
   </component>
 </project>
