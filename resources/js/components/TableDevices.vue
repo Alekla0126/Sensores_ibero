@@ -205,6 +205,11 @@ export default {
 </script>
 
 <style>
+html, body {
+    position: relative;
+    min-height: 100%;
+    background-color: #282A36;
+}
 
 .card {
     position: relative;
