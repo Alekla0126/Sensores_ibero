@@ -1,6 +1,6 @@
 <template>
     <div class="grid-item item3">
-        <div class="card">
+        <div class="card text-white">
             <div class="card-body">
                 <b-alert
                     :show="dismissCountDown"
