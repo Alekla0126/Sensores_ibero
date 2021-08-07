@@ -218,8 +218,9 @@ html, body {
     min-width: 0;
     word-wrap: break-word;
     background-color: #e6e7ee;
+    opacity: .4;
     background-clip: border-box;
-    border: 0.0625rem solid rgba(243, 247, 250, 0.05);
+    border: 0.0625rem solid rgba(76, 117, 148, 0.05);
     border-radius: 0.55rem;
 }
 
