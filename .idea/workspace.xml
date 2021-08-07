@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.81 Background color modified">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.82 Styling the card">
       <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -308,14 +308,7 @@
       <workItem from="1628160091609" duration="4854000" />
       <workItem from="1628212674538" duration="1375000" />
       <workItem from="1628215193961" duration="55000" />
-      <workItem from="1628228751095" duration="10921000" />
-    </task>
-    <task id="LOCAL-00207" summary="V7.34 Forgot password conf">
-      <created>1628148965233</created>
-      <option name="number" value="00207" />
-      <option name="presentableId" value="LOCAL-00207" />
-      <option name="project" value="LOCAL" />
-      <updated>1628148965233</updated>
+      <workItem from="1628228751095" duration="11084000" />
     </task>
     <task id="LOCAL-00208" summary="V7.35 Forgot password conf">
       <created>1628150348771</created>
@@ -653,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628297433697</updated>
     </task>
-    <option name="localTasksCounter" value="256" />
+    <task id="LOCAL-00256" summary="V7.82 Styling the card">
+      <created>1628297704225</created>
+      <option name="number" value="00256" />
+      <option name="presentableId" value="LOCAL-00256" />
+      <option name="project" value="LOCAL" />
+      <updated>1628297704225</updated>
+    </task>
+    <option name="localTasksCounter" value="257" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -676,7 +676,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.57 Flash notifications" />
     <MESSAGE value="V7.58 Flash notifications" />
     <MESSAGE value="V7.59 Flash notifications" />
     <MESSAGE value="V7.60 Table style" />
@@ -701,6 +700,7 @@
     <MESSAGE value="V7.79 Background color modified" />
     <MESSAGE value="V7.80 Background color modified" />
     <MESSAGE value="V7.81 Background color modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.81 Background color modified" />
+    <MESSAGE value="V7.82 Styling the card" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.82 Styling the card" />
   </component>
 </project>

@@ -212,6 +212,7 @@ html, body {
 }
 
 .card {
+    text-decoration-color: #ffffff;
     position: relative;
     display: flex;
     flex-direction: column;
