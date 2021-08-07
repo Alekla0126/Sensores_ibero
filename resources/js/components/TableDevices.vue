@@ -212,7 +212,6 @@ html, body {
 }
 
 .card {
-    text-decoration-color: #ffffff;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -221,7 +220,7 @@ html, body {
     background-color: #282E3F;
     background-clip: border-box;
     border: 0.0625rem solid rgba(89, 248, 56, 0.05);
-    border-radius: 0.55rem;
+    border-radius: 1px;
 }
 
 .card-body {
