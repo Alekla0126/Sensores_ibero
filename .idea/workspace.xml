@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.99 Formatting the cards">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.3 Formatting the cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,28 +310,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="4888000" />
-    </task>
-    <task id="LOCAL-00226" summary="V7.53 Flash notifications">
-      <created>1628210395766</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1628210395766</updated>
-    </task>
-    <task id="LOCAL-00227" summary="V7.54 Flash notifications">
-      <created>1628211155663</created>
-      <option name="number" value="00227" />
-      <option name="presentableId" value="LOCAL-00227" />
-      <option name="project" value="LOCAL" />
-      <updated>1628211155663</updated>
-    </task>
-    <task id="LOCAL-00228" summary="V7.55 Flash notifications">
-      <created>1628212854619</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1628212854619</updated>
+      <workItem from="1628393424636" duration="5405000" />
     </task>
     <task id="LOCAL-00229" summary="V7.56 Flash notifications">
       <created>1628213281913</created>
@@ -656,7 +634,28 @@
       <option name="project" value="LOCAL" />
       <updated>1628413190402</updated>
     </task>
-    <option name="localTasksCounter" value="275" />
+    <task id="LOCAL-00275" summary="V8.1 Formatting the cards">
+      <created>1628413355027</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1628413355027</updated>
+    </task>
+    <task id="LOCAL-00276" summary="V8.2 Formatting the cards">
+      <created>1628413497555</created>
+      <option name="number" value="00276" />
+      <option name="presentableId" value="LOCAL-00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1628413497555</updated>
+    </task>
+    <task id="LOCAL-00277" summary="V8.3 Formatting the cards">
+      <created>1628413876645</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1628413876645</updated>
+    </task>
+    <option name="localTasksCounter" value="278" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -679,9 +678,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.76 Background color modified" />
-    <MESSAGE value="V7.77 Background color modified" />
-    <MESSAGE value="V7.78 Background color modified" />
     <MESSAGE value="V7.79 Background color modified" />
     <MESSAGE value="V7.80 Background color modified" />
     <MESSAGE value="V7.81 Background color modified" />
@@ -704,6 +700,9 @@
     <MESSAGE value="V7.97 Formatting the cards" />
     <MESSAGE value="V7.98 Formatting the cards" />
     <MESSAGE value="V7.99 Formatting the cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.99 Formatting the cards" />
+    <MESSAGE value="V8.1 Formatting the cards" />
+    <MESSAGE value="V8.2 Formatting the cards" />
+    <MESSAGE value="V8.3 Formatting the cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="V8.3 Formatting the cards" />
   </component>
 </project>

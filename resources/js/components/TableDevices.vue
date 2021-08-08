@@ -213,7 +213,7 @@ body {
 }
 
 .card {
-    background-color: rgba(16, 18, 27, 40);
+    background-color: rgba(16, 18, 27, .40);
     display: flex;
     flex-direction: column;
     overflow: hidden;
