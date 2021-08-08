@@ -212,7 +212,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/deep/ .card {
+.card {
     background-color: rgba(16, 18, 27, 40);
     display: flex;
     flex-direction: column;
