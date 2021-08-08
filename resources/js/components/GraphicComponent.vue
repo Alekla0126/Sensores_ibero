@@ -106,39 +106,3 @@ export default {
     }
 }
 </script>
-
-<style>
-
-@media only screen and (max-width: 765px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media only screen and (max-width: 614px) {
-    .grid-container {
-        grid-template-columns: 100%;
-    }
-
-    .grid-item {
-        grid-row-start: initial !important;
-        grid-row-end: initial !important;
-        grid-column-start: initial !important;
-        grid-column-end: initial !important;
-    }
-}
-
-.grid-item {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-}
-
-.item3 {
-    grid-row-start: 3;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-</style>
