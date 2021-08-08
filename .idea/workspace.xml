@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.17 UI changes">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.19 UI changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
     </list>
@@ -311,21 +311,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="8526000" />
-    </task>
-    <task id="LOCAL-00243" summary="V7.69 Background gradiant">
-      <created>1628291098689</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
-      <option name="project" value="LOCAL" />
-      <updated>1628291098690</updated>
-    </task>
-    <task id="LOCAL-00244" summary="V7.70 Background color modified">
-      <created>1628291287777</created>
-      <option name="number" value="00244" />
-      <option name="presentableId" value="LOCAL-00244" />
-      <option name="project" value="LOCAL" />
-      <updated>1628291287777</updated>
+      <workItem from="1628393424636" duration="8816000" />
     </task>
     <task id="LOCAL-00245" summary="V7.71 Background color modified">
       <created>1628291421281</created>
@@ -656,7 +642,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628463225633</updated>
     </task>
-    <option name="localTasksCounter" value="292" />
+    <task id="LOCAL-00292" summary="V8.18 UI changes">
+      <created>1628463500502</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1628463500502</updated>
+    </task>
+    <task id="LOCAL-00293" summary="V8.19 UI changes">
+      <created>1628463655597</created>
+      <option name="number" value="00293" />
+      <option name="presentableId" value="LOCAL-00293" />
+      <option name="project" value="LOCAL" />
+      <updated>1628463655597</updated>
+    </task>
+    <option name="localTasksCounter" value="294" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -679,8 +679,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.93 Styling the card" />
-    <MESSAGE value="V7.93 Transparent navbar" />
     <MESSAGE value="V7.94 Transparent navbar" />
     <MESSAGE value="V7.95 Transparent navbar" />
     <MESSAGE value="V7.96 Formatting the cards" />
@@ -704,6 +702,8 @@
     <MESSAGE value="V8.15 UI changes" />
     <MESSAGE value="V8.16 UI changes" />
     <MESSAGE value="V8.17 UI changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="V8.17 UI changes" />
+    <MESSAGE value="V8.18 UI changes" />
+    <MESSAGE value="V8.19 UI changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="V8.19 UI changes" />
   </component>
 </project>

@@ -206,29 +206,16 @@ export default {
 
 <style>
 
-@media screen {
-    /* start of screen rules. */
-    /* Generic pane rules */
-    body { margin: 0 }
-    .row, .col { overflow: hidden; position: absolute; }
-    .row { left: 0; right: 0; }
-    .col { top: 0; bottom: 0; }
-    .scroll-x { overflow-x: auto; }
-    .scroll-y { overflow-y: auto; }
-    .header.row { height: 75px; top: 0; }
-    .body.row { top: 75px; bottom: 50px; }
-    .footer.row { height: 50px; bottom: 0; }
-    /* end of screen rules. */
-}
-
 body {
     background: linear-gradient(45deg, #FC466B, #3F5EFB);
-    height: 100%;
+    display:flex;
+    flex-direction:column;
     font-family: 'Montserrat', sans-serif;
 }
 
 .card {
     background-color: rgba(255, 255, 255, 0.5);
+    flex:1;
     display: flex;
     flex-direction: column;
     overflow: hidden;
