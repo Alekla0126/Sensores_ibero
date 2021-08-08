@@ -219,6 +219,7 @@ body {
     overflow: hidden;
     width: 100%;
     border-radius: 14px;
+    opacity: .9;
     backdrop-filter: blur(20px);
     font-size: 15px;
     font-weight: 500;
