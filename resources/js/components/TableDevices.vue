@@ -213,14 +213,14 @@ body {
 }
 
 .card {
-    background-color: rgba(16, 18, 27, .40);
+    background-color: rgba(255, 255, 255, 0.5);
     display: flex;
     flex-direction: column;
     overflow: hidden;
     width: 100%;
     border-radius: 14px;
-    opacity: .9;
-    backdrop-filter: blur(20px);
+    opacity: .10;
+    backdrop-filter: blur(10px);
     font-size: 15px;
     font-weight: 500;
 }
