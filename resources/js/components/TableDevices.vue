@@ -204,11 +204,11 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
 
 body {
     background: linear-gradient(45deg, #FC466B, #3F5EFB);
-    height: 100vh;
+    height: 130vh;
     font-family: 'Montserrat', sans-serif;
 }
 
