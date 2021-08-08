@@ -212,9 +212,4 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar {
-    background: none;
-}
-
-
 </style>
