@@ -1,6 +1,10 @@
 <template>
     <div class="grid-item item3">
-        <div class="card text-white">
+        <div class="card">
+            <svg viewBox="0 0 512 512" fill="currentColor">
+                <path
+                    d="M448.773 235.551A135.893 135.893 0 00451 211c0-74.443-60.557-135-135-135-47.52 0-91.567 25.313-115.766 65.537-32.666-10.59-66.182-6.049-93.794 12.979-27.612 19.013-44.092 49.116-45.425 82.031C24.716 253.788 0 290.497 0 331c0 7.031 1.703 13.887 3.006 20.537l.015.015C12.719 400.492 56.034 436 106 436h300c57.891 0 106-47.109 106-105 0-40.942-25.053-77.798-63.227-95.449z"/>
+            </svg>
             <div class="card-body">
                 <b-alert
                     :show="dismissCountDown"
@@ -210,6 +214,42 @@ body {
     background: linear-gradient(45deg, #FC466B, #3F5EFB);
     height: 100vh;
     font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    background-color: var(rgba(16, 18, 27, 40));
+    max-width: 1250px;
+    max-height: 860px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 14px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.overlay-app {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    pointer-events: all;
+    background-color: rgba(36, 39, 59, 0.8);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+
+&
+.is-active {
+    visibility: visible;
+    opacity: 1;
+}
+
 }
 
 </style>
