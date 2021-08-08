@@ -1,10 +1,6 @@
 <template>
     <div class="grid-item item3">
         <div class="card">
-            <svg viewBox="0 0 512 512" fill="currentColor">
-                <path
-                    d="M448.773 235.551A135.893 135.893 0 00451 211c0-74.443-60.557-135-135-135-47.52 0-91.567 25.313-115.766 65.537-32.666-10.59-66.182-6.049-93.794 12.979-27.612 19.013-44.092 49.116-45.425 82.031C24.716 253.788 0 290.497 0 331c0 7.031 1.703 13.887 3.006 20.537l.015.015C12.719 400.492 56.034 436 106 436h300c57.891 0 106-47.109 106-105 0-40.942-25.053-77.798-63.227-95.449z"/>
-            </svg>
             <div class="card-body">
                 <b-alert
                     :show="dismissCountDown"
@@ -218,9 +214,6 @@ body {
 
 .card {
     background-color: var(rgba(16, 18, 27, 40));
-    max-width: 1250px;
-    max-height: 860px;
-    height: 90vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -244,12 +237,68 @@ body {
     visibility: hidden;
     transition: 0.3s;
 
-&
-.is-active {
-    visibility: visible;
-    opacity: 1;
+    &.is-active {
+        visibility: visible;
+        opacity: 1;
+    }
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    width: calc(33.3% - 20px);
+    font-size: 16px;
+    background-color: rgb(146, 151, 179, 13);
+    border-radius: 14px;
+    border: 1px solid rgba(16, 18, 27, 40);
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+&:hover {
+     transform: scale(1.02);
+     background-color: rgba(16, 18, 27, 40);
+ }
+svg {
+    width: 28px;
+    border-radius: 6px;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+& + .app-card {
+      margin-left: 20px;
+  }
+span {
+    display: flex;
+    align-items: center;
+}
+&__subtext {
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 1.6em;
+     margin-top: 20px;
+     border-bottom: 1px solid rgba(113, 119, 144, 25);
+     padding-bottom: 20px;
+ }
+&-buttons {
+     display: flex;
+     align-items: center;
+     margin-left: auto;
+     margin-top: 16px;
+ }
+@media screen and (max-width: 1110px) {
+    width: calc(50% - 20px);
+&:last-child {
+     margin-top: 20px;
+     margin-left: 0px;
+ }
+}
+@media screen and (max-width: 565px) {
+    width: calc(100% - 20px);
+    margin-top: 20px;
+& + .app-card {
+      margin-left: 0;
+  }
+}
 }
 
 </style>
