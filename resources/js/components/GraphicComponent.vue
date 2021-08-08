@@ -1,5 +1,5 @@
 <template>
-    <div class="grid-item item3">
+    <div class="grid-container">
         <div class="card">
             <div class="card-header">Gráfica de los niveles de CO2<span
                 class="badge badge-info float-right">{{ device['device_id'] }}</span></div>
@@ -136,27 +136,6 @@ export default {
 .grid-item {
     width: 100%;
     height: 100%;
-}
-
-.item0 {
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 3;
-    grid-column-end: 4;
-}
-
-.item1 {
-    grid-row-start: 1;
-    grid-row-end: 1;
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.item2 {
-    grid-row-start: 2;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 3;
 }
 
 .item3 {
