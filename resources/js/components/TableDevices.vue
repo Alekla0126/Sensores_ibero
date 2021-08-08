@@ -209,12 +209,12 @@ export default {
 <style>
 
 body {
+    background: linear-gradient(45deg, #FC466B, #3F5EFB);
     height: 100%;
     font-family: 'Montserrat', sans-serif;
 }
 
 .box {
-    background: linear-gradient(45deg, #FC466B, #3F5EFB);
     display: flex;
     flex-flow: column;
     height: 100%;
