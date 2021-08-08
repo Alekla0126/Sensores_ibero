@@ -233,7 +233,7 @@ html, body, #full {
     font-weight: 500;
 }
 
-.btn {
+.btn .btn-primary {
     background-color: #3a6df0;
     border: none;
     padding: 8px 26px;
