@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.97 Formatting the cards">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.98 Formatting the cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,14 +311,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="4168000" />
-    </task>
-    <task id="LOCAL-00224" summary="V7.51 Flash notifications">
-      <created>1628209970117</created>
-      <option name="number" value="00224" />
-      <option name="presentableId" value="LOCAL-00224" />
-      <option name="project" value="LOCAL" />
-      <updated>1628209970117</updated>
+      <workItem from="1628393424636" duration="4792000" />
     </task>
     <task id="LOCAL-00225" summary="V7.52 Flash notifications">
       <created>1628210240125</created>
@@ -655,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628411431490</updated>
     </task>
-    <option name="localTasksCounter" value="273" />
+    <task id="LOCAL-00273" summary="V7.98 Formatting the cards">
+      <created>1628412158670</created>
+      <option name="number" value="00273" />
+      <option name="presentableId" value="LOCAL-00273" />
+      <option name="project" value="LOCAL" />
+      <updated>1628412158670</updated>
+    </task>
+    <option name="localTasksCounter" value="274" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -678,7 +679,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.74 Background color modified" />
     <MESSAGE value="V7.75 Background color modified" />
     <MESSAGE value="V7.76 Background color modified" />
     <MESSAGE value="V7.77 Background color modified" />
@@ -703,6 +703,7 @@
     <MESSAGE value="V7.95 Transparent navbar" />
     <MESSAGE value="V7.96 Formatting the cards" />
     <MESSAGE value="V7.97 Formatting the cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.97 Formatting the cards" />
+    <MESSAGE value="V7.98 Formatting the cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.98 Formatting the cards" />
   </component>
 </project>
