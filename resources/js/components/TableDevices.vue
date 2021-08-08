@@ -219,8 +219,8 @@ body {
     overflow: hidden;
     width: 100%;
     border-radius: 14px;
-    opacity: .10;
-    backdrop-filter: blur(10px);
+    opacity: .5;
+    backdrop-filter: blur(20px);
     font-size: 15px;
     font-weight: 500;
 }
