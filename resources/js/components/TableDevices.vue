@@ -212,8 +212,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar.navbar-expand-md .navbar-inner {
-    background: rgba(0,0,0,0.4);
+.header .navbar {
+    background-color: transparent !important;
 }
 
 
