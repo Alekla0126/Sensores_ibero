@@ -212,14 +212,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/deep/ .card-body {
-    backdrop-filter: blur(20px);
-}
-
-/deep/ .card-header {
-    backdrop-filter: blur(10 px);
-}
-
 /deep/ .card {
     background-color: rgba(16, 18, 27, 40);
     display: flex;
