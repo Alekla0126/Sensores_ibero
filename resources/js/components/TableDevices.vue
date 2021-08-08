@@ -1,91 +1,93 @@
 <template>
-    <div class="grid-item item3">
-        <div class="card">
-            <div class="card-body">
-                <b-alert
-                    :show="dismissCountDown"
-                    dismissible
-                    variant="danger"
-                    @dismissed="dismissCountDown=0"
-                    @dismiss-count-down="countDownChanged"
-                >
-                    <p>El salón {{ this.salon }} excedió los niveles de CO2, el mensaje se cerrará en:
-                        {{ dismissCountDown }}</p>
-                    <b-progress
+    <div class="box">
+        <div class="grid-item item3">
+            <div class="card">
+                <div class="card-body">
+                    <b-alert
+                        :show="dismissCountDown"
+                        dismissible
                         variant="danger"
-                        :max="dismissSecs"
-                        :value="dismissCountDown"
-                        height="4px"
-                    ></b-progress>
-                </b-alert>
-                <b-row>
-                    <b-col lg="6" class="my-1">
-                        <b-form-group
-                            label="Buscar"
-                            label-for="filter-input"
-                            label-cols-sm="3"
-                            label-align-sm="right"
-                            label-size="sm"
-                            class="mb-0"
-                        >
-                            <b-input-group size="sm">
-                                <b-form-input
-                                    id="filter-input"
-                                    v-model="filter"
-                                    type="search"
-                                    placeholder="Escribe algo para buscar"
-                                ></b-form-input>
-                                <b-input-group-append>
-                                    <b-button :disabled="!filter" @click="filter = ''">Borrar</b-button>
-                                </b-input-group-append>
-                            </b-input-group>
-                        </b-form-group>
-                    </b-col>
-                    <b-col lg="6" class="my-1">
-                        <b-form-group
-                            label="Filtrado: "
-                            description="Selecciona para filtrar"
-                            label-cols-sm="3"
-                            label-align-sm="right"
-                            label-size="sm"
-                            class="mb-0"
-                            v-slot="{ ariaDescribedby }"
-                        >
-                            <b-form-checkbox-group
-                                v-model="filterOn"
-                                :aria-describedby="ariaDescribedby"
-                                class="mt-1"
+                        @dismissed="dismissCountDown=0"
+                        @dismiss-count-down="countDownChanged"
+                    >
+                        <p>El salón {{ this.salon }} excedió los niveles de CO2, el mensaje se cerrará en:
+                            {{ dismissCountDown }}</p>
+                        <b-progress
+                            variant="danger"
+                            :max="dismissSecs"
+                            :value="dismissCountDown"
+                            height="4px"
+                        ></b-progress>
+                    </b-alert>
+                    <b-row>
+                        <b-col lg="6" class="my-1">
+                            <b-form-group
+                                label="Buscar"
+                                label-for="filter-input"
+                                label-cols-sm="3"
+                                label-align-sm="right"
+                                label-size="sm"
+                                class="mb-0"
                             >
-                                <b-form-checkbox value="id">Id</b-form-checkbox>
-                                <b-form-checkbox value="device_id">Salón</b-form-checkbox>
-                            </b-form-checkbox-group>
-                        </b-form-group>
-                    </b-col>
-                </b-row>
-                <b-table
-                    responsive
-                    id="my-table"
-                    ref="table"
-                    hover
-                    sticky-header
-                    :items="items"
-                    :fields="fields"
-                    :current-page="currentPage"
-                    :per-page="perPage"
-                    :filter="filter"
-                    :filter-included-fields="filterOn"
-                    @row-clicked="onRowClick"
-                >
-                </b-table>
-                <p class="mt-3">Página actual: {{ currentPage }}</p>
-                <b-pagination
-                    aria-controls="my-table"
-                    v-model="currentPage"
-                    :per-page="perPage"
-                    :total-rows="rows"
-                    first-number
-                    last-number
-                ></b-pagination>
+                                <b-input-group size="sm">
+                                    <b-form-input
+                                        id="filter-input"
+                                        v-model="filter"
+                                        type="search"
+                                        placeholder="Escribe algo para buscar"
+                                    ></b-form-input>
+                                    <b-input-group-append>
+                                        <b-button :disabled="!filter" @click="filter = ''">Borrar</b-button>
+                                    </b-input-group-append>
+                                </b-input-group>
+                            </b-form-group>
+                        </b-col>
+                        <b-col lg="6" class="my-1">
+                            <b-form-group
+                                label="Filtrado: "
+                                description="Selecciona para filtrar"
+                                label-cols-sm="3"
+                                label-align-sm="right"
+                                label-size="sm"
+                                class="mb-0"
+                                v-slot="{ ariaDescribedby }"
+                            >
+                                <b-form-checkbox-group
+                                    v-model="filterOn"
+                                    :aria-describedby="ariaDescribedby"
+                                    class="mt-1"
+                                >
+                                    <b-form-checkbox value="id">Id</b-form-checkbox>
+                                    <b-form-checkbox value="device_id">Salón</b-form-checkbox>
+                                </b-form-checkbox-group>
+                            </b-form-group>
+                        </b-col>
+                    </b-row>
+                    <b-table
+                        responsive
+                        id="my-table"
+                        ref="table"
+                        hover
+                        sticky-header
+                        :items="items"
+                        :fields="fields"
+                        :current-page="currentPage"
+                        :per-page="perPage"
+                        :filter="filter"
+                        :filter-included-fields="filterOn"
+                        @row-clicked="onRowClick"
+                    >
+                    </b-table>
+                    <p class="mt-3">Página actual: {{ currentPage }}</p>
+                    <b-pagination
+                        aria-controls="my-table"
+                        v-model="currentPage"
+                        :per-page="perPage"
+                        :total-rows="rows"
+                        first-number
+                        last-number
+                    ></b-pagination>
+                </div>
             </div>
         </div>
     </div>
@@ -207,9 +209,15 @@ export default {
 <style>
 
 body {
-    background: linear-gradient(45deg, #FC466B, #3F5EFB);
-    height: fit-content;
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
+}
+
+.box {
+    background: linear-gradient(45deg, #FC466B, #3F5EFB);
+    display: flex;
+    flex-flow: column;
+    height: 100%;
 }
 
 .card {

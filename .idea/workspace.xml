@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.15 UI changes">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.16 UI changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -310,14 +311,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="8211000" />
-    </task>
-    <task id="LOCAL-00241" summary="V7.68 Background gradiant">
-      <created>1628290146304</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
-      <option name="project" value="LOCAL" />
-      <updated>1628290146304</updated>
+      <workItem from="1628393424636" duration="8353000" />
     </task>
     <task id="LOCAL-00242" summary="V7.69 Background gradiant">
       <created>1628290464267</created>
@@ -655,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628462962337</updated>
     </task>
-    <option name="localTasksCounter" value="290" />
+    <task id="LOCAL-00290" summary="V8.16 UI changes">
+      <created>1628463078214</created>
+      <option name="number" value="00290" />
+      <option name="presentableId" value="LOCAL-00290" />
+      <option name="project" value="LOCAL" />
+      <updated>1628463078214</updated>
+    </task>
+    <option name="localTasksCounter" value="291" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -678,7 +679,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.91 Styling the card" />
     <MESSAGE value="V7.92 Styling the card" />
     <MESSAGE value="V7.93 Styling the card" />
     <MESSAGE value="V7.93 Transparent navbar" />
@@ -703,6 +703,7 @@
     <MESSAGE value="V8.13 UI changes" />
     <MESSAGE value="V8.14 UI changes" />
     <MESSAGE value="V8.15 UI changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="V8.15 UI changes" />
+    <MESSAGE value="V8.16 UI changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="V8.16 UI changes" />
   </component>
 </project>
