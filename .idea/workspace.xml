@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.95 Transparent navbar" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.96 Formatting the cards" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -308,14 +308,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="3300000" />
-    </task>
-    <task id="LOCAL-00222" summary="V7.49 Flash notifications">
-      <created>1628209170397</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1628209170397</updated>
+      <workItem from="1628393424636" duration="3534000" />
     </task>
     <task id="LOCAL-00223" summary="V7.50 Flash notifications">
       <created>1628209390485</created>
@@ -653,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628410514673</updated>
     </task>
-    <option name="localTasksCounter" value="271" />
+    <task id="LOCAL-00271" summary="V7.96 Formatting the cards">
+      <created>1628410967860</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1628410967860</updated>
+    </task>
+    <option name="localTasksCounter" value="272" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -676,7 +676,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.72 Background color modified" />
     <MESSAGE value="V7.73 Background color modified" />
     <MESSAGE value="V7.74 Background color modified" />
     <MESSAGE value="V7.75 Background color modified" />
@@ -701,6 +700,7 @@
     <MESSAGE value="V7.93 Transparent navbar" />
     <MESSAGE value="V7.94 Transparent navbar" />
     <MESSAGE value="V7.95 Transparent navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.95 Transparent navbar" />
+    <MESSAGE value="V7.96 Formatting the cards" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.96 Formatting the cards" />
   </component>
 </project>

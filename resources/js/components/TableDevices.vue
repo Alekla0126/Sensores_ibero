@@ -220,7 +220,6 @@ body {
     width: 100%;
     border-radius: 14px;
     backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
     font-size: 15px;
     font-weight: 500;
 }
