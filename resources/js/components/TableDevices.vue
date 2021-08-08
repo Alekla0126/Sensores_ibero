@@ -208,7 +208,7 @@ export default {
 
 body {
     background: linear-gradient(45deg, #FC466B, #3F5EFB);
-    height: available;
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
 }
 
