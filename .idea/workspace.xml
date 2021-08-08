@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.87 Styling the card">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V7.88 Styling the card">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/TableDevices.vue" afterDir="false" />
     </list>
@@ -311,14 +311,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="730000" />
-    </task>
-    <task id="LOCAL-00213" summary="V7.40 Forgot password conf">
-      <created>1628151364089</created>
-      <option name="number" value="00213" />
-      <option name="presentableId" value="LOCAL-00213" />
-      <option name="project" value="LOCAL" />
-      <updated>1628151364090</updated>
+      <workItem from="1628393424636" duration="1269000" />
     </task>
     <task id="LOCAL-00214" summary="V7.41 Forgot password conf">
       <created>1628151590030</created>
@@ -656,7 +649,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628393671086</updated>
     </task>
-    <option name="localTasksCounter" value="262" />
+    <task id="LOCAL-00262" summary="V7.88 Styling the card">
+      <created>1628404662905</created>
+      <option name="number" value="00262" />
+      <option name="presentableId" value="LOCAL-00262" />
+      <option name="project" value="LOCAL" />
+      <updated>1628404662905</updated>
+    </task>
+    <option name="localTasksCounter" value="263" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -679,7 +679,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V7.63 Table style" />
     <MESSAGE value="V7.64 Table style" />
     <MESSAGE value="V7.65 Styling table" />
     <MESSAGE value="V7.66 Styling table" />
@@ -704,6 +703,7 @@
     <MESSAGE value="V7.85 Styling the card" />
     <MESSAGE value="V7.86 Styling the card" />
     <MESSAGE value="V7.87 Styling the card" />
-    <option name="LAST_COMMIT_MESSAGE" value="V7.87 Styling the card" />
+    <MESSAGE value="V7.88 Styling the card" />
+    <option name="LAST_COMMIT_MESSAGE" value="V7.88 Styling the card" />
   </component>
 </project>
