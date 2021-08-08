@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.25 UI changes" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.26 UI changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -308,14 +308,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="9454000" />
-    </task>
-    <task id="LOCAL-00251" summary="V7.77 Background color modified">
-      <created>1628293894100</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1628293894100</updated>
+      <workItem from="1628393424636" duration="9719000" />
     </task>
     <task id="LOCAL-00252" summary="V7.78 Background color modified">
       <created>1628296477196</created>
@@ -653,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628464507938</updated>
     </task>
-    <option name="localTasksCounter" value="300" />
+    <task id="LOCAL-00300" summary="V8.26 UI changes">
+      <created>1628466543606</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1628466543606</updated>
+    </task>
+    <option name="localTasksCounter" value="301" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -676,7 +676,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V8.1 Formatting the cards" />
     <MESSAGE value="V8.2 Formatting the cards" />
     <MESSAGE value="V8.3 Formatting the cards" />
     <MESSAGE value="V8.4 Formatting the cards" />
@@ -701,6 +700,7 @@
     <MESSAGE value="V8.23 UI changes" />
     <MESSAGE value="V8.24 UI changes" />
     <MESSAGE value="V8.25 UI changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="V8.25 UI changes" />
+    <MESSAGE value="V8.26 UI changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="V8.26 UI changes" />
   </component>
 </project>

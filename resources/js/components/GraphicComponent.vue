@@ -19,7 +19,7 @@
                         height="4px"
                     ></b-progress>
                 </b-alert>
-                <canvas id="line-chart"></canvas>
+                <canvas id="line-chart" :width="400" :height="400"></canvas>
             </div>
         </div>
     </div>
