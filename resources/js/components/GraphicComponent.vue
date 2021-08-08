@@ -108,11 +108,6 @@ export default {
 </script>
 
 <style>
-.grid-container {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-}
 
 @media only screen and (max-width: 765px) {
     .grid-container {
@@ -134,6 +129,8 @@ export default {
 }
 
 .grid-item {
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
 }

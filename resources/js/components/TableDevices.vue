@@ -208,7 +208,7 @@ export default {
 
 <style>
 
-html, body, #full, card {
+html, body, #full {
     background: linear-gradient(45deg, #FC466B, #3F5EFB);
     height: 100%;
     flex-direction:column;
@@ -228,8 +228,8 @@ html, body, #full, card {
     overflow: hidden;
     width: 100%;
     border-radius: 14px;
-    opacity: .5;
-    backdrop-filter: blur(20px);
+    opacity: .9;
+    backdrop-filter: blur(s20px);
     font-size: 15px;
     font-weight: 500;
 }
