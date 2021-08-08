@@ -208,7 +208,7 @@ export default {
 
 body {
     background: linear-gradient(45deg, #FC466B, #3F5EFB);
-    height: auto;
+    height: available;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -219,8 +219,8 @@ body {
     overflow: hidden;
     width: 100%;
     border-radius: 14px;
-    opacity: .5;
-    backdrop-filter: blur(15px);
+    opacity: .10;
+    backdrop-filter: blur(10px);
     font-size: 15px;
     font-weight: 500;
 }
