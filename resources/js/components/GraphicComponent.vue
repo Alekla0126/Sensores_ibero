@@ -1,6 +1,6 @@
 <template>
     <div class="card">
-        <div class="card-header">Gráfica de los niveles de CO2 con id: {{ device['id'] }}<span
+        <div class="card-header">Gráfica de los niveles de CO2 con id: {{ this.id }}<span
             class="badge badge-info float-right">Salón: {{ device['device_id'] }}
         </span>
         </div>
@@ -41,6 +41,7 @@ export default {
             labeled: 'CO2',
             dismissSecs: 10,
             dismissCountDown: 0,
+            id: 0
         }
     },
     created()
@@ -58,6 +59,7 @@ export default {
                     this.temp = [0];
                     this.values = [0, 0, 0, 0, 0, 0, 0];
                 }
+                this.id = e.message['id'];
                 this.values[this.temp.length - 1] = e.message['value'];
                 this.labels[this.temp.length - 1] = e.message['updated_at'];
                 this.myChart.data.datasets[0].data = this.values;
