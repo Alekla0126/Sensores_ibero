@@ -1,28 +1,28 @@
 <template>
-        <div class="card">
-            <div class="card-header">Gráfica de los niveles de CO2 con id: {{ this.id }}<span
-                class="badge badge-info float-right">Salón: {{ this.room }}
-            </span>
-            </div>
-            <div class="card-body">
-                <b-alert
-                    :show="dismissCountDown"
-                    dismissible
-                    variant="danger"
-                    @dismissed="dismissCountDown=0"
-                    @dismiss-count-down="countDownChanged"
-                >
-                    <p>El salón {{ this.device['device_id'] }} excedió los niveles de CO2, el mensaje se cerrará en: {{ dismissCountDown }}</p>
-                    <b-progress
-                        variant="danger"
-                        :max="dismissSecs"
-                        :value="dismissCountDown"
-                        height="4px"
-                    ></b-progress>
-                </b-alert>
-                <canvas id="line-chart"></canvas>
-            </div>
+    <div class="card">
+        <div class="card-header">Gráfica de los niveles de CO2 con id: {{ this.id }}<span
+            class="badge badge-info float-right">Salón: {{ this.room }}
+        </span>
         </div>
+        <div class="card-body">
+            <b-alert
+                :show="dismissCountDown"
+                dismissible
+                variant="danger"
+                @dismissed="dismissCountDown=0"
+                @dismiss-count-down="countDownChanged"
+            >
+                <p>El salón {{ this.device['device_id'] }} excedió los niveles de CO2, el mensaje se cerrará en: {{ dismissCountDown }}</p>
+                <b-progress
+                    variant="danger"
+                    :max="dismissSecs"
+                    :value="dismissCountDown"
+                    height="4px"
+                ></b-progress>
+            </b-alert>
+            <canvas id="line-chart"></canvas>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -52,7 +52,7 @@ export default {
         {
             if(this.device[0]['device_id'] === e.message['device_id'])
             {
-                if (this.temp.length <= 6)
+                if (this.temp.length < 6)
                 {
                     this.temp.push(0);
                 }
@@ -104,6 +104,18 @@ export default {
                             'lineTension': 0.1,
                         }],
                 },
+                'options': {
+                    scales: {
+                        yAxes: [
+                            {
+                                ticks: {
+                                    beginAtZero: true
+                                }
+                            }]
+                    },
+                    responsive: true,
+                    maintainAspectRatio: false
+                }
             });
         },
         countDownChanged(dismissCountDown)
