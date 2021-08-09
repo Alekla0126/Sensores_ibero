@@ -21,7 +21,7 @@
                         height="4px"
                     ></b-progress>
                 </b-alert>
-                <canvas id="line-chart" :styles="myStyles"></canvas>
+                <canvas id="line-chart"></canvas>
             </div>
         </div>
     </div>
@@ -118,14 +118,6 @@ export default {
         showAlert()
         {
             this.dismissCountDown = this.dismissSecs
-        }
-    },
-    computed: {
-        myStyles () {
-            return {
-                height: '30px',
-                position: 'relative'
-            }
         }
     }
 }
