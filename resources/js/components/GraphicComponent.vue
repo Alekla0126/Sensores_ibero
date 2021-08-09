@@ -113,7 +113,6 @@ export default {
         myStyles() {
             return {
                 height: '300vh',
-                position: 'relative',
             };
         },
     }
