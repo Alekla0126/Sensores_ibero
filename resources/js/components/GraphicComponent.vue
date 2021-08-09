@@ -88,11 +88,11 @@ export default {
             this.myChart = new Chart(ctx, {
                 'type': 'line',
                 'data': {
-                    'labels': [this.device['updated_at']],
+                    'labels': this.labels,
                     'datasets': [
                         {
                             'label': [this.labeled],
-                            'data': [this.device['value']],
+                            'data': this.values,
                             'fill': false,
                             'borderColor': 'rgb(48,219,142)',
                             'lineTension': 0.1,
@@ -100,7 +100,7 @@ export default {
                 },
                 'options': {
                     maintainAspectRatio: false,
-                    height: 100,
+                    height: 50,
                 }
             });
         },
