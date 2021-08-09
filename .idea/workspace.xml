@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.31 UI changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.33 UI changes">
       <change beforePath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -311,21 +310,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="10782000" />
-    </task>
-    <task id="LOCAL-00257" summary="V7.83 Styling the card">
-      <created>1628297802628</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
-      <option name="project" value="LOCAL" />
-      <updated>1628297802628</updated>
-    </task>
-    <task id="LOCAL-00258" summary="V7.84 Styling the card">
-      <created>1628298021776</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1628298021776</updated>
+      <workItem from="1628393424636" duration="11064000" />
     </task>
     <task id="LOCAL-00259" summary="V7.85 Styling the card">
       <created>1628298278906</created>
@@ -656,7 +641,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628467975102</updated>
     </task>
-    <option name="localTasksCounter" value="306" />
+    <task id="LOCAL-00306" summary="V8.32 UI changes">
+      <created>1628468221696</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1628468221696</updated>
+    </task>
+    <task id="LOCAL-00307" summary="V8.33 UI changes">
+      <created>1628468415411</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1628468415411</updated>
+    </task>
+    <option name="localTasksCounter" value="308" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -679,8 +678,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V8.7 Formatting the cards" />
-    <MESSAGE value="V8.8 UI changes" />
     <MESSAGE value="V8.9 UI changes" />
     <MESSAGE value="V8.10 UI changes" />
     <MESSAGE value="V8.11 UI changes" />
@@ -704,6 +701,8 @@
     <MESSAGE value="V8.29 UI changes" />
     <MESSAGE value="V8.30 UI changes" />
     <MESSAGE value="V8.31 UI changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="V8.31 UI changes" />
+    <MESSAGE value="V8.32 UI changes" />
+    <MESSAGE value="V8.33 UI changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="V8.33 UI changes" />
   </component>
 </project>
