@@ -20,7 +20,7 @@
                     height="4px"
                 ></b-progress>
             </b-alert>
-            <canvas id="line-chart" :styles="myStyles"></canvas>
+            <canvas id="line-chart"></canvas>
         </div>
     </div>
 </template>
@@ -41,7 +41,6 @@ export default {
             labeled: 'CO2',
             dismissSecs: 10,
             dismissCountDown: 0,
-            windowHeight: window.innerHeight
         }
     },
     created()
@@ -104,14 +103,19 @@ export default {
         {
             this.dismissCountDown = this.dismissSecs
         }
-    },
-    computed: {
-        myStyles () {
-            return {
-                height: `${this.windowHeight}px`,
-                position: 'relative'
-            }
-        }
     }
 }
 </script>
+
+<style>
+
+.card {
+    flex-grow: 1;
+    min-height: 0;
+    > div {
+        position: relative;
+        height: 100%;
+    }
+}
+
+</style>
