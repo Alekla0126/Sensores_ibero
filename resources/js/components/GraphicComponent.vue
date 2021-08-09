@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <div class="card-header">Gráfica de los niveles de CO2 con id: {{ device['id'] }}<span
-            class="badge badge-info float-right">{{ device['device_id'] }}
+            class="badge badge-info float-right">Salón: {{ device['device_id'] }}
         </span>
         </div>
         <div class="card-body">
@@ -110,7 +110,7 @@ export default {
     computed: {
         myStyles() {
             return {
-                height: '20vh',
+                height: '90vh',
                 position: 'relative',
             };
         },

@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.36 UI changes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" afterDir="false" />
-    </list>
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.37 UI changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -311,14 +308,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="11739000" />
-    </task>
-    <task id="LOCAL-00262" summary="V7.88 Styling the card">
-      <created>1628404662905</created>
-      <option name="number" value="00262" />
-      <option name="presentableId" value="LOCAL-00262" />
-      <option name="project" value="LOCAL" />
-      <updated>1628404662905</updated>
+      <workItem from="1628393424636" duration="12021000" />
     </task>
     <task id="LOCAL-00263" summary="V7.89 Styling the card">
       <created>1628405811671</created>
@@ -656,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628469083108</updated>
     </task>
-    <option name="localTasksCounter" value="311" />
+    <task id="LOCAL-00311" summary="V8.37 UI changes">
+      <created>1628469936677</created>
+      <option name="number" value="00311" />
+      <option name="presentableId" value="LOCAL-00311" />
+      <option name="project" value="LOCAL" />
+      <updated>1628469936677</updated>
+    </task>
+    <option name="localTasksCounter" value="312" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -679,7 +676,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V8.12 UI changes" />
     <MESSAGE value="V8.13 UI changes" />
     <MESSAGE value="V8.14 UI changes" />
     <MESSAGE value="V8.15 UI changes" />
@@ -704,6 +700,7 @@
     <MESSAGE value="V8.34 UI changes" />
     <MESSAGE value="V8.35 UI changes" />
     <MESSAGE value="V8.36 UI changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="V8.36 UI changes" />
+    <MESSAGE value="V8.37 UI changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="V8.37 UI changes" />
   </component>
 </project>
