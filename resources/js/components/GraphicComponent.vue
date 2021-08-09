@@ -76,11 +76,11 @@ export default {
     },
     mounted()
     {
-        this.extractData();
-        this.drawChart();
         window.onresize = () => {
             this.windowWidth = window.innerWidth
-        }
+        };
+        this.extractData();
+        this.drawChart();
     },
     methods: {
         extractData()
