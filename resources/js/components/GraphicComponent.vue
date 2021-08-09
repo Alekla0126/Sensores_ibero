@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <div class="card-header">Gráfica de los niveles de CO2 con id: {{ this.id }}<span
-            class="badge badge-info float-right">Salón: {{ device['device_id'] }}
+            class="badge badge-info float-right">Salón: {{ this.room }}
         </span>
         </div>
         <div class="card-body">
@@ -20,7 +20,7 @@
                     height="4px"
                 ></b-progress>
             </b-alert>
-            <canvas id="line-chart" :styles="myStyles"></canvas>
+            <canvas id="line-chart"></canvas>
         </div>
     </div>
 </template>
@@ -42,6 +42,7 @@ export default {
             dismissSecs: 10,
             dismissCountDown: 0,
             id: this.device[0]['id'],
+            room: this.device[0]['device_id']
         }
     },
     created()
@@ -94,7 +95,7 @@ export default {
                             'label': [this.labeled],
                             'data': this.values,
                             'fill': false,
-                            'borderColor': 'rgb(48,219,142)',
+                            'borderColor': 'rgb(59,145,101)',
                             'lineTension': 0.1,
                         }],
                 },
