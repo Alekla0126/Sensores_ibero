@@ -36,7 +36,7 @@ export default {
         return {
             values: [],
             labels: [],
-            temp: [0],
+            temp: [],
             myChart,
             labeled: 'CO2',
             dismissSecs: 10,
@@ -62,7 +62,7 @@ export default {
                 this.myChart.data.labels = this.labels;
                 this.myChart.update();
                 // Change the tolerance that triggers the alarm notifications.
-                if(this.device['value'] > 50)
+                if(e.message['value'] > 50)
                 {
                     this.showAlert();
                 }
