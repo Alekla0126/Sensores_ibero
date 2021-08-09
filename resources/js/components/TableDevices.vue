@@ -232,7 +232,6 @@ html, body {
     flex-direction: column;
     overflow: hidden;
     width: 100%;
-    /*height: 100%;*/
     border-radius: 14px;
     opacity: .9;
     backdrop-filter: blur(s20px);
@@ -240,6 +239,6 @@ html, body {
     font-weight: 500;
 }
 
-.btn {border-radius: 20px;}
+.btn {border-radius: 15px;}
 
 </style>

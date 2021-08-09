@@ -104,18 +104,6 @@ export default {
                             'lineTension': 0.1,
                         }],
                 },
-                'options': {
-                    scales: {
-                        yAxes: [
-                            {
-                                ticks: {
-                                    beginAtZero: true
-                                }
-                            }]
-                    },
-                    responsive: true,
-                    maintainAspectRatio: false
-                }
             });
         },
         countDownChanged(dismissCountDown)
@@ -130,4 +118,10 @@ export default {
 }
 </script>
 
-<
+<style>
+
+#line-chart {
+    height: 80vh;
+}
+
+</style>
