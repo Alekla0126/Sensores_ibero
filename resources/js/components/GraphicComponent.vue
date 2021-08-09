@@ -123,7 +123,7 @@ export default {
     computed: {
         myStyles () {
             return {
-                height: '20vh',
+                height: '30px',
                 position: 'relative'
             }
         }
