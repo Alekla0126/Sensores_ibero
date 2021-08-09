@@ -1,5 +1,4 @@
 <template>
-    <div id="full">
         <div class="card">
             <div class="card-header">Gráfica de los niveles de CO2 con id: {{ this.id }}<span
                 class="badge badge-info float-right">Salón: {{ this.room }}
@@ -24,7 +23,6 @@
                 <canvas id="line-chart"></canvas>
             </div>
         </div>
-    </div>
 </template>
 
 <script>
