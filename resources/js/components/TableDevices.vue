@@ -210,7 +210,7 @@ export default {
 
 html, body, #full {
     background: linear-gradient(45deg, #FC466B, #3F5EFB);
-    min-height: 100%;
+    height: 100%;
     flex-direction:column;
     font-family: 'Montserrat', sans-serif;
 }
@@ -227,12 +227,14 @@ html, body, #full {
     flex-direction: column;
     overflow: hidden;
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
     border-radius: 14px;
     opacity: .9;
     backdrop-filter: blur(s20px);
     font-size: 15px;
     font-weight: 500;
 }
+
+.btn {border-radius: 20px;}
 
 </style>
