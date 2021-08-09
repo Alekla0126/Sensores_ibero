@@ -113,14 +113,6 @@ export default {
         {
             this.dismissCountDown = this.dismissSecs
         }
-    },
-    computed: {
-        myStyles() {
-            return {
-                height: '100vh',
-                position: 'relative',
-            };
-        },
     }
 }
 </script>
