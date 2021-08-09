@@ -106,6 +106,9 @@ export default {
                             'lineTension': 0.1,
                         }],
                 },
+                defaultOptions: {
+                    maintainAspectRatio: true,
+                },
             });
         },
         countDownChanged(dismissCountDown)
