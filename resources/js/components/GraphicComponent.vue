@@ -97,6 +97,10 @@ export default {
                             'borderColor': 'rgb(48,219,142)',
                             'lineTension': 0.1,
                         }],
+                },
+                'options': {
+                    maintainAspectRatio: false,
+                    height: 100,
                 }
             });
         },
