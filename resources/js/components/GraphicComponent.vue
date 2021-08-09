@@ -55,6 +55,10 @@ export default {
                 {
                     this.temp.push(0);
                 }
+                else
+                {
+                    this.temp = [];
+                }
                 this.id = e.message['id'];
                 this.values[this.temp.length - 1] = e.message['value'];
                 this.labels[this.temp.length - 1] = e.message['updated_at'];
@@ -99,10 +103,6 @@ export default {
                             'lineTension': 0.1,
                         }],
                 },
-                'options': {
-                    maintainAspectRatio: false,
-                    height: 50,
-                }
             });
         },
         countDownChanged(dismissCountDown)
