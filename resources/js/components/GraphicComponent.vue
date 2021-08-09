@@ -20,7 +20,7 @@
                     height="4px"
                 ></b-progress>
             </b-alert>
-            <canvas id="line-chart" :styles="myStyles"></canvas>
+            <canvas id="line-chart"></canvas>
         </div>
     </div>
 </template>
@@ -109,12 +109,5 @@ export default {
             this.dismissCountDown = this.dismissSecs
         }
     },
-    computed: {
-        myStyles() {
-            return {
-                height: '300vh',
-            };
-        },
-    }
 }
 </script>

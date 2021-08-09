@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.40 UI changes">
-      <change beforePath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" afterDir="false" />
-    </list>
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.43 UI changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -310,28 +308,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="12446000" />
-    </task>
-    <task id="LOCAL-00266" summary="V7.92 Styling the card">
-      <created>1628408360524</created>
-      <option name="number" value="00266" />
-      <option name="presentableId" value="LOCAL-00266" />
-      <option name="project" value="LOCAL" />
-      <updated>1628408360524</updated>
-    </task>
-    <task id="LOCAL-00267" summary="V7.93 Styling the card">
-      <created>1628408788815</created>
-      <option name="number" value="00267" />
-      <option name="presentableId" value="LOCAL-00267" />
-      <option name="project" value="LOCAL" />
-      <updated>1628408788815</updated>
-    </task>
-    <task id="LOCAL-00268" summary="V7.93 Transparent navbar">
-      <created>1628408843858</created>
-      <option name="number" value="00268" />
-      <option name="presentableId" value="LOCAL-00268" />
-      <option name="project" value="LOCAL" />
-      <updated>1628408843858</updated>
+      <workItem from="1628393424636" duration="12659000" />
     </task>
     <task id="LOCAL-00269" summary="V7.94 Transparent navbar">
       <created>1628409960697</created>
@@ -655,7 +632,28 @@
       <option name="project" value="LOCAL" />
       <updated>1628470513503</updated>
     </task>
-    <option name="localTasksCounter" value="315" />
+    <task id="LOCAL-00315" summary="V8.41 UI changes">
+      <created>1628470668474</created>
+      <option name="number" value="00315" />
+      <option name="presentableId" value="LOCAL-00315" />
+      <option name="project" value="LOCAL" />
+      <updated>1628470668474</updated>
+    </task>
+    <task id="LOCAL-00316" summary="V8.42 UI changes">
+      <created>1628470861151</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1628470861151</updated>
+    </task>
+    <task id="LOCAL-00317" summary="V8.43 UI changes">
+      <created>1628471020858</created>
+      <option name="number" value="00317" />
+      <option name="presentableId" value="LOCAL-00317" />
+      <option name="project" value="LOCAL" />
+      <updated>1628471020859</updated>
+    </task>
+    <option name="localTasksCounter" value="318" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -678,9 +676,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V8.16 UI changes" />
-    <MESSAGE value="V8.17 UI changes" />
-    <MESSAGE value="V8.18 UI changes" />
     <MESSAGE value="V8.19 UI changes" />
     <MESSAGE value="V8.20 UI changes" />
     <MESSAGE value="V8.21 UI changes" />
@@ -703,6 +698,9 @@
     <MESSAGE value="V8.38 UI changes" />
     <MESSAGE value="V8.39 UI changes" />
     <MESSAGE value="V8.40 UI changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="V8.40 UI changes" />
+    <MESSAGE value="V8.41 UI changes" />
+    <MESSAGE value="V8.42 UI changes" />
+    <MESSAGE value="V8.43 UI changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="V8.43 UI changes" />
   </component>
 </project>
