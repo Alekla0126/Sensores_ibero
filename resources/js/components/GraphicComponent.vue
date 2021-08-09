@@ -41,7 +41,7 @@ export default {
             labeled: 'CO2',
             dismissSecs: 10,
             dismissCountDown: 0,
-            id: 0
+            id: this.device['id'];
         }
     },
     created()
@@ -112,7 +112,7 @@ export default {
     computed: {
         myStyles() {
             return {
-                height: '100vh',
+                height: '300vh',
                 position: 'relative',
             };
         },
