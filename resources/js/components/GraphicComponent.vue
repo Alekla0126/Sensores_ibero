@@ -42,7 +42,8 @@ export default {
             dismissSecs: 10,
             dismissCountDown: 0,
             id: this.device[0]['id'],
-            room: this.device[0]['device_id']
+            room: this.device[0]['device_id'],
+            windowHeight: window.innerHeight
         }
     },
     created()
@@ -90,6 +91,7 @@ export default {
         drawChart()
         {
             let ctx = document.getElementById("line-chart");
+            ctx.height = this.windowHeight;
             this.myChart = new Chart(ctx, {
                 'type': 'line',
                 'data': {
