@@ -2,11 +2,11 @@
 
 @section('content')
     <main class="login-form">
-        <div class="cotainer">
+        <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="card">
-                        <div class="card-header">Cambiar la contraseña</div>
+                        <div class="card-header">Cambia la contraseña</div>
                         <div class="card-body">
 
                             @if (Session::has('message'))
