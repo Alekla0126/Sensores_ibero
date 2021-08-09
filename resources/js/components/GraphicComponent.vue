@@ -106,7 +106,7 @@ export default {
                 },
                 options: {
                     maintainAspectRatio: false,
-                    responsive: true;
+                    responsive: true
                 },
             });
         },
