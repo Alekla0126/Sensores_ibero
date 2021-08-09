@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.82 The graph is updated">
-      <change beforePath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/GraphicComponent.vue" afterDir="false" />
-    </list>
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.84 The graph is updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -310,21 +308,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="21420000" />
-    </task>
-    <task id="LOCAL-00319" summary="V8.45 The graph is updated">
-      <created>1628473275639</created>
-      <option name="number" value="00319" />
-      <option name="presentableId" value="LOCAL-00319" />
-      <option name="project" value="LOCAL" />
-      <updated>1628473275639</updated>
-    </task>
-    <task id="LOCAL-00320" summary="V8.46 The graph is updated">
-      <created>1628473793076</created>
-      <option name="number" value="00320" />
-      <option name="presentableId" value="LOCAL-00320" />
-      <option name="project" value="LOCAL" />
-      <updated>1628473793076</updated>
+      <workItem from="1628393424636" duration="21700000" />
     </task>
     <task id="LOCAL-00321" summary="V8.47 The graph is updated">
       <created>1628473941234</created>
@@ -655,7 +639,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628484912786</updated>
     </task>
-    <option name="localTasksCounter" value="368" />
+    <task id="LOCAL-00368" summary="V8.83 The graph is updated">
+      <created>1628484997039</created>
+      <option name="number" value="00368" />
+      <option name="presentableId" value="LOCAL-00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1628484997039</updated>
+    </task>
+    <task id="LOCAL-00369" summary="V8.84 The graph is updated">
+      <created>1628485111296</created>
+      <option name="number" value="00369" />
+      <option name="presentableId" value="LOCAL-00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1628485111296</updated>
+    </task>
+    <option name="localTasksCounter" value="370" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -678,8 +676,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V8.58 The graph is updated" />
-    <MESSAGE value="V8.59 The graph is updated" />
     <MESSAGE value="V8.60 The graph is updated" />
     <MESSAGE value="V8.61 The graph is updated" />
     <MESSAGE value="V8.62 The graph is updated" />
@@ -703,6 +699,8 @@
     <MESSAGE value="V8.80 The graph is updated" />
     <MESSAGE value="V8.81 The graph is updated" />
     <MESSAGE value="V8.82 The graph is updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="V8.82 The graph is updated" />
+    <MESSAGE value="V8.83 The graph is updated" />
+    <MESSAGE value="V8.84 The graph is updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="V8.84 The graph is updated" />
   </component>
 </project>

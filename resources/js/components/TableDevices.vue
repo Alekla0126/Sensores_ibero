@@ -212,7 +212,6 @@ html, body {
     background: linear-gradient(45deg, #FC466B, #3F5EFB);
     flex-direction:column;
     font-family: 'Montserrat', sans-serif;
-    position: fixed;
     top: 0;
     bottom:0;
     left:0;
