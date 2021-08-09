@@ -20,7 +20,7 @@
                     height="4px"
                 ></b-progress>
             </b-alert>
-            <canvas id="line-chart"></canvas>
+            <canvas id="line-chart" :styles="myStyles"></canvas>
         </div>
     </div>
 </template>
@@ -92,7 +92,10 @@ export default {
                             'lineTension': 0.1,
                         }],
                 },
-                'options': {},
+                'options': {
+                    maintainAspectRatio: false,
+                    height: 300,
+                },
             });
         },
         countDownChanged(dismissCountDown)
@@ -103,19 +106,14 @@ export default {
         {
             this.dismissCountDown = this.dismissSecs
         }
+    },
+    computed: {
+        myStyles() {
+            return {
+                height: '20vh',
+                position: 'relative',
+            };
+        },
     }
 }
 </script>
-
-<style>
-
-.card {
-    flex-grow: 1;
-    min-height: 0;
-    > div {
-        position: relative;
-        height: 100%;
-    }
-}
-
-</style>
