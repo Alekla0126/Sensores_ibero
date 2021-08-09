@@ -41,7 +41,7 @@ export default {
             labeled: 'CO2',
             dismissSecs: 10,
             dismissCountDown: 0,
-            id: this.device['id'];
+            id: this.device['id']
         }
     },
     created()
