@@ -210,9 +210,14 @@ export default {
 
 html, body, #full {
     background: linear-gradient(45deg, #FC466B, #3F5EFB);
-    height: 100%;
     flex-direction:column;
     font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height: 100%;
 }
 
 #full {
