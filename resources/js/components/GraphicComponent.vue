@@ -20,7 +20,7 @@
                     height="4px"
                 ></b-progress>
             </b-alert>
-            <canvas id="line-chart"></canvas>
+            <canvas id="line-chart" :styles="myStyles"></canvas>
         </div>
     </div>
 </template>
@@ -34,30 +34,25 @@ export default {
     {
         let myChart;
         return {
-            values: [this.device['value'], 0, 0, 0, 0, 0, 0],
-            labels: [this.device['updated_at'], '00:00', '00:00', '00:00', '00:00', '00:00', '00:00'],
+            values: [0, 0, 0, 0, 0, 0, 0],
+            labels: ['00:00', '00:00', '00:00', '00:00', '00:00', '00:00', '00:00'],
             temp: [0],
             myChart,
             labeled: 'CO2',
             dismissSecs: 10,
             dismissCountDown: 0,
-            id: this.device['id']
+            id: this.device[0]['id'],
         }
     },
     created()
     {
         window.Echo.channel('chat').listen('TemperatureUpdater', (e) =>
         {
-            if(this.device['device_id'] === e.message['device_id'])
+            if(this.device[0]['device_id'] === e.message['device_id'])
             {
                 if (this.temp.length <= 6)
                 {
                     this.temp.push(0);
-                }
-                else
-                {
-                    this.temp = [0];
-                    this.values = [0, 0, 0, 0, 0, 0, 0];
                 }
                 this.id = e.message['id'];
                 this.values[this.temp.length - 1] = e.message['value'];
@@ -75,29 +70,34 @@ export default {
     },
     mounted()
     {
+        this.extractData();
         this.drawChart();
     },
     methods: {
+        extractData()
+        {
+            for (let index = 0; index < this.device.length; index++)
+            {
+                this.values.push(this.device[index]['value']);
+                this.labels.push(this.device[index]['updated_at']);
+            }
+        },
         drawChart()
         {
             let ctx = document.getElementById("line-chart");
             this.myChart = new Chart(ctx, {
                 'type': 'line',
                 'data': {
-                    'labels': [this.device['updated_at'], '00:00', '00:00', '00:00', '00:00', '00:00', '00:00'],
+                    'labels': this.device['updated_at'],
                     'datasets': [
                         {
                             'label': [this.labeled],
-                            'data': [this.device['value'], 0, 0, 0, 0, 0, 0],
+                            'data': this.device['value'],
                             'fill': false,
-                            'borderColor': 'rgb(75, 192, 192)',
+                            'borderColor': 'rgb(48,219,142)',
                             'lineTension': 0.1,
                         }],
-                },
-                'options': {
-                    maintainAspectRatio: false,
-                    height: 300,
-                },
+                }
             });
         },
         countDownChanged(dismissCountDown)
@@ -109,5 +109,13 @@ export default {
             this.dismissCountDown = this.dismissSecs
         }
     },
+    computed: {
+        myStyles() {
+            return {
+                height: '100vh',
+                position: 'relative',
+            };
+        },
+    }
 }
 </script>
