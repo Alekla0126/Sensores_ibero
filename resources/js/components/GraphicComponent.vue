@@ -40,7 +40,8 @@ export default {
             myChart,
             labeled: 'CO2',
             dismissSecs: 10,
-            dismissCountDown: 0
+            dismissCountDown: 0,
+            windowHeight: window.innerHeight
         }
     },
     created()
@@ -107,7 +108,7 @@ export default {
     computed: {
         myStyles () {
             return {
-                height: `${this.height}px`,
+                height: `${this.windowHeight}px`,
                 position: 'relative'
             }
         }
