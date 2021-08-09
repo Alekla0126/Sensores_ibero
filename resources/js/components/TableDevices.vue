@@ -208,7 +208,7 @@ export default {
 
 <style>
 
-html, body, #full {
+html, body{
     background: linear-gradient(45deg, #FC466B, #3F5EFB);
     flex-direction:column;
     font-family: 'Montserrat', sans-serif;
