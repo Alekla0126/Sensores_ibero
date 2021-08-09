@@ -120,7 +120,7 @@ export default {
 
 <style>
 
-.line-chart {
+.card {
     height: 80vh;
 }
 
