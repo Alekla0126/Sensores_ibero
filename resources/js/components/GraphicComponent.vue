@@ -110,7 +110,7 @@ export default {
     computed: {
         myStyles() {
             return {
-                height: '90vh',
+                height: '100vh',
                 position: 'relative',
             };
         },
