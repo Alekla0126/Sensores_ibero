@@ -76,9 +76,6 @@ export default {
     },
     mounted()
     {
-        window.onresize = () => {
-            this.windowWidth = window.innerWidth
-        };
         this.extractData();
         this.drawChart();
     },
@@ -94,7 +91,6 @@ export default {
         drawChart()
         {
             let ctx = document.getElementById("line-chart");
-            ctx.height = this.windowHeight;
             this.myChart = new Chart(ctx, {
                 'type': 'line',
                 'data': {
@@ -107,6 +103,9 @@ export default {
                             'borderColor': 'rgb(59,145,101)',
                             'lineTension': 0.1,
                         }],
+                },
+                options: {
+                    maintainAspectRatio: false,
                 },
             });
         },
