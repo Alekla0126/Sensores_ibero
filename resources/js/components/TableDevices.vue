@@ -235,30 +235,4 @@ html, body, #full {
     font-weight: 500;
 }
 
-.btn .btn-primary {
-    background-color: #3a6df0;
-    border: none;
-    padding: 8px 26px;
-    color: #fff;
-    border-radius: 20px;
-    margin-top: 16px;
-    cursor: pointer;
-    transition: 0.3s;
-    white-space: nowrap;
-}
-
-
-.btn:not(.open):hover {
-    background: #1e59f1;
-}
-
-.btn .btn-primary {
-    width: auto;
-}
-
-.btn-wrapper {
-    margin-top: auto;
-    margin-left: auto;
-}
-
 </style>
