@@ -13,7 +13,7 @@
         {
             $blocks = DashboardBlock::query()->orderBy('order')->get();
             $device = DeviceState::where('device_id', $device_id)->latest('updated_at')->take(7)->get();
-            $device = $device->reverse();
+            $device = $device->reverse()->get();
             return view('dashboard')->with([
                 'blocks',
                 $blocks,
