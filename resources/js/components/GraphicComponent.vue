@@ -1,28 +1,26 @@
 <template>
-    <div id="full">
-        <div class="card">
-            <div class="card-header">Gráfica de los niveles de CO2 con id: {{ this.id }}<span
-                class="badge badge-info float-right">Salón: {{ this.room }}
-            </span>
-            </div>
-            <div class="card-body">
-                <b-alert
-                    :show="dismissCountDown"
-                    dismissible
+    <div class="card">
+        <div class="card-header">Gráfica de los niveles de CO2 con id: {{ this.id }}<span
+            class="badge badge-info float-right">Salón: {{ this.room }}
+        </span>
+        </div>
+        <div class="card-body">
+            <b-alert
+                :show="dismissCountDown"
+                dismissible
+                variant="danger"
+                @dismissed="dismissCountDown=0"
+                @dismiss-count-down="countDownChanged"
+            >
+                <p>El salón {{ this.device['device_id'] }} excedió los niveles de CO2, el mensaje se cerrará en: {{ dismissCountDown }}</p>
+                <b-progress
                     variant="danger"
-                    @dismissed="dismissCountDown=0"
-                    @dismiss-count-down="countDownChanged"
-                >
-                    <p>El salón {{ this.device['device_id'] }} excedió los niveles de CO2, el mensaje se cerrará en: {{ dismissCountDown }}</p>
-                    <b-progress
-                        variant="danger"
-                        :max="dismissSecs"
-                        :value="dismissCountDown"
-                        height="4px"
-                    ></b-progress>
-                </b-alert>
-                <canvas id="line-chart"></canvas>
-            </div>
+                    :max="dismissSecs"
+                    :value="dismissCountDown"
+                    height="4px"
+                ></b-progress>
+            </b-alert>
+            <canvas id="line-chart"></canvas>
         </div>
     </div>
 </template>
