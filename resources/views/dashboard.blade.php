@@ -4,11 +4,8 @@
     <body>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <div class="container-fluid">
-        <div class="dashboard">
-            <div class="grid-container">
-                    <graphic-component v-bind:device='@json($device)'></graphic-component>
-            </div>
-        </div>
+        <!--------------------------Graph component-------------------------->
+        <graphic-component v-bind:device='@json($device)'></graphic-component>
     </div>
     </body>
 @endsection
