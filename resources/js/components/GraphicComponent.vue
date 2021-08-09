@@ -91,6 +91,7 @@ export default {
         drawChart()
         {
             let ctx = document.getElementById("line-chart");
+            ctx.height = 500;
             this.myChart = new Chart(ctx, {
                 'type': 'line',
                 'data': {
