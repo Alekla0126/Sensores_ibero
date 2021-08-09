@@ -34,8 +34,8 @@ export default {
     {
         let myChart;
         return {
-            values: [0, 0, 0, 0, 0, 0, 0],
-            labels: ['00:00', '00:00', '00:00', '00:00', '00:00', '00:00', '00:00'],
+            values: [],
+            labels: [],
             temp: [0],
             myChart,
             labeled: 'CO2',
