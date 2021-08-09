@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.84 The graph is updated" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.85 The graph is updated" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -308,14 +308,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="21700000" />
-    </task>
-    <task id="LOCAL-00321" summary="V8.47 The graph is updated">
-      <created>1628473941234</created>
-      <option name="number" value="00321" />
-      <option name="presentableId" value="LOCAL-00321" />
-      <option name="project" value="LOCAL" />
-      <updated>1628473941234</updated>
+      <workItem from="1628393424636" duration="21997000" />
     </task>
     <task id="LOCAL-00322" summary="V8.48 The graph is updated">
       <created>1628474248204</created>
@@ -653,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628485111296</updated>
     </task>
-    <option name="localTasksCounter" value="370" />
+    <task id="LOCAL-00370" summary="V8.85 The graph is updated">
+      <created>1628486788989</created>
+      <option name="number" value="00370" />
+      <option name="presentableId" value="LOCAL-00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1628486788989</updated>
+    </task>
+    <option name="localTasksCounter" value="371" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -676,7 +676,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V8.60 The graph is updated" />
     <MESSAGE value="V8.61 The graph is updated" />
     <MESSAGE value="V8.62 The graph is updated" />
     <MESSAGE value="V8.63 The graph is updated" />
@@ -701,6 +700,7 @@
     <MESSAGE value="V8.82 The graph is updated" />
     <MESSAGE value="V8.83 The graph is updated" />
     <MESSAGE value="V8.84 The graph is updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="V8.84 The graph is updated" />
+    <MESSAGE value="V8.85 The graph is updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="V8.85 The graph is updated" />
   </component>
 </project>
