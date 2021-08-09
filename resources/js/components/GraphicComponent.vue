@@ -78,6 +78,9 @@ export default {
     {
         this.extractData();
         this.drawChart();
+        window.onresize = () => {
+            this.windowWidth = window.innerWidth
+        }
     },
     methods: {
         extractData()
