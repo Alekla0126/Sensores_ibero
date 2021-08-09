@@ -125,11 +125,3 @@ export default {
     }
 }
 </script>
-
-<style>
-
-.card {
-    height: 80vh;
-}
-
-</style>
