@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.55 The graph is updated">
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.56 The graph is updated">
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DashboardController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -310,14 +310,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="16156000" />
-    </task>
-    <task id="LOCAL-00281" summary="V8.7 Formatting the cards">
-      <created>1628455764943</created>
-      <option name="number" value="00281" />
-      <option name="presentableId" value="LOCAL-00281" />
-      <option name="project" value="LOCAL" />
-      <updated>1628455764944</updated>
+      <workItem from="1628393424636" duration="16209000" />
     </task>
     <task id="LOCAL-00282" summary="V8.8 UI changes">
       <created>1628457433307</created>
@@ -655,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628476512312</updated>
     </task>
-    <option name="localTasksCounter" value="330" />
+    <task id="LOCAL-00330" summary="V8.56 The graph is updated">
+      <created>1628476699691</created>
+      <option name="number" value="00330" />
+      <option name="presentableId" value="LOCAL-00330" />
+      <option name="project" value="LOCAL" />
+      <updated>1628476699691</updated>
+    </task>
+    <option name="localTasksCounter" value="331" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -678,7 +678,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V8.30 UI changes" />
     <MESSAGE value="V8.31 UI changes" />
     <MESSAGE value="V8.32 UI changes" />
     <MESSAGE value="V8.33 UI changes" />
@@ -703,6 +702,7 @@
     <MESSAGE value="V8.53 The graph is updated" />
     <MESSAGE value="V8.54 The graph is updated" />
     <MESSAGE value="V8.55 The graph is updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="V8.55 The graph is updated" />
+    <MESSAGE value="V8.56 The graph is updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="V8.56 The graph is updated" />
   </component>
 </project>
