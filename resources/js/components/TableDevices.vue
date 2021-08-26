@@ -244,6 +244,10 @@ html, body {
     border-radius: 15px;
 }
 
+#my-table {
+    border-radius: 15px;
+}
+
 .btn {border-radius: 15px;}
 
 </style>
