@@ -233,9 +233,38 @@ html, body {
     width: 100%;
     border-radius: 14px;
     opacity: .9;
-    backdrop-filter: blur(s20px);
+    backdrop-filter: blur(s20px) saturate(153%);
     font-size: 15px;
     font-weight: 500;
+}
+
+input{
+    background: 0;
+    width: 200px;
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid rgba(255,255,255, 0.3);
+    margin: 20px 0;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(255,255,255, 0.8);
+}
+input[type="submit"]{
+    border: 0;
+    border-radius: 8px;
+    padding-bottom: 0;
+    height: 60px;
+    background: #df2359;
+    color: white;
+    cursor: pointer;
+    transition: all 600ms ease-in-out;
+}
+input[type="submit"]:hover{
+    background: #C0392B;
+}
+span a{
+    color: rgba(255,255,255, 0.8);
 }
 
 .btn {border-radius: 15px;}

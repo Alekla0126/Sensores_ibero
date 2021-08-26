@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.86 Formatting the form" />
+    <list default="true" id="3d58d681-3cee-4133-b392-eed354754f76" name="Default Changelist" comment="V8.87 Formatting the form">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -308,14 +310,7 @@
       <workItem from="1628215193961" duration="55000" />
       <workItem from="1628228751095" duration="12210000" />
       <workItem from="1628381821731" duration="1000" />
-      <workItem from="1628393424636" duration="22187000" />
-    </task>
-    <task id="LOCAL-00323" summary="V8.48 The graph is updated">
-      <created>1628474297196</created>
-      <option name="number" value="00323" />
-      <option name="presentableId" value="LOCAL-00323" />
-      <option name="project" value="LOCAL" />
-      <updated>1628474297196</updated>
+      <workItem from="1628393424636" duration="22396000" />
     </task>
     <task id="LOCAL-00324" summary="V8.49 The graph is updated">
       <created>1628474342793</created>
@@ -653,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628487207612</updated>
     </task>
-    <option name="localTasksCounter" value="372" />
+    <task id="LOCAL-00372" summary="V8.87 Formatting the form">
+      <created>1628487346696</created>
+      <option name="number" value="00372" />
+      <option name="presentableId" value="LOCAL-00372" />
+      <option name="project" value="LOCAL" />
+      <updated>1628487346696</updated>
+    </task>
+    <option name="localTasksCounter" value="373" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -676,7 +678,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="V8.62 The graph is updated" />
     <MESSAGE value="V8.63 The graph is updated" />
     <MESSAGE value="V8.64 The graph is updated" />
     <MESSAGE value="V8.65 The graph is updated" />
@@ -701,6 +702,7 @@
     <MESSAGE value="V8.84 The graph is updated" />
     <MESSAGE value="V8.85 The graph is updated" />
     <MESSAGE value="V8.86 Formatting the form" />
-    <option name="LAST_COMMIT_MESSAGE" value="V8.86 Formatting the form" />
+    <MESSAGE value="V8.87 Formatting the form" />
+    <option name="LAST_COMMIT_MESSAGE" value="V8.87 Formatting the form" />
   </component>
 </project>
