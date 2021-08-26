@@ -233,14 +233,14 @@ html, body {
     width: 100%;
     border-radius: 14px;
     opacity: .9;
-    backdrop-filter: blur(s20px) saturate(153%);
+    backdrop-filter: blur(s20px) saturate(50%);
     font-size: 15px;
     font-weight: 500;
 }
 
 #email, #password {
     background: transparent;
-    backdrop-filter: blur(s20px) saturate(153%);
+    backdrop-filter: blur(s20px) saturate(50%);
     border-radius: 15px;
 }
 
