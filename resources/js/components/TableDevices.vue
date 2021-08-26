@@ -238,13 +238,9 @@ html, body {
     font-weight: 500;
 }
 
-#email, #password {
+#email, #password, #email_address {
     background: transparent;
     backdrop-filter: blur(20px) saturate(150%);
-    border-radius: 15px;
-}
-
-#my-table {
     border-radius: 15px;
 }
 
