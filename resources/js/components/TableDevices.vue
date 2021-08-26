@@ -238,7 +238,7 @@ html, body {
     font-weight: 500;
 }
 
-#email {
+#email, #password {
     background: transparent;
     backdrop-filter: blur(s20px) saturate(153%);
     border-radius: 15px;
